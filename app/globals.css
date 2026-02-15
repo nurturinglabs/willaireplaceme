@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  --warm-bg: #000000;
+  --warm-surface: #1a2332;
+  --warm-border: #2a3545;
+  --warm-border-light: #1f2d3d;
+  --warm-text: #ffffff;
+  --warm-muted: #9ca3af;
+  --warm-accent: #e8a838;
+  --warm-critical: #ef4444;
+  --warm-elevated: #e8a838;
+  --warm-moderate: #e8a838;
+  --warm-stable: #22c55e;
+}
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}

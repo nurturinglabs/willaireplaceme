@@ -1,0 +1,397 @@
+{
+  "dentist": {
+    "slug": "dentist",
+    "title": "Dentist",
+    "category": "healthcare",
+    "tier": 2,
+    "overallScore": 22,
+    "tagline": "AI reads the X-ray. Humans fix the tooth.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 150000, "experienced": 220000 }, "india": { "entryLPA": 5, "experiencedLPA": 20 } },
+    "tasks": [
+      { "task": "Dental X-Ray Analysis", "automation": 78, "status": "critical", "description": "AI detects cavities, bone loss, and pathology in dental radiographs with high accuracy.", "tools": ["Overjet AI", "Pearl AI", "Dentistry.AI"] },
+      { "task": "Treatment Planning Documentation", "automation": 65, "status": "elevated", "description": "AI suggests treatment plans from diagnostic data and generates patient documentation.", "tools": ["Overjet", "Dentrix AI", "Pearl"] },
+      { "task": "Patient Scheduling & Admin", "automation": 82, "status": "critical", "description": "AI manages scheduling, reminders, insurance verification, and billing.", "tools": ["Dentrix AI", "Open Dental", "RevenueWell AI"] },
+      { "task": "Insurance Pre-Authorization", "automation": 75, "status": "critical", "description": "AI handles insurance claims, pre-authorizations, and dispute resolution.", "tools": ["Vyne Dental AI", "DentalXChange", "Dentrix"] },
+      { "task": "Clinical Procedures", "automation": 8, "status": "stable", "description": "Fillings, crowns, extractions, root canals — physical dental procedures require human hands.", "tools": [] },
+      { "task": "Patient Communication", "automation": 15, "status": "stable", "description": "Explaining diagnoses, calming anxious patients, and building trust is human.", "tools": [] },
+      { "task": "Complex Diagnosis", "automation": 25, "status": "stable", "description": "Diagnosing TMJ, oral cancer, and complex conditions requires clinical expertise.", "tools": [] },
+      { "task": "Surgical Procedures", "automation": 5, "status": "stable", "description": "Implants, extractions, and oral surgery are physical skills AI cannot perform.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Overjet", "product": "Overjet AI", "threat": "AI dental analysis detecting cavities and bone loss in X-rays — assists, doesn't replace" },
+      { "name": "Pearl", "product": "Pearl Second Opinion", "threat": "AI dental pathology detection providing real-time diagnostic support" },
+      { "name": "Dentistry.AI", "product": "Dentistry.AI", "threat": "AI platform for dental diagnostics and treatment planning" },
+      { "name": "VideaHealth", "product": "VideaHealth AI", "threat": "AI dental X-ray analysis integrated into practice management systems" },
+      { "name": "Henry Schein", "product": "Dentrix AI", "threat": "AI-powered practice management reducing administrative workload for dentists" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI assists with diagnostics and admin. Dentists remain fully essential for all clinical work." },
+      { "phase": "Near-term (2027-2028)", "description": "AI handles most diagnostic imaging. Dentists focus on procedures and patient relationships." },
+      { "phase": "Long-term (2030+)", "description": "Dentistry remains hands-on. AI augments diagnostics but cannot replace clinical care." }
+    ],
+    "skills": [
+      { "skill": "Implantology", "description": "Dental implants — high-value, physically demanding specialty." },
+      { "skill": "Cosmetic Dentistry", "description": "Veneers, whitening, smile design — elective procedures driven by patient desire." },
+      { "skill": "AI-Augmented Diagnostics", "description": "Integrate AI diagnostic tools to catch more pathology and improve treatment planning." },
+      { "skill": "Practice Ownership & Business", "description": "Own and manage a dental practice — the entrepreneurial path." },
+      { "skill": "Sedation & Special Needs Dentistry", "description": "Specialized care for anxious patients and those with disabilities." }
+    ]
+  },
+  "physician": {
+    "slug": "physician",
+    "title": "Physician (MD/DO)",
+    "category": "healthcare",
+    "tier": 1,
+    "overallScore": 30,
+    "tagline": "AI aids the diagnosis. Humans heal the patient.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 220000, "experienced": 380000 }, "india": { "entryLPA": 8, "experiencedLPA": 35 } },
+    "tasks": [
+      { "task": "Clinical Documentation", "automation": 82, "status": "critical", "description": "AI generates clinical notes from patient-physician conversations in real-time.", "tools": ["Nuance DAX Copilot", "Abridge", "Suki AI"] },
+      { "task": "Diagnostic Support", "automation": 68, "status": "elevated", "description": "AI suggests diagnoses from symptoms and test results, serving as a clinical decision support tool.", "tools": ["Glass Health", "Isabel AI", "DXplain"] },
+      { "task": "Drug Prescribing Assistance", "automation": 72, "status": "elevated", "description": "AI checks interactions, suggests alternatives, and ensures evidence-based prescribing.", "tools": ["Epic AI", "Cerner AI", "UpToDate AI"] },
+      { "task": "Prior Authorization", "automation": 78, "status": "critical", "description": "AI automates insurance prior authorization reducing physician administrative burden.", "tools": ["Olive AI", "CoverMyMeds", "Infinitus AI"] },
+      { "task": "Patient Scheduling & Admin", "automation": 80, "status": "critical", "description": "AI handles scheduling, referrals, and inbox management for physicians.", "tools": ["Notable AI", "Abridge", "Elation AI"] },
+      { "task": "Physical Examination", "automation": 8, "status": "stable", "description": "Hands-on physical exam, palpation, and clinical observation require human touch.", "tools": [] },
+      { "task": "Clinical Judgment & Diagnosis", "automation": 18, "status": "stable", "description": "Integrating history, exam, labs, and imaging into a diagnosis requires expert judgment.", "tools": [] },
+      { "task": "Surgical Procedures", "automation": 10, "status": "stable", "description": "Performing surgery requires human dexterity, judgment, and real-time decision-making.", "tools": [] },
+      { "task": "Patient Communication & Empathy", "automation": 8, "status": "stable", "description": "Breaking bad news, discussing treatment options, and providing emotional support is human.", "tools": [] },
+      { "task": "Complex Treatment Decisions", "automation": 15, "status": "stable", "description": "Balancing risks, patient preferences, and clinical evidence requires experienced judgment.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Microsoft/Nuance", "product": "DAX Copilot", "threat": "AI ambient scribe eliminating clinical documentation burden — helps physicians, doesn't replace" },
+      { "name": "Google DeepMind", "product": "Med-PaLM / AlphaFold", "threat": "AI medical knowledge and protein prediction advancing diagnostics and drug discovery" },
+      { "name": "Glass Health", "product": "Glass AI", "threat": "AI diagnostic reasoning tool that generates differential diagnoses from clinical info" },
+      { "name": "Abridge", "product": "Abridge AI", "threat": "AI clinical documentation from patient conversations — reducing physician burnout" },
+      { "name": "Hippocratic AI", "product": "Hippocratic AI", "threat": "AI agents for non-diagnostic healthcare tasks — patient communication and navigation" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI reduces admin burden 40%. Physicians remain essential. AI assists diagnosis but doesn't replace clinical judgment." },
+      { "phase": "Near-term (2027-2028)", "description": "AI handles most documentation and routine screening. Physicians focus on complex care and patient relationships." },
+      { "phase": "Long-term (2030+)", "description": "Physicians remain central to healthcare. AI is a powerful diagnostic tool, but healing requires human doctors." }
+    ],
+    "skills": [
+      { "skill": "Subspecialty Expertise", "description": "Deep specialization in cardiology, oncology, neurology — complex medicine requiring years of training." },
+      { "skill": "Procedural & Surgical Skills", "description": "Physical procedures that require human dexterity and real-time judgment." },
+      { "skill": "AI-Augmented Clinical Practice", "description": "Integrate AI tools to see more patients, catch more diagnoses, and reduce burnout." },
+      { "skill": "Telemedicine", "description": "Virtual care delivery expanding access while maintaining quality." },
+      { "skill": "Leadership & Administration", "description": "Medical director, CMO, or healthcare leadership roles." }
+    ]
+  },
+  "healthcare-administrator": {
+    "slug": "healthcare-administrator",
+    "title": "Healthcare Administrator",
+    "category": "healthcare",
+    "tier": 2,
+    "overallScore": 55,
+    "tagline": "AI optimizes the operations. Humans navigate the politics.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 60000, "experienced": 115000 }, "india": { "entryLPA": 5, "experiencedLPA": 18 } },
+    "tasks": [
+      { "task": "Revenue Cycle Management", "automation": 78, "status": "critical", "description": "AI automates billing, coding verification, claims submission, and denial management.", "tools": ["Waystar AI", "Optum", "Change Healthcare"] },
+      { "task": "Staff Scheduling", "automation": 80, "status": "critical", "description": "AI optimizes nurse and staff schedules based on patient volume predictions.", "tools": ["QGenda", "ShiftWizard", "Kronos AI"] },
+      { "task": "Patient Flow Optimization", "automation": 72, "status": "elevated", "description": "AI predicts admissions, manages bed availability, and reduces wait times.", "tools": ["GE Command Center", "LeanTaaS", "Qventus AI"] },
+      { "task": "Quality Metrics & Reporting", "automation": 75, "status": "critical", "description": "AI tracks quality metrics, generates reports, and identifies improvement opportunities.", "tools": ["Vizient AI", "Press Ganey AI", "Medisolv"] },
+      { "task": "Supply Chain Management", "automation": 70, "status": "elevated", "description": "AI manages medical supply inventory, predicts demand, and optimizes procurement.", "tools": ["GHX AI", "Medline AI", "Intalere"] },
+      { "task": "Strategic Planning", "automation": 22, "status": "stable", "description": "Service line development, market strategy, and growth planning require leadership.", "tools": [] },
+      { "task": "Regulatory Navigation", "automation": 30, "status": "stable", "description": "CMS regulations, accreditation, and policy interpretation need expert human judgment.", "tools": [] },
+      { "task": "Physician & Staff Relations", "automation": 10, "status": "stable", "description": "Managing physician dynamics, staff morale, and organizational culture is human.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "LeanTaaS", "product": "LeanTaaS iQueue", "threat": "AI-powered hospital capacity optimization reducing admin decision-making" },
+      { "name": "Qventus", "product": "Qventus AI", "threat": "AI hospital operations platform that automates patient flow decisions" },
+      { "name": "Waystar", "product": "Waystar AI", "threat": "AI revenue cycle management automating billing and claims processing" },
+      { "name": "GE HealthCare", "product": "Command Center", "threat": "AI hospital command center optimizing operations in real-time" },
+      { "name": "Olive AI", "product": "Olive", "threat": "AI automation platform for healthcare administrative workflows" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI automates 60% of operational tasks. Administrators focus on strategy and leadership." },
+      { "phase": "Near-term (2027-2028)", "description": "AI manages most routine operations. Administrators focus on strategic growth and regulatory navigation." },
+      { "phase": "Long-term (2030+)", "description": "Healthcare operations significantly AI-managed. Human administrators focus on strategy, politics, and culture." }
+    ],
+    "skills": [
+      { "skill": "Healthcare Strategy", "description": "Service line development, M&A, and market strategy." },
+      { "skill": "Health IT & Digital Transformation", "description": "Lead AI implementation and digital health initiatives." },
+      { "skill": "Value-Based Care Management", "description": "Navigate the shift from fee-for-service to value-based models." },
+      { "skill": "Regulatory & Compliance Leadership", "description": "CMS, Joint Commission, and state regulation expertise." },
+      { "skill": "Change Management", "description": "Lead organizational transformation in rapidly evolving healthcare." }
+    ]
+  },
+  "teacher-k12": {
+    "slug": "teacher-k12",
+    "title": "Teacher (K-12)",
+    "category": "education",
+    "tier": 1,
+    "overallScore": 32,
+    "tagline": "AI delivers the content. Humans inspire the student.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 42000, "experienced": 68000 }, "india": { "entryLPA": 3, "experiencedLPA": 8 } },
+    "tasks": [
+      { "task": "Lesson Plan Creation", "automation": 75, "status": "critical", "description": "AI generates lesson plans aligned to standards with activities and assessments.", "tools": ["MagicSchool AI", "Eduaide.Ai", "Claude"] },
+      { "task": "Grading & Assessment", "automation": 72, "status": "elevated", "description": "AI grades objective assignments and provides feedback on writing, freeing teacher time.", "tools": ["Gradescope AI", "Turnitin AI", "MagicSchool"] },
+      { "task": "Differentiated Content Creation", "automation": 70, "status": "elevated", "description": "AI generates materials at different reading levels and learning styles from a single lesson.", "tools": ["MagicSchool AI", "Diffit AI", "Claude"] },
+      { "task": "Administrative Tasks", "automation": 78, "status": "critical", "description": "AI handles parent communication, report cards, attendance tracking, and IEP documentation.", "tools": ["PowerSchool AI", "SchoolAI", "MagicSchool"] },
+      { "task": "Tutoring & Practice", "automation": 68, "status": "elevated", "description": "AI provides personalized tutoring and practice problems adapted to each student's level.", "tools": ["Khan Academy AI", "Khanmigo", "Duolingo"] },
+      { "task": "Classroom Management", "automation": 10, "status": "stable", "description": "Managing student behavior, creating safe spaces, and maintaining classroom culture is human.", "tools": [] },
+      { "task": "Social-Emotional Support", "automation": 8, "status": "stable", "description": "Supporting students' emotional development, recognizing struggles, and providing guidance is human.", "tools": [] },
+      { "task": "Inspiration & Mentorship", "automation": 5, "status": "stable", "description": "Inspiring curiosity, building confidence, and mentoring young people is irreplaceably human.", "tools": [] },
+      { "task": "Parent & Community Engagement", "automation": 18, "status": "stable", "description": "Building relationships with families and community requires human connection.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Khan Academy", "product": "Khanmigo", "threat": "AI tutor providing personalized instruction — supplements teachers, doesn't replace" },
+      { "name": "MagicSchool", "product": "MagicSchool AI", "threat": "AI teacher assistant handling lesson plans, grading, and differentiation" },
+      { "name": "Duolingo", "product": "Duolingo Max", "threat": "AI language tutor replacing some aspects of language instruction" },
+      { "name": "Sal Khan / GPT", "product": "AI Tutoring", "threat": "1-on-1 AI tutoring available to every student — democratizing personalized learning" },
+      { "name": "Diffit", "product": "Diffit AI", "threat": "AI content differentiation tool creating leveled materials for any topic" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 50% of admin and content creation. Teachers focus on what they do best — teaching and inspiring." },
+      { "phase": "Near-term (2027-2028)", "description": "AI tutors supplement instruction. Teachers become learning facilitators and mentors." },
+      { "phase": "Long-term (2030+)", "description": "Teachers remain essential. AI transforms the role but human educators are central to child development." }
+    ],
+    "skills": [
+      { "skill": "AI-Augmented Instruction", "description": "Master AI teaching tools to personalize learning and reduce admin burden." },
+      { "skill": "Social-Emotional Learning", "description": "SEL expertise — the human core of teaching that AI can't replace." },
+      { "skill": "Special Education", "description": "Working with diverse learners requires specialized human expertise." },
+      { "skill": "STEM/CS Education", "description": "Teaching coding, robotics, and AI literacy — growing demand." },
+      { "skill": "Instructional Coaching", "description": "Coach other teachers and lead professional development." }
+    ]
+  },
+  "college-professor": {
+    "slug": "college-professor",
+    "title": "College Professor",
+    "category": "education",
+    "tier": 1,
+    "overallScore": 40,
+    "tagline": "AI delivers the lecture. Humans advance the knowledge.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 65000, "experienced": 130000 }, "india": { "entryLPA": 6, "experiencedLPA": 20 } },
+    "tasks": [
+      { "task": "Lecture Content Preparation", "automation": 72, "status": "elevated", "description": "AI generates lecture slides, handouts, and reading materials from course objectives.", "tools": ["Claude", "Gamma AI", "ChatGPT"] },
+      { "task": "Assignment Grading", "automation": 68, "status": "elevated", "description": "AI grades essays and exams with rubric-based feedback, though nuanced evaluation needs humans.", "tools": ["Gradescope", "Turnitin AI", "Claude"] },
+      { "task": "Student Q&A & Office Hours", "automation": 55, "status": "elevated", "description": "AI chatbots answer common student questions and provide study support 24/7.", "tools": ["Khanmigo", "CourseAI", "Claude"] },
+      { "task": "Course Administration", "automation": 75, "status": "critical", "description": "AI manages LMS, tracks attendance, sends reminders, and compiles course data.", "tools": ["Canvas AI", "Blackboard AI", "D2L"] },
+      { "task": "Research & Discovery", "automation": 40, "status": "elevated", "description": "AI assists with literature review and data analysis but novel research requires human creativity.", "tools": ["Elicit AI", "Semantic Scholar", "Claude"] },
+      { "task": "Mentorship & Advising", "automation": 10, "status": "stable", "description": "Guiding students' academic and career paths requires human understanding and connection.", "tools": [] },
+      { "task": "Original Research & Publication", "automation": 20, "status": "stable", "description": "Generating novel hypotheses, designing experiments, and advancing knowledge is deeply human.", "tools": [] },
+      { "task": "Seminar & Discussion Leadership", "automation": 12, "status": "stable", "description": "Facilitating intellectual discourse and Socratic dialogue requires human expertise.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Coursera", "product": "Coursera AI", "threat": "AI-powered online courses from top universities — competing with in-person lectures" },
+      { "name": "Khan Academy", "product": "Khanmigo", "threat": "AI tutor providing personalized instruction at scale" },
+      { "name": "edX/2U", "product": "edX AI", "threat": "AI-enhanced online learning competing with traditional higher education" },
+      { "name": "Elicit", "product": "Elicit AI", "threat": "AI research assistant that automates literature review and analysis" },
+      { "name": "Turnitin", "product": "Turnitin AI", "threat": "AI writing detection and automated grading changing assessment dynamics" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles admin and content delivery. Professors focus on research, mentorship, and deep teaching." },
+      { "phase": "Near-term (2027-2028)", "description": "AI tutors handle foundational instruction. Professors focus on research and advanced seminars." },
+      { "phase": "Long-term (2030+)", "description": "Traditional lecture format evolves. Professors remain essential for research, mentorship, and intellectual leadership." }
+    ],
+    "skills": [
+      { "skill": "Research Excellence", "description": "Publish novel research — the core academic differentiator AI can't replace." },
+      { "skill": "AI-Enhanced Pedagogy", "description": "Design courses that leverage AI tools for personalized learning." },
+      { "skill": "Industry Collaboration", "description": "Bridge academia and industry for relevant, funded research." },
+      { "skill": "Online & Hybrid Teaching", "description": "Master digital pedagogy for broader reach and impact." },
+      { "skill": "Grant Writing & Funding", "description": "Secure research funding — a critical academic survival skill." }
+    ]
+  },
+  "tutor": {
+    "slug": "tutor",
+    "title": "Tutor",
+    "category": "education",
+    "tier": 2,
+    "overallScore": 72,
+    "tagline": "AI tutors 24/7. But some students need a human.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 35000, "experienced": 65000 }, "india": { "entryLPA": 2, "experiencedLPA": 7 } },
+    "tasks": [
+      { "task": "Homework Help", "automation": 88, "status": "critical", "description": "AI solves and explains homework problems step-by-step across all subjects.", "tools": ["Khanmigo", "ChatGPT", "Photomath"] },
+      { "task": "Practice Problem Generation", "automation": 90, "status": "critical", "description": "AI generates unlimited practice problems at any difficulty level with explanations.", "tools": ["Khan Academy", "Claude", "Mathway"] },
+      { "task": "Concept Explanation", "automation": 78, "status": "critical", "description": "AI explains concepts in multiple ways, adapting to student's learning style.", "tools": ["Khanmigo", "Claude", "ChatGPT"] },
+      { "task": "Test Preparation", "automation": 82, "status": "critical", "description": "AI generates practice tests, identifies weak areas, and provides targeted review.", "tools": ["Khan Academy", "Magoosh AI", "PrepScholar AI"] },
+      { "task": "Progress Tracking", "automation": 80, "status": "critical", "description": "AI tracks student progress, identifies gaps, and adapts learning paths.", "tools": ["Khan Academy", "IXL", "DreamBox AI"] },
+      { "task": "Motivation & Accountability", "automation": 20, "status": "stable", "description": "Keeping students motivated, building confidence, and maintaining accountability is human.", "tools": [] },
+      { "task": "Learning Disability Support", "automation": 15, "status": "stable", "description": "Supporting students with ADHD, dyslexia, and other challenges requires human patience.", "tools": [] },
+      { "task": "Parent Communication", "automation": 25, "status": "stable", "description": "Communicating progress and concerns to parents requires human relationships.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Khan Academy", "product": "Khanmigo", "threat": "Free AI tutor available to every student — the biggest disruption to tutoring" },
+      { "name": "OpenAI", "product": "ChatGPT", "threat": "General AI that can tutor on any subject at any level" },
+      { "name": "Photomath", "product": "Photomath AI", "threat": "AI math tutor that solves problems from photos with step-by-step explanations" },
+      { "name": "Duolingo", "product": "Duolingo Max", "threat": "AI language tutor with conversation practice and personalized feedback" },
+      { "name": "Chegg", "product": "Chegg AI", "threat": "AI homework help and study tools replacing human tutoring services" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 70% of routine tutoring. Human tutors focus on motivation, test-taking strategy, and learning disabilities." },
+      { "phase": "Near-term (2027-2028)", "description": "AI tutors become highly effective. Human tutors become learning coaches and mentors." },
+      { "phase": "Long-term (2030+)", "description": "Basic tutoring fully automated. Human tutors focus on special needs, motivation, and premium test prep." }
+    ],
+    "skills": [
+      { "skill": "Learning Specialist", "description": "Support students with learning disabilities — ADHD, dyslexia, autism." },
+      { "skill": "Test Strategy & Coaching", "description": "High-stakes test prep with mindset coaching — SAT, MCAT, bar exam." },
+      { "skill": "AI-Augmented Tutoring", "description": "Use AI tools to personalize instruction while providing human connection." },
+      { "skill": "Executive Function Coaching", "description": "Teach organization, time management, and study skills." },
+      { "skill": "College Admissions Consulting", "description": "Guide students through applications, essays, and admissions strategy." }
+    ]
+  },
+  "instructional-designer": {
+    "slug": "instructional-designer",
+    "title": "Instructional Designer",
+    "category": "education",
+    "tier": 2,
+    "overallScore": 68,
+    "tagline": "AI builds the course. Humans design the learning experience.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 58000, "experienced": 95000 }, "india": { "entryLPA": 4.5, "experiencedLPA": 15 } },
+    "tasks": [
+      { "task": "Course Content Generation", "automation": 82, "status": "critical", "description": "AI generates lesson content, quizzes, and activities from learning objectives.", "tools": ["Claude", "Articulate AI", "iSpring AI"] },
+      { "task": "Assessment Creation", "automation": 80, "status": "critical", "description": "AI generates multiple-choice, short-answer, and scenario-based assessments.", "tools": ["Claude", "ChatGPT", "ExamSoft AI"] },
+      { "task": "Storyboarding & Scripting", "automation": 72, "status": "elevated", "description": "AI drafts course storyboards and video scripts from outlines.", "tools": ["Claude", "Synthesia", "Descript"] },
+      { "task": "E-Learning Module Development", "automation": 68, "status": "elevated", "description": "AI-powered tools generate interactive e-learning modules from content inputs.", "tools": ["Articulate Rise AI", "iSpring", "Lectora AI"] },
+      { "task": "Video Production", "automation": 72, "status": "elevated", "description": "AI generates training videos with AI presenters from scripts.", "tools": ["Synthesia", "HeyGen", "Colossyan"] },
+      { "task": "Learning Strategy Design", "automation": 25, "status": "stable", "description": "Designing effective learning experiences based on cognitive science requires human expertise.", "tools": [] },
+      { "task": "Needs Analysis", "automation": 30, "status": "stable", "description": "Understanding audience needs, skill gaps, and organizational context needs human investigation.", "tools": [] },
+      { "task": "Stakeholder Management", "automation": 12, "status": "stable", "description": "Managing SME relationships and aligning training with business goals is human.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Synthesia", "product": "Synthesia AI", "threat": "AI-generated training videos replacing human presenters and production teams" },
+      { "name": "Articulate", "product": "Articulate AI", "threat": "AI-assisted e-learning authoring making course creation accessible to non-designers" },
+      { "name": "Anthropic", "product": "Claude", "threat": "AI that generates comprehensive course content, assessments, and learning materials" },
+      { "name": "Docebo", "product": "Docebo AI", "threat": "AI-powered LMS that personalizes learning paths and content delivery" },
+      { "name": "360Learning", "product": "360Learning AI", "threat": "AI collaborative learning platform with auto-generated content" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI generates 60% of course content. IDs focus on learning strategy and complex simulations." },
+      { "phase": "Near-term (2027-2028)", "description": "AI creates full courses from objectives. IDs become learning experience architects." },
+      { "phase": "Long-term (2030+)", "description": "Standard training content automated. IDs focus on immersive learning, simulations, and adaptive systems." }
+    ],
+    "skills": [
+      { "skill": "Learning Experience Design", "description": "Apply cognitive science to create effective, engaging learning — the strategic layer." },
+      { "skill": "Immersive Learning (VR/AR)", "description": "Design VR simulations and AR learning experiences — the next frontier." },
+      { "skill": "AI Learning Systems", "description": "Design and manage AI-powered adaptive learning platforms." },
+      { "skill": "Performance Consulting", "description": "Move beyond course creation to solving business performance problems." },
+      { "skill": "Data-Driven Learning", "description": "Measure learning impact and optimize based on outcome data." }
+    ]
+  },
+  "school-administrator": {
+    "slug": "school-administrator",
+    "title": "School Administrator",
+    "category": "education",
+    "tier": 2,
+    "overallScore": 40,
+    "tagline": "AI manages the data. Humans lead the school.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 70000, "experienced": 120000 }, "india": { "entryLPA": 5, "experiencedLPA": 16 } },
+    "tasks": [
+      { "task": "Student Data Management", "automation": 78, "status": "critical", "description": "AI manages student records, enrollment, attendance tracking, and reporting.", "tools": ["PowerSchool AI", "Infinite Campus", "Skyward"] },
+      { "task": "Scheduling & Resource Allocation", "automation": 75, "status": "critical", "description": "AI optimizes class schedules, room assignments, and resource allocation.", "tools": ["PowerSchool", "Aeries", "Frontline AI"] },
+      { "task": "Compliance Reporting", "automation": 72, "status": "elevated", "description": "AI generates state and federal compliance reports from school data.", "tools": ["PowerSchool", "Infinite Campus", "Aeries"] },
+      { "task": "Budget Management", "automation": 62, "status": "elevated", "description": "AI assists with budget tracking and forecasting but allocation decisions need human judgment.", "tools": ["Munis", "PowerSchool Finance", "Claude"] },
+      { "task": "Communication Management", "automation": 68, "status": "elevated", "description": "AI drafts and distributes newsletters, alerts, and parent communications.", "tools": ["Smore", "ParentSquare", "SchoolMessenger AI"] },
+      { "task": "Vision & Culture Leadership", "automation": 8, "status": "stable", "description": "Setting school vision, building culture, and inspiring staff and students is human leadership.", "tools": [] },
+      { "task": "Staff Management & Development", "automation": 15, "status": "stable", "description": "Hiring, evaluating, coaching, and developing teachers requires human judgment.", "tools": [] },
+      { "task": "Community Relations", "automation": 12, "status": "stable", "description": "Building relationships with parents, community, and school board is human.", "tools": [] },
+      { "task": "Crisis Management", "automation": 10, "status": "stable", "description": "Handling student crises, safety incidents, and community concerns requires human leadership.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "PowerSchool", "product": "PowerSchool AI", "threat": "AI-powered school management platform automating admin tasks" },
+      { "name": "Infinite Campus", "product": "Infinite Campus AI", "threat": "AI student information system handling enrollment, grading, and reporting" },
+      { "name": "Frontline Education", "product": "Frontline AI", "threat": "AI-powered HR and operations management for K-12 schools" },
+      { "name": "ClassLink", "product": "ClassLink AI", "threat": "AI-powered digital learning platform managing student access and analytics" },
+      { "name": "SchoolAI", "product": "SchoolAI", "threat": "AI platform providing personalized learning assistants for every student" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 55% of admin tasks. Administrators focus on leadership, culture, and community." },
+      { "phase": "Near-term (2027-2028)", "description": "AI manages most operational tasks. Administrators focus on instructional leadership and innovation." },
+      { "phase": "Long-term (2030+)", "description": "School administration evolves but remains fundamentally human — leadership, culture, and community can't be automated." }
+    ],
+    "skills": [
+      { "skill": "Instructional Leadership", "description": "Lead curriculum, teaching quality, and student achievement improvement." },
+      { "skill": "EdTech & AI Integration", "description": "Lead the integration of AI tools in schools responsibly." },
+      { "skill": "Data-Driven Decision Making", "description": "Use data and analytics to drive school improvement." },
+      { "skill": "Equity & Inclusion Leadership", "description": "Ensure equitable access and outcomes for all students." },
+      { "skill": "Community Building", "description": "Build strong school-community partnerships and family engagement." }
+    ]
+  },
+  "esl-teacher": {
+    "slug": "esl-teacher",
+    "title": "ESL Teacher",
+    "category": "education",
+    "tier": 2,
+    "overallScore": 55,
+    "tagline": "AI teaches the grammar. Humans teach the confidence.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 42000, "experienced": 65000 }, "india": { "entryLPA": 3, "experiencedLPA": 8 } },
+    "tasks": [
+      { "task": "Grammar & Vocabulary Instruction", "automation": 82, "status": "critical", "description": "AI provides personalized grammar lessons, vocabulary drills, and spaced repetition.", "tools": ["Duolingo", "Babbel AI", "Claude"] },
+      { "task": "Pronunciation Practice", "automation": 75, "status": "critical", "description": "AI provides real-time pronunciation feedback and accent coaching.", "tools": ["Elsa Speak", "SpeechAce", "Duolingo"] },
+      { "task": "Reading Comprehension Materials", "automation": 78, "status": "critical", "description": "AI generates leveled reading passages and comprehension activities.", "tools": ["Diffit AI", "Claude", "NewsELA AI"] },
+      { "task": "Assessment & Placement", "automation": 72, "status": "elevated", "description": "AI assesses language proficiency and recommends placement levels.", "tools": ["Duolingo English Test", "ETS AI", "Avant AI"] },
+      { "task": "Conversation Practice", "automation": 60, "status": "elevated", "description": "AI chatbots provide conversation practice but lack cultural nuance and patience.", "tools": ["Duolingo Max", "Speak AI", "Claude"] },
+      { "task": "Cultural Integration Support", "automation": 12, "status": "stable", "description": "Helping immigrants navigate cultural adaptation requires human empathy and understanding.", "tools": [] },
+      { "task": "Confidence Building", "automation": 10, "status": "stable", "description": "Building student confidence to speak in a new language requires human encouragement.", "tools": [] },
+      { "task": "Individual Learning Plans", "automation": 30, "status": "stable", "description": "Designing plans for diverse learners with different backgrounds and needs is human.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Duolingo", "product": "Duolingo Max", "threat": "AI language tutor with conversation practice — the biggest threat to basic ESL instruction" },
+      { "name": "Elsa", "product": "Elsa Speak", "threat": "AI pronunciation coach that provides real-time feedback on spoken English" },
+      { "name": "Speak", "product": "Speak AI", "threat": "AI conversation partner for language learning — unlimited speaking practice" },
+      { "name": "OpenAI", "product": "ChatGPT Voice", "threat": "AI conversation partner that can practice any language at any level" },
+      { "name": "Babbel", "product": "Babbel AI", "threat": "AI language learning platform with speech recognition and adaptive lessons" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles basic language instruction. ESL teachers focus on conversation, culture, and confidence." },
+      { "phase": "Near-term (2027-2028)", "description": "AI conversational practice improves dramatically. ESL teachers focus on cultural integration and advanced skills." },
+      { "phase": "Long-term (2030+)", "description": "Real-time translation may reduce demand for ESL. Teachers focus on cultural education and specialized academic English." }
+    ],
+    "skills": [
+      { "skill": "Cultural Competency", "description": "Support immigrant integration and cross-cultural communication — deeply human." },
+      { "skill": "Academic English", "description": "Teach academic and professional English for university and career success." },
+      { "skill": "AI-Enhanced Language Instruction", "description": "Leverage AI tools while providing the human connection students need." },
+      { "skill": "Special Populations", "description": "Refugees, low-literacy adults, and children with trauma need specialized human support." },
+      { "skill": "Curriculum Design", "description": "Design culturally responsive curricula for diverse learners." }
+    ]
+  },
+  "project-manager": {
+    "slug": "project-manager",
+    "title": "Project Manager",
+    "category": "business",
+    "tier": 1,
+    "overallScore": 58,
+    "tagline": "AI tracks the tasks. Humans lead the team.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 65000, "experienced": 120000 }, "india": { "entryLPA": 6, "experiencedLPA": 22 } },
+    "tasks": [
+      { "task": "Status Reporting & Dashboards", "automation": 85, "status": "critical", "description": "AI generates project status reports, burndown charts, and executive dashboards automatically.", "tools": ["Monday.com AI", "Asana AI", "Jira AI"] },
+      { "task": "Task Assignment & Tracking", "automation": 78, "status": "critical", "description": "AI assigns tasks based on capacity, tracks progress, and flags at-risk items.", "tools": ["Asana AI", "Monday.com", "ClickUp AI"] },
+      { "task": "Meeting Scheduling & Notes", "automation": 82, "status": "critical", "description": "AI schedules meetings, generates agendas, transcribes, and creates action items.", "tools": ["Otter AI", "Fireflies", "Fellow AI"] },
+      { "task": "Risk Identification", "automation": 65, "status": "elevated", "description": "AI identifies schedule and resource risks from project data patterns.", "tools": ["Forecast AI", "Smartsheet AI", "Monday.com"] },
+      { "task": "Resource Planning", "automation": 62, "status": "elevated", "description": "AI optimizes resource allocation across projects but priority decisions need human judgment.", "tools": ["Smartsheet", "Resource Guru", "Forecast AI"] },
+      { "task": "Stakeholder Communication", "automation": 25, "status": "stable", "description": "Managing expectations, navigating politics, and communicating bad news is human.", "tools": [] },
+      { "task": "Team Leadership & Motivation", "automation": 10, "status": "stable", "description": "Inspiring teams, resolving conflicts, and building culture requires human leadership.", "tools": [] },
+      { "task": "Scope & Change Management", "automation": 20, "status": "stable", "description": "Negotiating scope changes and managing competing priorities requires judgment.", "tools": [] },
+      { "task": "Problem Solving & Decision Making", "automation": 18, "status": "stable", "description": "Navigating ambiguity and making decisions with incomplete information is human.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Asana", "product": "Asana AI", "threat": "AI project management that auto-assigns, tracks, and reports on projects" },
+      { "name": "Monday.com", "product": "Monday AI", "threat": "AI-powered work management that generates reports and identifies bottlenecks" },
+      { "name": "Atlassian", "product": "Jira AI", "threat": "AI-powered project tracking with automated sprint planning and risk detection" },
+      { "name": "Forecast", "product": "Forecast AI", "threat": "AI project management that auto-schedules and predicts project outcomes" },
+      { "name": "ClickUp", "product": "ClickUp Brain", "threat": "AI-powered productivity platform automating task management and documentation" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 60% of project admin. PMs focus on leadership, stakeholder management, and problem-solving." },
+      { "phase": "Near-term (2027-2028)", "description": "AI manages project operations. PMs become program leaders and organizational change agents." },
+      { "phase": "Long-term (2030+)", "description": "Project admin fully automated. PMs focus on strategic program management and organizational leadership." }
+    ],
+    "skills": [
+      { "skill": "Program & Portfolio Management", "description": "Manage multiple interrelated projects — strategic coordination AI can't do." },
+      { "skill": "Agile Coaching & Transformation", "description": "Lead organizational agile transformations — change management expertise." },
+      { "skill": "Technical Program Management", "description": "Deep technical understanding combined with project leadership." },
+      { "skill": "Stakeholder & Executive Communication", "description": "Navigate organizational politics and influence decisions." },
+      { "skill": "AI Project Operations", "description": "Orchestrate AI tools for project management efficiency." }
+    ]
+  }
+}

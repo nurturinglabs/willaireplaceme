@@ -1,0 +1,265 @@
+{
+  "slug": "software-engineer",
+  "title": "Software Engineer",
+  "overallScore": 64,
+  "tagline": "AI writes the code. Humans decide what to build and why.",
+  "summary": "Software engineering is undergoing a profound transformation as AI coding assistants become capable of generating, reviewing, and debugging code at scale. While foundational tasks like boilerplate generation and unit testing are heavily automated, the human role is shifting toward system design, product thinking, and cross-functional leadership. Engineers who embrace AI as a force multiplier rather than a threat will find their productivity soaring, but those who rely solely on implementation skills face significant displacement.",
+  "lastUpdated": "2026-02-13",
+  "taskBreakdown": [
+    {
+      "task": "Boilerplate Code Generation",
+      "automation": 92,
+      "status": "critical",
+      "description": "AI models can generate repetitive scaffolding, CRUD operations, and standard patterns with near-perfect accuracy. Tools like Cursor and Copilot produce production-ready boilerplate faster than any human.",
+      "companies": ["GitHub Copilot", "Cursor", "Replit"]
+    },
+    {
+      "task": "Unit Test Writing",
+      "automation": 85,
+      "status": "critical",
+      "description": "Automated test generation has reached a point where AI can analyze function signatures, edge cases, and code paths to produce comprehensive test suites. Coverage gaps are identified and filled in seconds.",
+      "companies": ["OpenAI Codex", "Codium AI", "Diffblue"]
+    },
+    {
+      "task": "Code Documentation",
+      "automation": 88,
+      "status": "critical",
+      "description": "AI excels at generating inline comments, README files, API documentation, and architectural decision records by analyzing code context. Documentation that once took hours is now generated in minutes.",
+      "companies": ["GitHub Copilot", "Sourcegraph Cody", "Mintlify"]
+    },
+    {
+      "task": "Code Review & PR Analysis",
+      "automation": 70,
+      "status": "elevated",
+      "description": "AI tools can flag potential bugs, security vulnerabilities, style violations, and performance issues during pull request reviews. Human oversight is still needed for architectural and business logic concerns.",
+      "companies": ["Sourcegraph Cody", "GitHub Copilot", "Amazon Q Developer"]
+    },
+    {
+      "task": "Bug Fixing & Debugging",
+      "automation": 58,
+      "status": "elevated",
+      "description": "AI can trace error logs, identify root causes for common bugs, and suggest fixes. Complex multi-system bugs and race conditions still require human intuition and domain expertise.",
+      "companies": ["Cursor", "Devin AI", "Augment"]
+    },
+    {
+      "task": "Database Query Optimization",
+      "automation": 62,
+      "status": "elevated",
+      "description": "AI tools can analyze query execution plans, suggest index improvements, and rewrite inefficient SQL. Complex schema redesigns and data modeling still benefit from human judgment.",
+      "companies": ["Amazon Q Developer", "OpenAI Codex", "Cursor"]
+    },
+    {
+      "task": "Code Migration & Refactoring",
+      "automation": 68,
+      "status": "elevated",
+      "description": "Large-scale codebase migrations between frameworks, languages, or API versions are increasingly handled by AI. Edge cases and business logic preservation still require human validation.",
+      "companies": ["Devin AI", "Augment", "Sourcegraph Cody"]
+    },
+    {
+      "task": "CI/CD Pipeline Configuration",
+      "automation": 55,
+      "status": "elevated",
+      "description": "AI can generate pipeline configurations, Dockerfiles, and deployment scripts from natural language descriptions. Complex multi-environment orchestration still needs human architecture input.",
+      "companies": ["GitHub Copilot", "Replit", "Vercel v0"]
+    },
+    {
+      "task": "API Design & Integration",
+      "automation": 42,
+      "status": "moderate",
+      "description": "While AI can generate API endpoints and OpenAPI specs from descriptions, designing intuitive, scalable, and versioned APIs requires deep understanding of consumer needs and domain modeling.",
+      "companies": ["OpenAI Codex", "Cursor", "Tabnine"]
+    },
+    {
+      "task": "Frontend UI Implementation",
+      "automation": 72,
+      "status": "elevated",
+      "description": "AI can convert designs to code, generate responsive layouts, and implement standard UI patterns. Creative interaction design and pixel-perfect custom components still need human craft.",
+      "companies": ["Vercel v0", "Cursor", "Replit"]
+    },
+    {
+      "task": "System Architecture Design",
+      "automation": 22,
+      "status": "stable",
+      "description": "Designing distributed systems, choosing technology stacks, and making trade-off decisions across scalability, cost, and maintainability remain deeply human endeavors requiring years of experience.",
+      "companies": ["Augment", "Sourcegraph Cody", "Amazon Q Developer"]
+    },
+    {
+      "task": "Requirements Gathering & Translation",
+      "automation": 18,
+      "status": "stable",
+      "description": "Translating ambiguous business needs into technical specifications requires empathy, stakeholder management, and domain expertise that AI cannot reliably replicate.",
+      "companies": ["Devin AI", "Augment", "OpenAI Codex"]
+    },
+    {
+      "task": "Security Vulnerability Assessment",
+      "automation": 65,
+      "status": "elevated",
+      "description": "AI-powered static analysis and vulnerability scanning can detect common security flaws like SQL injection, XSS, and dependency vulnerabilities with high accuracy. Novel attack vectors still need human security expertise.",
+      "companies": ["Sourcegraph Cody", "Amazon Q Developer", "GitHub Copilot"]
+    }
+  ],
+  "companies": [
+    {
+      "name": "OpenAI Codex",
+      "category": "AI Code Generation",
+      "funding": "$11.6B",
+      "description": "OpenAI's Codex model powers code generation capabilities that can translate natural language into functional code across dozens of programming languages, forming the backbone of many AI coding tools.",
+      "impact": "Codex has fundamentally changed how developers approach new projects, reducing time-to-prototype by 60-80% and enabling non-programmers to generate working code.",
+      "adopters": ["Microsoft", "Stripe", "Shopify", "Instacart"]
+    },
+    {
+      "name": "GitHub Copilot",
+      "category": "AI Pair Programming",
+      "funding": "Microsoft-backed",
+      "description": "The most widely adopted AI coding assistant, integrated directly into VS Code and JetBrains IDEs, offering real-time code suggestions, chat-based development, and workspace-aware completions.",
+      "impact": "With over 1.8 million paid subscribers, Copilot has become the default coding assistant, with studies showing 55% faster task completion and 46% of new code being AI-generated.",
+      "adopters": ["Accenture", "Duolingo", "Mercado Libre", "Heineken"]
+    },
+    {
+      "name": "Cursor",
+      "category": "AI-Native IDE",
+      "funding": "$400M",
+      "description": "A VS Code fork rebuilt from the ground up around AI-first workflows, offering multi-file editing, codebase-aware context, and natural language-driven development that goes beyond autocomplete.",
+      "impact": "Cursor has become the IDE of choice for AI-native developers, enabling entire feature implementations from a single prompt and dramatically reducing context-switching overhead.",
+      "adopters": ["Perplexity", "Replicate", "Midjourney", "Anysphere"]
+    },
+    {
+      "name": "Replit",
+      "category": "AI-Powered Development Platform",
+      "funding": "$1.2B",
+      "description": "A cloud-based development platform with an AI agent that can build, deploy, and iterate on full-stack applications from natural language descriptions, lowering the barrier to software creation.",
+      "impact": "Replit has enabled millions of non-traditional developers to build production applications, challenging the notion that software development requires years of training.",
+      "adopters": ["Google", "a16z portfolio companies", "Educational institutions", "Startups"]
+    },
+    {
+      "name": "Vercel v0",
+      "category": "AI UI Generation",
+      "funding": "$563M",
+      "description": "Vercel's generative UI tool that converts text and image prompts into production-ready React components, complete with Tailwind styling and shadcn/ui integration.",
+      "impact": "v0 has compressed frontend prototyping from days to minutes, enabling designers and product managers to generate functional UI without engineering involvement.",
+      "adopters": ["Vercel customers", "Next.js ecosystem", "Design teams", "Startups"]
+    },
+    {
+      "name": "Tabnine",
+      "category": "Enterprise AI Coding",
+      "funding": "$55M",
+      "description": "An enterprise-focused AI code assistant that runs on private infrastructure, offering personalized suggestions trained on proprietary codebases while maintaining strict data privacy.",
+      "impact": "Tabnine has carved a niche in regulated industries where code privacy is paramount, offering AI assistance without exposing proprietary code to external models.",
+      "adopters": ["Samsung", "Comcast", "Cigna", "Deloitte"]
+    },
+    {
+      "name": "Amazon Q Developer",
+      "category": "Cloud-Integrated AI Coding",
+      "funding": "AWS-backed",
+      "description": "Amazon's AI coding companion deeply integrated with AWS services, offering code generation, transformation, and debugging with native understanding of cloud infrastructure patterns.",
+      "impact": "Amazon Q has reduced Java upgrade migration times by 80% and enables developers to build AWS-native applications with AI-guided best practices and security scanning.",
+      "adopters": ["Amazon", "AWS customers", "Enterprise Java shops", "BT Group"]
+    },
+    {
+      "name": "Sourcegraph Cody",
+      "category": "Codebase-Aware AI",
+      "funding": "$225M",
+      "description": "An AI coding assistant that understands entire codebases through advanced code graph analysis, providing context-aware answers and code generation that respects existing patterns and architecture.",
+      "impact": "Cody excels in large enterprise codebases where understanding context across thousands of files is essential, reducing onboarding time for new developers by up to 40%.",
+      "adopters": ["Uber", "Reddit", "Databricks", "Leidos"]
+    },
+    {
+      "name": "Devin AI",
+      "category": "Autonomous AI Developer",
+      "funding": "$175M",
+      "description": "The first fully autonomous AI software engineer capable of planning, coding, debugging, and deploying complete features with minimal human oversight, operating across entire development workflows.",
+      "impact": "Devin represents the frontier of AI coding, handling end-to-end development tasks that previously required junior to mid-level engineers, though complex projects still need human guidance.",
+      "adopters": ["Early adopters", "Tech startups", "Outsourcing firms", "Digital agencies"]
+    },
+    {
+      "name": "Augment",
+      "category": "Enterprise AI Development",
+      "funding": "$252M",
+      "description": "An AI platform built for large engineering organizations, offering deep codebase understanding, team-aware suggestions, and enterprise-grade security for AI-assisted development at scale.",
+      "impact": "Augment targets the enterprise segment where understanding legacy systems, team conventions, and organizational context is crucial for effective AI assistance.",
+      "adopters": ["Fortune 500 engineering teams", "Financial services", "Healthcare tech", "Government contractors"]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2023",
+      "percentage": 35,
+      "event": "GitHub Copilot reaches 1M+ subscribers; ChatGPT demonstrates impressive coding abilities, sparking industry-wide adoption of AI coding tools.",
+      "current": false
+    },
+    {
+      "year": "2024",
+      "percentage": 45,
+      "event": "Cursor launches AI-native IDE; Devin AI debuts as first autonomous software engineer; AI-generated code becomes standard in most tech companies.",
+      "current": false
+    },
+    {
+      "year": "2025",
+      "percentage": 55,
+      "event": "AI agents begin handling multi-file, multi-step coding tasks; major companies report 40-60% of new code is AI-assisted; junior developer hiring slows significantly.",
+      "current": false
+    },
+    {
+      "year": "2026",
+      "percentage": 64,
+      "event": "AI coding tools achieve near-human performance on standard engineering tasks; the role shifts decisively toward architecture, product thinking, and AI orchestration.",
+      "current": true
+    },
+    {
+      "year": "2027",
+      "percentage": 70,
+      "event": "Autonomous AI developers handle most feature implementation independently; human engineers focus on system design, code review of AI output, and strategic technical decisions.",
+      "current": false
+    },
+    {
+      "year": "2028",
+      "percentage": 74,
+      "event": "AI agents manage full development lifecycles for standard applications; software engineering becomes more about problem definition and less about implementation.",
+      "current": false
+    },
+    {
+      "year": "2029",
+      "percentage": 78,
+      "event": "Natural language programming becomes viable for production systems; the distinction between developer and non-developer continues to blur across organizations.",
+      "current": false
+    },
+    {
+      "year": "2030",
+      "percentage": 82,
+      "event": "Software engineering is fundamentally redefined; remaining human roles center on novel system design, ethical AI governance, and cross-domain innovation leadership.",
+      "current": false
+    }
+  ],
+  "skills": {
+    "declining": [
+      "Manual code writing from scratch",
+      "Memorizing syntax and language-specific patterns",
+      "Writing boilerplate and repetitive code",
+      "Manual testing and test case writing",
+      "Hand-written documentation",
+      "Manual code review for style and conventions",
+      "Basic debugging with print statements",
+      "Copy-paste programming from Stack Overflow"
+    ],
+    "growing": [
+      "AI prompt engineering for code generation",
+      "AI output review and validation",
+      "System architecture and distributed design",
+      "Product thinking and user empathy",
+      "AI tool orchestration and workflow automation",
+      "Cross-functional technical leadership",
+      "AI safety and responsible deployment",
+      "Domain-specific problem formulation"
+    ],
+    "safe": [
+      "Complex distributed system design",
+      "Stakeholder communication and requirements translation",
+      "Novel algorithm design for unique problems",
+      "Technical strategy and technology evaluation",
+      "Team mentorship and engineering culture building",
+      "Incident response and crisis management",
+      "Ethical considerations in software design",
+      "Cross-system integration architecture"
+    ]
+  }
+}

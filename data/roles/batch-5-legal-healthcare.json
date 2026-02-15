@@ -1,0 +1,391 @@
+{
+  "paralegal": {
+    "slug": "paralegal",
+    "title": "Paralegal",
+    "category": "legal",
+    "tier": 1,
+    "overallScore": 75,
+    "tagline": "AI reads the documents. Humans build the case.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 48000, "experienced": 82000 }, "india": { "entryLPA": 3.5, "experiencedLPA": 12 } },
+    "tasks": [
+      { "task": "Document Review & E-Discovery", "automation": 88, "status": "critical", "description": "AI reviews millions of documents for relevance, privilege, and key terms in hours instead of weeks.", "tools": ["Relativity AI", "Everlaw AI", "Logikcull"] },
+      { "task": "Legal Research", "automation": 82, "status": "critical", "description": "AI searches case law, statutes, and regulations with natural language queries and citation analysis.", "tools": ["Westlaw AI", "LexisNexis AI", "Casetext CoCounsel"] },
+      { "task": "Contract Review & Analysis", "automation": 80, "status": "critical", "description": "AI extracts clauses, flags risks, and compares contracts against templates and standards.", "tools": ["Kira Systems", "Ironclad AI", "ContractPodAi"] },
+      { "task": "Document Drafting", "automation": 72, "status": "elevated", "description": "AI generates first drafts of motions, briefs, and filings from templates and case facts.", "tools": ["Casetext", "Harvey AI", "Claude"] },
+      { "task": "Filing & Case Management", "automation": 78, "status": "critical", "description": "AI manages deadlines, court filings, and case calendars with automated reminders.", "tools": ["Clio AI", "MyCase", "PracticePanther"] },
+      { "task": "Client Communication", "automation": 35, "status": "stable", "description": "Managing client relationships, gathering information, and providing updates requires human empathy.", "tools": [] },
+      { "task": "Trial Preparation", "automation": 30, "status": "stable", "description": "Organizing exhibits, preparing witnesses, and supporting trial strategy needs human judgment.", "tools": [] },
+      { "task": "Case Strategy Support", "automation": 18, "status": "stable", "description": "Assisting attorneys with strategic decisions, identifying arguments, and case theory development.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Relativity", "product": "Relativity aiR", "threat": "AI-powered e-discovery replacing teams of document reviewers" },
+      { "name": "Thomson Reuters", "product": "CoCounsel (Casetext)", "threat": "AI legal assistant that researches, drafts, and analyzes at attorney speed" },
+      { "name": "Harvey AI", "product": "Harvey", "threat": "GPT-powered legal AI handling research, drafting, and analysis for law firms" },
+      { "name": "Ironclad", "product": "Ironclad AI", "threat": "AI contract lifecycle management eliminating manual contract review" },
+      { "name": "Everlaw", "product": "Everlaw AI", "threat": "AI litigation platform automating document review and case analysis" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 70% of document review and research. Paralegal demand drops 30%. Focus shifts to client work." },
+      { "phase": "Near-term (2027-2028)", "description": "AI handles most legal research and drafting. Paralegals become case managers and client liaisons." },
+      { "phase": "Long-term (2030+)", "description": "Routine paralegal work automated. Remaining roles focus on trial support, client management, and complex case coordination." }
+    ],
+    "skills": [
+      { "skill": "AI Legal Tool Mastery", "description": "Master Harvey, CoCounsel, and Relativity — be the paralegal who does 5x the work." },
+      { "skill": "Client Relations & Case Management", "description": "Human-centered case coordination and client communication." },
+      { "skill": "Trial & Litigation Support", "description": "Courtroom preparation, exhibit management, and trial support." },
+      { "skill": "Compliance & Regulatory", "description": "Specialize in regulatory compliance — healthcare, financial, or environmental." },
+      { "skill": "Legal Project Management", "description": "Manage complex legal matters with multiple stakeholders and deadlines." }
+    ]
+  },
+  "contract-lawyer": {
+    "slug": "contract-lawyer",
+    "title": "Contract Lawyer",
+    "category": "legal",
+    "tier": 1,
+    "overallScore": 72,
+    "tagline": "AI drafts the contract. Humans negotiate the terms.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 75000, "experienced": 160000 }, "india": { "entryLPA": 6, "experiencedLPA": 25 } },
+    "tasks": [
+      { "task": "Standard Contract Drafting", "automation": 85, "status": "critical", "description": "AI generates NDAs, MSAs, SOWs, and employment agreements from templates and parameters.", "tools": ["Ironclad AI", "Juro AI", "Harvey AI"] },
+      { "task": "Contract Review & Redlining", "automation": 82, "status": "critical", "description": "AI reviews contracts, flags non-standard clauses, and suggests alternative language.", "tools": ["Kira Systems", "Ironclad", "SpotDraft AI"] },
+      { "task": "Clause Library Management", "automation": 80, "status": "critical", "description": "AI maintains approved clause libraries and ensures consistency across agreements.", "tools": ["Ironclad", "Agiloft AI", "ContractPodAi"] },
+      { "task": "Compliance Checking", "automation": 78, "status": "critical", "description": "AI checks contracts against regulatory requirements and internal policies.", "tools": ["Kira", "ContractPodAi", "Wolters Kluwer"] },
+      { "task": "Contract Abstraction", "automation": 85, "status": "critical", "description": "AI extracts key terms, dates, and obligations from contracts into structured data.", "tools": ["Kira Systems", "Luminance", "ThoughtRiver"] },
+      { "task": "Complex Negotiation", "automation": 25, "status": "stable", "description": "Negotiating high-stakes terms, understanding business priorities, and creative deal structuring is human.", "tools": [] },
+      { "task": "Custom/Novel Agreements", "automation": 30, "status": "stable", "description": "Drafting bespoke agreements for novel transactions requires deep legal expertise.", "tools": [] },
+      { "task": "Risk Assessment & Advisory", "automation": 22, "status": "stable", "description": "Advising clients on contractual risk, liability exposure, and strategic positioning.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Ironclad", "product": "Ironclad AI", "threat": "AI CLM platform that drafts, reviews, and manages contracts with minimal human input" },
+      { "name": "Harvey AI", "product": "Harvey", "threat": "AI legal assistant that drafts and reviews contracts at attorney quality" },
+      { "name": "Luminance", "product": "Luminance AI", "threat": "AI that reviews and negotiates contracts autonomously" },
+      { "name": "SpotDraft", "product": "SpotDraft AI", "threat": "AI contract management for legal teams, automating the entire workflow" },
+      { "name": "Juro", "product": "Juro AI", "threat": "AI-native contract platform enabling self-serve contracting for business teams" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 70% of standard contract work. Contract lawyer demand drops for routine agreements." },
+      { "phase": "Near-term (2027-2028)", "description": "AI drafts and reviews most commercial contracts. Lawyers focus on complex deals and negotiation." },
+      { "phase": "Long-term (2030+)", "description": "Standard contracts fully automated. Contract lawyers focus on M&A, IP, and high-stakes commercial deals." }
+    ],
+    "skills": [
+      { "skill": "Complex Deal Negotiation", "description": "High-stakes M&A, licensing, and partnership negotiations." },
+      { "skill": "Industry Specialization", "description": "Tech, healthcare, or finance contract expertise commands premium." },
+      { "skill": "AI Legal Operations", "description": "Implement and manage AI contract tools across the organization." },
+      { "skill": "Regulatory & Compliance Expertise", "description": "GDPR, HIPAA, SOX — compliance-heavy contracting." },
+      { "skill": "Business Advisory", "description": "Strategic legal advice that shapes deals, not just documents them." }
+    ]
+  },
+  "legal-researcher": {
+    "slug": "legal-researcher",
+    "title": "Legal Researcher",
+    "category": "legal",
+    "tier": 2,
+    "overallScore": 80,
+    "tagline": "AI searches the cases. Humans build the argument.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 55000, "experienced": 95000 }, "india": { "entryLPA": 4, "experiencedLPA": 14 } },
+    "tasks": [
+      { "task": "Case Law Research", "automation": 88, "status": "critical", "description": "AI searches and analyzes case law with natural language, finding relevant precedents instantly.", "tools": ["Westlaw AI", "CoCounsel", "vLex AI"] },
+      { "task": "Statutory Research", "automation": 85, "status": "critical", "description": "AI scans statutes, regulations, and legislative history for relevant provisions.", "tools": ["LexisNexis AI", "Westlaw AI", "Fastcase"] },
+      { "task": "Citation Analysis", "automation": 82, "status": "critical", "description": "AI verifies citations, checks for overruled cases, and maps citation networks.", "tools": ["Westlaw KeyCite", "Shepard's AI", "CoCounsel"] },
+      { "task": "Research Memo Drafting", "automation": 78, "status": "critical", "description": "AI generates research memos with analysis, citations, and conclusions from research questions.", "tools": ["Harvey AI", "CoCounsel", "Claude"] },
+      { "task": "Comparative Law Analysis", "automation": 65, "status": "elevated", "description": "AI compares laws across jurisdictions but nuanced interpretation needs human analysis.", "tools": ["vLex AI", "Westlaw", "Claude"] },
+      { "task": "Novel Legal Arguments", "automation": 22, "status": "stable", "description": "Crafting creative legal theories and novel arguments requires human legal reasoning.", "tools": [] },
+      { "task": "Strategic Legal Analysis", "automation": 20, "status": "stable", "description": "Advising on litigation strategy based on research requires experienced legal judgment.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Thomson Reuters", "product": "Westlaw AI + CoCounsel", "threat": "AI legal research that finds and analyzes precedents faster than any human" },
+      { "name": "LexisNexis", "product": "Lexis+ AI", "threat": "AI-powered legal research with conversational search and auto-generated summaries" },
+      { "name": "Harvey AI", "product": "Harvey", "threat": "AI legal researcher that produces attorney-quality memos from questions" },
+      { "name": "vLex", "product": "Vincent AI", "threat": "AI legal research assistant covering 100+ jurisdictions globally" },
+      { "name": "Anthropic", "product": "Claude", "threat": "General AI that performs legal research and analysis at high quality" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 80% of routine legal research. Research assistant roles shrink significantly." },
+      { "phase": "Near-term (2027-2028)", "description": "AI produces comprehensive research memos. Researchers focus on novel arguments and strategy." },
+      { "phase": "Long-term (2030+)", "description": "Legal research largely automated. Human researchers work on cutting-edge legal theory and appellate strategy." }
+    ],
+    "skills": [
+      { "skill": "AI Legal Research Tools", "description": "Master CoCounsel, Harvey, and AI-powered Westlaw/Lexis for 10x productivity." },
+      { "skill": "Appellate & Complex Litigation", "description": "Novel legal arguments and appellate strategy — the creative legal thinking." },
+      { "skill": "Regulatory Specialization", "description": "Deep expertise in securities, environmental, or healthcare regulation." },
+      { "skill": "Legal Writing Excellence", "description": "Persuasive legal writing that goes beyond AI-generated drafts." },
+      { "skill": "Cross-Jurisdictional Expertise", "description": "Multi-state and international legal research capabilities." }
+    ]
+  },
+  "compliance-officer": {
+    "slug": "compliance-officer",
+    "title": "Compliance Officer",
+    "category": "legal",
+    "tier": 1,
+    "overallScore": 58,
+    "tagline": "AI monitors compliance. Humans interpret the gray areas.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 62000, "experienced": 125000 }, "india": { "entryLPA": 5, "experiencedLPA": 20 } },
+    "tasks": [
+      { "task": "Regulatory Monitoring", "automation": 82, "status": "critical", "description": "AI tracks regulatory changes across jurisdictions and flags relevant updates.", "tools": ["Ascent AI", "CUBE", "Thomson Reuters"] },
+      { "task": "Policy Compliance Checking", "automation": 78, "status": "critical", "description": "AI scans operations against policies and flags violations automatically.", "tools": ["LogicGate AI", "Diligent", "MetricStream"] },
+      { "task": "Transaction Monitoring (AML/KYC)", "automation": 85, "status": "critical", "description": "AI screens transactions for money laundering, sanctions violations, and suspicious activity.", "tools": ["Featurespace", "Chainalysis", "ComplyAdvantage"] },
+      { "task": "Compliance Reporting", "automation": 75, "status": "critical", "description": "AI generates regulatory reports, dashboards, and filings from operational data.", "tools": ["Workiva", "LogicGate", "Diligent"] },
+      { "task": "Employee Training Tracking", "automation": 80, "status": "critical", "description": "AI manages compliance training programs, tracks completion, and identifies gaps.", "tools": ["SAI360", "NAVEX", "Ethico"] },
+      { "task": "Risk Assessment & Mitigation", "automation": 45, "status": "elevated", "description": "AI identifies risks but assessing impact and designing mitigation requires human judgment.", "tools": ["LogicGate", "Resolver", "Riskonnect"] },
+      { "task": "Regulatory Interpretation", "automation": 25, "status": "stable", "description": "Interpreting ambiguous regulations and applying them to specific situations needs legal expertise.", "tools": [] },
+      { "task": "Investigation & Remediation", "automation": 20, "status": "stable", "description": "Investigating compliance breaches and designing remediation plans requires human judgment.", "tools": [] },
+      { "task": "Culture & Ethics Program", "automation": 12, "status": "stable", "description": "Building a compliance culture and ethics program requires human leadership.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Ascent", "product": "Ascent AI", "threat": "AI regulatory knowledge platform that auto-maps regulations to obligations" },
+      { "name": "ComplyAdvantage", "product": "ComplyAdvantage AI", "threat": "AI-powered AML/KYC screening replacing manual compliance checks" },
+      { "name": "LogicGate", "product": "Risk Cloud AI", "threat": "AI GRC platform automating risk assessment and compliance workflows" },
+      { "name": "Chainalysis", "product": "Chainalysis AI", "threat": "AI blockchain compliance tracking transactions across crypto platforms" },
+      { "name": "CUBE", "product": "CUBE AI", "threat": "AI regulatory intelligence that auto-classifies and maps regulatory obligations" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 65% of monitoring and screening. Compliance officers focus on interpretation and strategy." },
+      { "phase": "Near-term (2027-2028)", "description": "AI monitors compliance continuously. Officers focus on risk strategy and regulatory relationships." },
+      { "phase": "Long-term (2030+)", "description": "Routine compliance automated. Human officers focus on ethics, culture, and complex regulatory matters." }
+    ],
+    "skills": [
+      { "skill": "Regulatory Strategy", "description": "Shape compliance programs that balance risk management with business objectives." },
+      { "skill": "AI & Technology Compliance", "description": "EU AI Act, algorithmic fairness, data privacy — the new frontier of compliance." },
+      { "skill": "Investigation & Forensics", "description": "Lead compliance investigations and design effective remediation." },
+      { "skill": "Cross-Border Regulation", "description": "Navigate multi-jurisdictional compliance — GDPR, SOX, AML across borders." },
+      { "skill": "Ethics & Culture Leadership", "description": "Build organization-wide compliance culture — the human leadership layer." }
+    ]
+  },
+  "medical-coder": {
+    "slug": "medical-coder",
+    "title": "Medical Coder",
+    "category": "healthcare",
+    "tier": 1,
+    "overallScore": 85,
+    "tagline": "AI assigns the codes. Humans catch the nuances.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 42000, "experienced": 68000 }, "india": { "entryLPA": 3, "experiencedLPA": 8 } },
+    "tasks": [
+      { "task": "ICD-10 Code Assignment", "automation": 88, "status": "critical", "description": "AI reads clinical notes and assigns diagnosis codes with high accuracy.", "tools": ["3M AI", "Optum CAC", "AGS Health AI"] },
+      { "task": "CPT Code Assignment", "automation": 85, "status": "critical", "description": "AI maps procedures to CPT codes from operative reports and clinical documentation.", "tools": ["3M AI", "Nuance DAX", "AGS Health"] },
+      { "task": "Charge Capture", "automation": 82, "status": "critical", "description": "AI captures charges from clinical documentation reducing missed revenue.", "tools": ["Optum", "Cerner AI", "Epic AI"] },
+      { "task": "Coding Compliance Audit", "automation": 78, "status": "critical", "description": "AI audits coding accuracy and flags potential compliance issues.", "tools": ["3M AI", "Optum", "Codify AI"] },
+      { "task": "Denial Management", "automation": 72, "status": "elevated", "description": "AI identifies denial patterns and suggests corrective actions.", "tools": ["Waystar AI", "Change Healthcare", "Optum"] },
+      { "task": "Complex Case Coding", "automation": 45, "status": "elevated", "description": "Multi-diagnosis, surgical, and specialty coding requires deep clinical knowledge.", "tools": [] },
+      { "task": "Coder Education & Query", "automation": 25, "status": "stable", "description": "Training physicians on documentation and querying for clarification is human.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "3M", "product": "3M M*Modal", "threat": "AI-powered computer-assisted coding replacing manual medical coders" },
+      { "name": "Optum", "product": "Optum CAC", "threat": "AI coding solution that auto-assigns codes from clinical documentation" },
+      { "name": "Nuance", "product": "DAX Copilot", "threat": "AI clinical documentation and coding integrated into the physician workflow" },
+      { "name": "AGS Health", "product": "AGS AI Coding", "threat": "AI medical coding service replacing offshore coding teams" },
+      { "name": "Fathom", "product": "Fathom AI", "threat": "AI that generates clinical notes and assigns codes simultaneously" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 75% of routine coding. Coder demand drops 30%. Focus shifts to complex cases and auditing." },
+      { "phase": "Near-term (2027-2028)", "description": "AI handles most coding with human oversight. Coders become coding auditors and compliance specialists." },
+      { "phase": "Long-term (2030+)", "description": "Medical coding largely automated. Remaining roles focus on compliance, education, and complex specialty coding." }
+    ],
+    "skills": [
+      { "skill": "Coding Audit & Compliance", "description": "Audit AI coding output and ensure regulatory compliance." },
+      { "skill": "Clinical Documentation Improvement", "description": "Work with physicians to improve documentation quality." },
+      { "skill": "Specialty Coding", "description": "Complex surgical, oncology, or cardiology coding expertise." },
+      { "skill": "Revenue Cycle Management", "description": "Broader RCM knowledge beyond coding — denial management, AR follow-up." },
+      { "skill": "Health Informatics", "description": "Bridge clinical coding and health IT systems." }
+    ]
+  },
+  "radiologist": {
+    "slug": "radiologist",
+    "title": "Radiologist",
+    "category": "healthcare",
+    "tier": 1,
+    "overallScore": 55,
+    "tagline": "AI reads the scan. Humans make the diagnosis.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 290000, "experienced": 450000 }, "india": { "entryLPA": 12, "experiencedLPA": 40 } },
+    "tasks": [
+      { "task": "Screening Mammography", "automation": 80, "status": "critical", "description": "AI detects breast cancer in mammograms with accuracy matching or exceeding radiologists.", "tools": ["Lunit INSIGHT", "iCAD", "Hologic AI"] },
+      { "task": "Chest X-Ray Interpretation", "automation": 78, "status": "critical", "description": "AI detects pneumonia, tuberculosis, and lung nodules in chest X-rays with high sensitivity.", "tools": ["Qure.ai", "Lunit", "Annalise AI"] },
+      { "task": "CT Triage & Prioritization", "automation": 75, "status": "critical", "description": "AI triages urgent findings like stroke, PE, and hemorrhage for immediate radiologist attention.", "tools": ["Viz.ai", "Aidoc", "RapidAI"] },
+      { "task": "Fracture Detection", "automation": 72, "status": "elevated", "description": "AI identifies fractures that may be missed on initial review, serving as a safety net.", "tools": ["Gleamer", "Imagen AI", "Aidoc"] },
+      { "task": "Quantitative Measurements", "automation": 82, "status": "critical", "description": "AI auto-measures tumors, organs, and vessels with precision, tracking changes over time.", "tools": ["Siemens AI-Rad", "GE Edison", "Philips AI"] },
+      { "task": "Complex Diagnostic Interpretation", "automation": 35, "status": "stable", "description": "Multi-system pathology, rare conditions, and clinical correlation require expert radiologist judgment.", "tools": [] },
+      { "task": "Interventional Radiology", "automation": 15, "status": "stable", "description": "Image-guided procedures, biopsies, and treatments require physical human expertise.", "tools": [] },
+      { "task": "Clinical Consultation", "automation": 12, "status": "stable", "description": "Discussing findings with clinicians and contributing to treatment planning is human.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Viz.ai", "product": "Viz.ai", "threat": "AI that detects strokes and other emergencies from CT scans, triaging cases instantly" },
+      { "name": "Aidoc", "product": "Aidoc AI", "threat": "AI radiology platform analyzing CTs for dozens of conditions simultaneously" },
+      { "name": "Lunit", "product": "Lunit INSIGHT", "threat": "AI detecting cancer in mammograms and chest X-rays with superhuman accuracy" },
+      { "name": "Qure.ai", "product": "qXR/qCT", "threat": "AI interpreting X-rays and CTs for TB, lung cancer, and more — especially in underserved areas" },
+      { "name": "RapidAI", "product": "Rapid ASPECTS", "threat": "AI stroke detection and treatment decision support used in thousands of hospitals" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI serves as 'second reader' in screening. Radiologists are more efficient but still essential for diagnosis." },
+      { "phase": "Near-term (2027-2028)", "description": "AI handles routine screening independently. Radiologists focus on complex cases and interventional work." },
+      { "phase": "Long-term (2030+)", "description": "AI reads most routine studies. Radiologists become imaging consultants and interventionalists." }
+    ],
+    "skills": [
+      { "skill": "Interventional Radiology", "description": "Image-guided procedures — physical skills AI cannot replace." },
+      { "skill": "AI-Augmented Diagnostics", "description": "Master AI tools to read 3x more studies with higher accuracy." },
+      { "skill": "Subspecialty Expertise", "description": "Neuroradiology, MSK, cardiac — complex subspecialties harder to automate." },
+      { "skill": "Clinical Integration", "description": "Become a clinical consultant, not just a film reader." },
+      { "skill": "AI Validation & Quality", "description": "Oversee AI diagnostic tools — critical safety role." }
+    ]
+  },
+  "pharmacist": {
+    "slug": "pharmacist",
+    "title": "Pharmacist",
+    "category": "healthcare",
+    "tier": 1,
+    "overallScore": 60,
+    "tagline": "AI fills the prescription. Humans provide the care.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 120000, "experienced": 155000 }, "india": { "entryLPA": 3.5, "experiencedLPA": 12 } },
+    "tasks": [
+      { "task": "Prescription Dispensing", "automation": 85, "status": "critical", "description": "Robotic dispensing systems and AI handle counting, labeling, and dispensing medications.", "tools": ["ScriptPro", "Omnicell", "McKesson Robot-Rx"] },
+      { "task": "Drug Interaction Checking", "automation": 88, "status": "critical", "description": "AI screens for drug-drug, drug-allergy, and drug-disease interactions in real-time.", "tools": ["Epic AI", "Cerner AI", "Clinical Pharmacology AI"] },
+      { "task": "Insurance & Prior Authorization", "automation": 75, "status": "critical", "description": "AI handles insurance verification, prior auth submissions, and claims processing.", "tools": ["CoverMyMeds AI", "Surescripts", "RxBenefits"] },
+      { "task": "Medication Therapy Management", "automation": 45, "status": "elevated", "description": "AI flags optimization opportunities but comprehensive medication reviews need pharmacist expertise.", "tools": ["Clinical AI", "Epic AI", "OutcomesMTM"] },
+      { "task": "Inventory Management", "automation": 82, "status": "critical", "description": "AI predicts demand, optimizes stock levels, and manages automatic reordering.", "tools": ["Omnicell", "McKesson AI", "Cardinal Health AI"] },
+      { "task": "Patient Counseling", "automation": 20, "status": "stable", "description": "Explaining medications, addressing concerns, and ensuring understanding requires human connection.", "tools": [] },
+      { "task": "Clinical Pharmacy Services", "automation": 25, "status": "stable", "description": "Rounding with physicians, managing complex drug therapy, and clinical decisions need expertise.", "tools": [] },
+      { "task": "Immunization & Point-of-Care", "automation": 10, "status": "stable", "description": "Administering vaccines, health screenings, and point-of-care services require physical presence.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Omnicell", "product": "Omnicell AI", "threat": "Automated pharmacy dispensing systems replacing manual dispensing entirely" },
+      { "name": "ScriptPro", "product": "ScriptPro Robotics", "threat": "Robotic prescription filling handling high-volume dispensing" },
+      { "name": "Amazon", "product": "Amazon Pharmacy + AI", "threat": "AI-powered online pharmacy with automated dispensing and free delivery" },
+      { "name": "CoverMyMeds", "product": "CoverMyMeds AI", "threat": "AI prior authorization automation eliminating manual insurance processing" },
+      { "name": "Capsule", "product": "Capsule AI Pharmacy", "threat": "Tech-enabled pharmacy with AI workflow optimization and same-day delivery" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "Robots handle 80% of dispensing. Pharmacists shift to clinical services and patient care." },
+      { "phase": "Near-term (2027-2028)", "description": "Dispensing fully automated. Pharmacists become medication therapy managers and clinical specialists." },
+      { "phase": "Long-term (2030+)", "description": "Retail pharmacy as dispensing role largely extinct. Pharmacists are clinical care providers and medication experts." }
+    ],
+    "skills": [
+      { "skill": "Clinical Pharmacy", "description": "Direct patient care, medication management, and physician collaboration." },
+      { "skill": "Specialty Pharmacy", "description": "Oncology, HIV, transplant — complex medications requiring expert management." },
+      { "skill": "Pharmacogenomics", "description": "Personalized medicine based on genetic testing — the future of pharmacy." },
+      { "skill": "Population Health", "description": "Manage medication therapy for patient populations — analytics-driven pharmacy." },
+      { "skill": "Ambulatory Care", "description": "Chronic disease management in clinical settings — expanding pharmacist scope." }
+    ]
+  },
+  "medical-transcriptionist": {
+    "slug": "medical-transcriptionist",
+    "title": "Medical Transcriptionist",
+    "category": "healthcare",
+    "tier": 2,
+    "overallScore": 91,
+    "tagline": "AI transcribes the visit. This role is nearly extinct.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 32000, "experienced": 48000 }, "india": { "entryLPA": 2, "experiencedLPA": 6 } },
+    "tasks": [
+      { "task": "Medical Dictation Transcription", "automation": 95, "status": "critical", "description": "AI transcribes physician dictation with 99%+ accuracy across accents and specialties.", "tools": ["Nuance DAX", "DeepScribe", "Abridge AI"] },
+      { "task": "Clinical Note Generation", "automation": 92, "status": "critical", "description": "AI generates clinical notes from patient-physician conversations in real-time.", "tools": ["Nuance DAX Copilot", "Abridge", "Suki AI"] },
+      { "task": "Medical Terminology Formatting", "automation": 90, "status": "critical", "description": "AI formats transcriptions with proper medical terminology, abbreviations, and structure.", "tools": ["Nuance", "M*Modal", "3M AI"] },
+      { "task": "Quality Review", "automation": 75, "status": "critical", "description": "AI self-checks transcription quality but complex cases may need human verification.", "tools": ["Nuance QA", "3M", "DeepScribe"] },
+      { "task": "EHR Integration", "automation": 88, "status": "critical", "description": "AI routes transcribed notes directly into the correct EHR fields automatically.", "tools": ["Epic AI", "Cerner AI", "Nuance"] },
+      { "task": "Complex Specialty Transcription", "automation": 70, "status": "elevated", "description": "Highly specialized medical reports with rare terminology may still need human review.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Microsoft/Nuance", "product": "DAX Copilot", "threat": "AI clinical documentation that eliminates transcription entirely by auto-generating notes" },
+      { "name": "Abridge", "product": "Abridge AI", "threat": "AI that listens to patient visits and generates structured clinical notes in real-time" },
+      { "name": "DeepScribe", "product": "DeepScribe AI", "threat": "Ambient AI scribe that documents visits without physician input" },
+      { "name": "Suki", "product": "Suki AI", "threat": "AI voice assistant for physicians that generates notes from conversations" },
+      { "name": "Nabla", "product": "Nabla Copilot", "threat": "AI copilot for doctors that auto-generates notes and handles documentation" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 90%+ of transcription. Role has shrunk 70% already. Remaining positions are QA-focused." },
+      { "phase": "Near-term (2027-2028)", "description": "Medical transcription role essentially ceases to exist as a standalone profession." },
+      { "phase": "Long-term (2030+)", "description": "Completely automated. No standalone medical transcription roles remain." }
+    ],
+    "skills": [
+      { "skill": "Clinical Documentation Specialist", "description": "Transition to CDI — improving physician documentation quality." },
+      { "skill": "Medical Coding", "description": "Natural transition from transcription to coding — similar domain knowledge." },
+      { "skill": "Health Information Management", "description": "Broader HIM roles managing health data, privacy, and records." },
+      { "skill": "AI QA & Editing", "description": "Quality assurance of AI-generated clinical documentation." },
+      { "skill": "Healthcare Administration", "description": "Leverage clinical knowledge in administrative healthcare roles." }
+    ]
+  },
+  "therapist": {
+    "slug": "therapist",
+    "title": "Therapist / Counselor",
+    "category": "healthcare",
+    "tier": 1,
+    "overallScore": 28,
+    "tagline": "AI can listen. But healing requires human connection.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 50000, "experienced": 92000 }, "india": { "entryLPA": 3.5, "experiencedLPA": 12 } },
+    "tasks": [
+      { "task": "Session Note Documentation", "automation": 78, "status": "critical", "description": "AI generates session notes from therapy conversations, reducing administrative burden.", "tools": ["Mentalyc", "Blueprint AI", "Lyssn AI"] },
+      { "task": "Screening & Assessment Tools", "automation": 72, "status": "elevated", "description": "AI administers and scores standardized assessments (PHQ-9, GAD-7) between sessions.", "tools": ["Blueprint Health", "Owl Practice", "SimplePractice AI"] },
+      { "task": "Psychoeducation Delivery", "automation": 65, "status": "elevated", "description": "AI chatbots deliver CBT exercises, mindfulness techniques, and psychoeducational content.", "tools": ["Woebot", "Wysa", "Talkspace AI"] },
+      { "task": "Appointment & Practice Management", "automation": 82, "status": "critical", "description": "AI handles scheduling, reminders, insurance verification, and billing.", "tools": ["SimplePractice", "TherapyNotes AI", "Headway"] },
+      { "task": "Therapeutic Relationship Building", "automation": 8, "status": "stable", "description": "Building genuine trust, empathy, and therapeutic alliance is irreplaceably human.", "tools": [] },
+      { "task": "Clinical Assessment & Diagnosis", "automation": 15, "status": "stable", "description": "Diagnosing mental health conditions requires clinical judgment and human observation.", "tools": [] },
+      { "task": "Treatment Planning", "automation": 20, "status": "stable", "description": "Creating personalized treatment plans requires understanding the whole person.", "tools": [] },
+      { "task": "Crisis Intervention", "automation": 10, "status": "stable", "description": "Managing suicidal ideation, acute crises, and safety requires human presence and judgment.", "tools": [] },
+      { "task": "Group & Family Therapy", "automation": 5, "status": "stable", "description": "Facilitating group dynamics and family systems work is deeply human.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Woebot Health", "product": "Woebot", "threat": "AI CBT chatbot providing 24/7 mental health support — supplement, not replacement" },
+      { "name": "Wysa", "product": "Wysa AI", "threat": "AI mental health companion for mild-moderate symptoms" },
+      { "name": "Talkspace", "product": "Talkspace AI", "threat": "AI-augmented therapy platform matching patients and assisting therapists" },
+      { "name": "Lyssn", "product": "Lyssn AI", "threat": "AI that evaluates therapy quality and provides feedback to therapists" },
+      { "name": "Spring Health", "product": "Spring Health AI", "threat": "AI-powered mental health platform that triages and matches patients to care" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles admin and supplements between sessions. Therapist demand actually GROWING due to mental health crisis." },
+      { "phase": "Near-term (2027-2028)", "description": "AI chatbots handle mild anxiety and psychoeducation. Therapists focus on complex cases and relationships." },
+      { "phase": "Long-term (2030+)", "description": "AI provides tier-1 mental health support. Human therapists handle complex trauma, personality disorders, and deep healing work." }
+    ],
+    "skills": [
+      { "skill": "Complex Trauma & PTSD", "description": "EMDR, somatic experiencing, and complex trauma — the deepest human healing work." },
+      { "skill": "AI-Augmented Practice", "description": "Use AI tools to enhance efficiency while focusing on the human connection." },
+      { "skill": "Telehealth & Digital Therapy", "description": "Master virtual therapy delivery for broader reach and flexibility." },
+      { "skill": "Specialized Populations", "description": "Couples, families, addiction, eating disorders — niche expertise adds value." },
+      { "skill": "Group Practice & Leadership", "description": "Build and lead therapy practices — the entrepreneurial path for therapists." }
+    ]
+  },
+  "nurse": {
+    "slug": "nurse",
+    "title": "Nurse (RN)",
+    "category": "healthcare",
+    "tier": 1,
+    "overallScore": 25,
+    "tagline": "AI monitors the vitals. Humans provide the care.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 65000, "experienced": 105000 }, "india": { "entryLPA": 3, "experiencedLPA": 10 } },
+    "tasks": [
+      { "task": "Vital Signs Monitoring", "automation": 72, "status": "elevated", "description": "AI continuously monitors vitals and alerts nurses to deterioration patterns before they become critical.", "tools": ["Philips AI", "GE HealthCare AI", "BioVitals"] },
+      { "task": "Medication Administration Documentation", "automation": 68, "status": "elevated", "description": "AI assists with barcode scanning, dosage verification, and real-time documentation.", "tools": ["Epic AI", "Cerner AI", "BD Pyxis"] },
+      { "task": "Clinical Documentation", "automation": 72, "status": "elevated", "description": "AI generates nursing notes from voice input and structured assessments.", "tools": ["Nuance DAX", "Suki AI", "Abridge"] },
+      { "task": "Patient Triage Assistance", "automation": 55, "status": "elevated", "description": "AI assists with initial triage scoring but clinical judgment and observation remain critical.", "tools": ["Buoy Health", "Babylon AI", "Epic AI"] },
+      { "task": "Care Coordination", "automation": 45, "status": "elevated", "description": "AI helps track care plans and coordinate between providers but advocacy remains human.", "tools": ["Epic AI", "CarePort", "Netsmart AI"] },
+      { "task": "Direct Patient Care", "automation": 5, "status": "stable", "description": "Physical assessment, wound care, IV management, and hands-on nursing is irreplaceable.", "tools": [] },
+      { "task": "Patient Advocacy & Communication", "automation": 8, "status": "stable", "description": "Advocating for patients, explaining conditions, and providing emotional support is deeply human.", "tools": [] },
+      { "task": "Emergency & Critical Care", "automation": 12, "status": "stable", "description": "Rapid clinical decision-making in emergencies requires experienced human judgment.", "tools": [] },
+      { "task": "Patient Education", "automation": 30, "status": "stable", "description": "Teaching patients about their conditions and self-care requires personalized human communication.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Philips", "product": "Philips AI Health", "threat": "AI patient monitoring that detects deterioration hours before human observation" },
+      { "name": "Microsoft/Nuance", "product": "DAX for Nursing", "threat": "AI clinical documentation reducing nursing documentation burden by 50%" },
+      { "name": "GE HealthCare", "product": "Command Center AI", "threat": "AI hospital operations management optimizing patient flow and staffing" },
+      { "name": "Eko", "product": "Eko AI", "threat": "AI-powered stethoscope that detects heart murmurs and AFib" },
+      { "name": "Viz.ai", "product": "Viz.ai Nursing", "threat": "AI clinical intelligence alerting nurses to critical findings in real-time" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI reduces documentation burden 40%. Nursing shortage persists — AI makes nurses more efficient, not redundant." },
+      { "phase": "Near-term (2027-2028)", "description": "AI handles most monitoring and documentation. Nurses focus on direct care and clinical judgment." },
+      { "phase": "Long-term (2030+)", "description": "Nursing remains essential. AI augments but cannot replace hands-on care, advocacy, and human connection." }
+    ],
+    "skills": [
+      { "skill": "Advanced Practice (NP/CRNA)", "description": "Become a nurse practitioner or nurse anesthetist — highest-value, most autonomous nursing roles." },
+      { "skill": "Critical Care & Emergency", "description": "ICU and ER nursing — high-acuity environments where human judgment is most critical." },
+      { "skill": "Informatics & Technology", "description": "Bridge nursing and technology — implement and optimize clinical AI systems." },
+      { "skill": "Leadership & Administration", "description": "Nurse management, quality improvement, and healthcare administration." },
+      { "skill": "Specialty Certification", "description": "Oncology, cardiac, pediatric — specialized nursing commands premium and is harder to automate." }
+    ]
+  }
+}

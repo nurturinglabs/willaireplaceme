@@ -1,0 +1,397 @@
+{
+  "product-manager": {
+    "slug": "product-manager",
+    "title": "Product Manager",
+    "category": "business",
+    "tier": 1,
+    "overallScore": 45,
+    "tagline": "AI writes the spec. Humans decide what to build.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 95000, "experienced": 175000 }, "india": { "entryLPA": 10, "experiencedLPA": 35 } },
+    "tasks": [
+      { "task": "PRD & Spec Writing", "automation": 78, "status": "critical", "description": "AI generates product requirement documents, user stories, and acceptance criteria from briefs.", "tools": ["Claude", "ChatGPT", "Notion AI"] },
+      { "task": "Competitive Analysis", "automation": 75, "status": "critical", "description": "AI scans competitors, tracks features, and generates comparison matrices.", "tools": ["Crayon", "Klue AI", "Claude"] },
+      { "task": "User Feedback Synthesis", "automation": 72, "status": "elevated", "description": "AI aggregates and themes user feedback from surveys, tickets, and interviews.", "tools": ["Dovetail AI", "Productboard AI", "Claude"] },
+      { "task": "Data Analysis & Metrics", "automation": 78, "status": "critical", "description": "AI tracks product metrics, generates dashboards, and identifies trends.", "tools": ["Amplitude AI", "Mixpanel", "Looker AI"] },
+      { "task": "Roadmap Documentation", "automation": 68, "status": "elevated", "description": "AI generates roadmap presentations and updates from planning data.", "tools": ["Productboard", "Aha! AI", "Notion AI"] },
+      { "task": "Product Vision & Strategy", "automation": 18, "status": "stable", "description": "Defining what to build and why — connecting user needs to business goals — is deeply human.", "tools": [] },
+      { "task": "Cross-Functional Leadership", "automation": 10, "status": "stable", "description": "Aligning engineering, design, sales, and leadership requires influence and judgment.", "tools": [] },
+      { "task": "Customer Empathy & Discovery", "automation": 15, "status": "stable", "description": "Deeply understanding user problems through interviews and observation is human.", "tools": [] },
+      { "task": "Prioritization & Trade-offs", "automation": 22, "status": "stable", "description": "Making tough priority calls with incomplete information requires business judgment.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Productboard", "product": "Productboard AI", "threat": "AI-powered product management platform that auto-prioritizes features from customer data" },
+      { "name": "Anthropic", "product": "Claude", "threat": "AI that writes PRDs, analyzes markets, and synthesizes feedback at PM quality" },
+      { "name": "Notion", "product": "Notion AI", "threat": "AI workspace automating PM documentation, specs, and project tracking" },
+      { "name": "Amplitude", "product": "Amplitude AI", "threat": "AI product analytics that auto-identifies insights and recommends actions" },
+      { "name": "Dovetail", "product": "Dovetail AI", "threat": "AI user research platform that auto-themes and synthesizes customer feedback" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 55% of PM documentation and analysis. PMs focus on strategy, discovery, and leadership." },
+      { "phase": "Near-term (2027-2028)", "description": "AI manages product analytics and generates specs. PMs focus on vision and cross-functional alignment." },
+      { "phase": "Long-term (2030+)", "description": "Product management evolves but remains human-centric. Strategy, empathy, and leadership can't be automated." }
+    ],
+    "skills": [
+      { "skill": "Product Strategy & Vision", "description": "Define long-term product direction — the strategic thinking AI can't replace." },
+      { "skill": "AI Product Management", "description": "Build AI-powered products — understand ML capabilities and limitations." },
+      { "skill": "Technical Depth", "description": "Deep technical understanding to make better product decisions." },
+      { "skill": "Growth & Monetization", "description": "Drive product-led growth and revenue — the business impact layer." },
+      { "skill": "Platform & API Strategy", "description": "Design platforms, APIs, and ecosystems — complex strategic product thinking." }
+    ]
+  },
+  "business-analyst": {
+    "slug": "business-analyst",
+    "title": "Business Analyst",
+    "category": "business",
+    "tier": 1,
+    "overallScore": 68,
+    "tagline": "AI crunches the data. Humans define the question.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 60000, "experienced": 105000 }, "india": { "entryLPA": 5, "experiencedLPA": 18 } },
+    "tasks": [
+      { "task": "Requirements Documentation", "automation": 75, "status": "critical", "description": "AI generates BRDs, user stories, and process flows from stakeholder inputs.", "tools": ["Claude", "Notion AI", "Jira AI"] },
+      { "task": "Data Analysis & Reporting", "automation": 82, "status": "critical", "description": "AI analyzes data, creates visualizations, and generates insight reports.", "tools": ["Power BI AI", "Tableau AI", "Claude"] },
+      { "task": "Process Mapping", "automation": 72, "status": "elevated", "description": "AI generates process flow diagrams and identifies optimization opportunities.", "tools": ["Lucidchart AI", "Miro AI", "Claude"] },
+      { "task": "SQL & Data Queries", "automation": 80, "status": "critical", "description": "AI writes SQL queries, builds dashboards, and automates data extraction.", "tools": ["Claude", "ChatGPT", "Dataform AI"] },
+      { "task": "UAT & Testing Coordination", "automation": 65, "status": "elevated", "description": "AI generates test cases and tracks progress but coordination needs humans.", "tools": ["Jira AI", "Zephyr", "Claude"] },
+      { "task": "Stakeholder Facilitation", "automation": 15, "status": "stable", "description": "Running workshops, mediating conflicts, and facilitating decisions is human.", "tools": [] },
+      { "task": "Problem Definition", "automation": 20, "status": "stable", "description": "Understanding the real business problem beneath the stated request needs human insight.", "tools": [] },
+      { "task": "Change Management", "automation": 18, "status": "stable", "description": "Guiding teams through process changes and adoption requires human leadership.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Microsoft", "product": "Power BI Copilot", "threat": "AI-powered business intelligence generating insights from natural language" },
+      { "name": "Tableau", "product": "Tableau AI", "threat": "AI analytics that generates visualizations and insights automatically" },
+      { "name": "Anthropic", "product": "Claude", "threat": "AI that writes requirements, analyzes data, and generates process documentation" },
+      { "name": "ThoughtSpot", "product": "ThoughtSpot AI", "threat": "AI-powered analytics enabling self-service BI without analysts" },
+      { "name": "Celonis", "product": "Celonis AI", "threat": "AI process mining that auto-discovers and optimizes business processes" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 60% of documentation and analysis. BAs focus on facilitation and problem-solving." },
+      { "phase": "Near-term (2027-2028)", "description": "AI auto-generates reports and requirements. BAs become business transformation consultants." },
+      { "phase": "Long-term (2030+)", "description": "Routine analysis automated. BAs focus on complex problem-solving and organizational change." }
+    ],
+    "skills": [
+      { "skill": "Business Process Transformation", "description": "Redesign processes for the AI era — the strategic consulting layer." },
+      { "skill": "Data Science & Advanced Analytics", "description": "Go beyond basic analysis to predictive modeling and AI-powered insights." },
+      { "skill": "Product Ownership", "description": "Transition to product management — deeper ownership of outcomes." },
+      { "skill": "AI Implementation", "description": "Lead AI adoption projects — bridge business needs and AI capabilities." },
+      { "skill": "Domain Expertise", "description": "Deep industry knowledge in healthcare, finance, or supply chain." }
+    ]
+  },
+  "management-consultant": {
+    "slug": "management-consultant",
+    "title": "Management Consultant",
+    "category": "business",
+    "tier": 1,
+    "overallScore": 52,
+    "tagline": "AI builds the deck. Humans sell the strategy.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 90000, "experienced": 200000 }, "india": { "entryLPA": 12, "experiencedLPA": 40 } },
+    "tasks": [
+      { "task": "Market Research & Analysis", "automation": 80, "status": "critical", "description": "AI gathers market data, sizes markets, and generates competitive landscapes.", "tools": ["Claude", "AlphaSense", "CB Insights"] },
+      { "task": "Slide Deck Creation", "automation": 75, "status": "critical", "description": "AI generates strategy presentations with charts, frameworks, and recommendations.", "tools": ["Gamma AI", "Beautiful.ai", "Claude"] },
+      { "task": "Financial Modeling", "automation": 72, "status": "elevated", "description": "AI builds financial models, scenario analyses, and business cases.", "tools": ["Claude", "Causal", "ChatGPT"] },
+      { "task": "Data Analysis", "automation": 80, "status": "critical", "description": "AI analyzes operational data and identifies patterns and optimization opportunities.", "tools": ["Claude", "Power BI AI", "Tableau AI"] },
+      { "task": "Best Practice Research", "automation": 78, "status": "critical", "description": "AI compiles industry benchmarks and case studies from knowledge bases.", "tools": ["Claude", "Perplexity", "AlphaSense"] },
+      { "task": "Client Relationship Management", "automation": 10, "status": "stable", "description": "Building trust and navigating client politics is human.", "tools": [] },
+      { "task": "Strategic Problem Framing", "automation": 20, "status": "stable", "description": "Defining the right problem and structuring the approach requires creativity.", "tools": [] },
+      { "task": "Implementation & Change Management", "automation": 15, "status": "stable", "description": "Leading organizational change and managing resistance is human.", "tools": [] },
+      { "task": "Business Development", "automation": 12, "status": "stable", "description": "Selling consulting engagements requires human relationships.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "McKinsey", "product": "Lilli AI", "threat": "AI knowledge management making junior analysts more productive" },
+      { "name": "Anthropic", "product": "Claude", "threat": "AI that generates strategy decks, market analysis, and business cases" },
+      { "name": "AlphaSense", "product": "AlphaSense AI", "threat": "AI research platform replacing analyst research" },
+      { "name": "Bain", "product": "OpenAI Partnership", "threat": "AI tools reducing analyst headcount per project" },
+      { "name": "Tome", "product": "Tome AI", "threat": "AI presentation platform generating strategy decks from prompts" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 55% of research and analysis. Junior demand drops 25%." },
+      { "phase": "Near-term (2027-2028)", "description": "AI generates full analyses. Consultants focus on strategy and implementation." },
+      { "phase": "Long-term (2030+)", "description": "Analysis commoditized. Consulting value is relationships, implementation, and expertise." }
+    ],
+    "skills": [
+      { "skill": "Implementation & Transformation", "description": "Move beyond strategy into execution — where real value is delivered." },
+      { "skill": "AI Strategy & Digital Transformation", "description": "Help companies adopt AI — the hottest consulting practice." },
+      { "skill": "Industry Specialization", "description": "Deep domain expertise commands premium." },
+      { "skill": "Executive Communication", "description": "Influence C-suite decisions — persuasion and storytelling." },
+      { "skill": "Business Development", "description": "Sell and grow consulting relationships — the partner track." }
+    ]
+  },
+  "supply-chain-manager": {
+    "slug": "supply-chain-manager",
+    "title": "Supply Chain Manager",
+    "category": "business",
+    "tier": 2,
+    "overallScore": 62,
+    "tagline": "AI predicts the demand. Humans manage the disruption.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 62000, "experienced": 115000 }, "india": { "entryLPA": 6, "experiencedLPA": 20 } },
+    "tasks": [
+      { "task": "Demand Forecasting", "automation": 85, "status": "critical", "description": "AI predicts demand using ML models analyzing sales, weather, and market signals.", "tools": ["Blue Yonder AI", "o9 Solutions", "Kinaxis AI"] },
+      { "task": "Inventory Optimization", "automation": 82, "status": "critical", "description": "AI optimizes safety stock and reorder points across the network.", "tools": ["Blue Yonder", "Manhattan Associates", "SAP IBP"] },
+      { "task": "Route & Logistics Optimization", "automation": 80, "status": "critical", "description": "AI optimizes delivery routes, carrier selection, and last-mile logistics.", "tools": ["Project44", "FourKites AI", "Flexport AI"] },
+      { "task": "Procurement Analytics", "automation": 72, "status": "elevated", "description": "AI analyzes spending and manages supplier performance.", "tools": ["Coupa AI", "Jaggaer", "SAP Ariba AI"] },
+      { "task": "Supply Chain Visibility", "automation": 78, "status": "critical", "description": "AI provides real-time visibility and predicts disruptions.", "tools": ["Project44", "FourKites", "Resilinc AI"] },
+      { "task": "Supplier Relationships", "automation": 18, "status": "stable", "description": "Negotiating with suppliers and managing quality is human.", "tools": [] },
+      { "task": "Disruption Response", "automation": 22, "status": "stable", "description": "Responding to supply chain crises requires creative problem-solving.", "tools": [] },
+      { "task": "Network Design", "automation": 28, "status": "stable", "description": "Designing warehouse locations and sourcing strategy needs strategic thinking.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Blue Yonder", "product": "Blue Yonder AI", "threat": "AI supply chain platform automating planning and execution" },
+      { "name": "o9 Solutions", "product": "o9 AI", "threat": "AI-powered integrated business planning" },
+      { "name": "Flexport", "product": "Flexport AI", "threat": "AI-powered freight forwarding and logistics" },
+      { "name": "Project44", "product": "Project44 AI", "threat": "AI supply chain visibility predicting disruptions" },
+      { "name": "Coupa", "product": "Coupa AI", "threat": "AI procurement automating spending analysis" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 65% of planning and optimization. Managers focus on relationships and disruption." },
+      { "phase": "Near-term (2027-2028)", "description": "AI manages routine operations. Managers focus on strategy and crisis management." },
+      { "phase": "Long-term (2030+)", "description": "Operations heavily automated. Managers focus on network strategy and resilience." }
+    ],
+    "skills": [
+      { "skill": "Supply Chain Resilience", "description": "Build resilient chains — disruption management is the human edge." },
+      { "skill": "AI & Analytics", "description": "Master AI supply chain tools and interpret outputs strategically." },
+      { "skill": "Sustainability & ESG", "description": "Sustainable supply chain management — growing pressure." },
+      { "skill": "Strategic Sourcing", "description": "Complex supplier negotiations and global strategy." },
+      { "skill": "Network Design", "description": "Design optimal networks balancing cost, speed, and resilience." }
+    ]
+  },
+  "hr-manager": {
+    "slug": "hr-manager",
+    "title": "HR Manager",
+    "category": "business",
+    "tier": 1,
+    "overallScore": 55,
+    "tagline": "AI screens the resumes. Humans build the culture.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 60000, "experienced": 110000 }, "india": { "entryLPA": 5, "experiencedLPA": 18 } },
+    "tasks": [
+      { "task": "Resume Screening", "automation": 85, "status": "critical", "description": "AI screens resumes, ranks candidates, and identifies top matches.", "tools": ["HireVue AI", "Eightfold AI", "Greenhouse AI"] },
+      { "task": "Benefits Administration", "automation": 80, "status": "critical", "description": "AI manages benefits enrollment and employee inquiries.", "tools": ["Rippling AI", "Gusto", "Zenefits AI"] },
+      { "task": "Payroll & Compliance", "automation": 82, "status": "critical", "description": "AI handles payroll processing and regulatory reporting.", "tools": ["ADP AI", "Gusto", "Rippling"] },
+      { "task": "Employee Self-Service", "automation": 78, "status": "critical", "description": "AI chatbots handle PTO, policy questions, and routine HR inquiries.", "tools": ["Leena AI", "Moveworks", "Workday AI"] },
+      { "task": "Performance Review Admin", "automation": 68, "status": "elevated", "description": "AI manages review cycles and aggregates feedback.", "tools": ["Lattice AI", "15Five AI", "Culture Amp"] },
+      { "task": "Onboarding Automation", "automation": 72, "status": "elevated", "description": "AI manages onboarding workflows and document collection.", "tools": ["Rippling", "BambooHR AI", "Workday"] },
+      { "task": "Culture & Engagement", "automation": 15, "status": "stable", "description": "Building organizational culture and creating belonging is human.", "tools": [] },
+      { "task": "Workforce Planning", "automation": 25, "status": "stable", "description": "Planning workforce needs and organizational design needs judgment.", "tools": [] },
+      { "task": "Sensitive Employee Relations", "automation": 8, "status": "stable", "description": "Terminations, harassment claims, and sensitive situations need human empathy.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Rippling", "product": "Rippling AI", "threat": "AI-powered HR platform automating payroll, benefits, and management" },
+      { "name": "Eightfold", "product": "Eightfold AI", "threat": "AI talent intelligence matching candidates with deep-learning" },
+      { "name": "Workday", "product": "Workday AI", "threat": "Enterprise AI HCM automating HR operations at scale" },
+      { "name": "Lattice", "product": "Lattice AI", "threat": "AI performance management generating reviews and plans" },
+      { "name": "Leena AI", "product": "Leena AI", "threat": "AI HR assistant handling queries and automating workflows" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 60% of HR operations. HR managers focus on culture and employee relations." },
+      { "phase": "Near-term (2027-2028)", "description": "AI manages most HR transactions. HR leaders focus on org development." },
+      { "phase": "Long-term (2030+)", "description": "HR operations automated. Leaders focus on culture, org design, and talent strategy." }
+    ],
+    "skills": [
+      { "skill": "Organizational Development", "description": "Design organizations, build culture, and lead transformation." },
+      { "skill": "People Analytics", "description": "Use data and AI to drive talent decisions." },
+      { "skill": "Employee Experience Design", "description": "Create compelling experiences that attract and retain talent." },
+      { "skill": "HR Technology Strategy", "description": "Implement and optimize AI HR tools." },
+      { "skill": "Labor & Employment Law", "description": "Navigate employment law — AI compliance and worker classification." }
+    ]
+  },
+  "recruiter": {
+    "slug": "recruiter",
+    "title": "Recruiter",
+    "category": "business",
+    "tier": 1,
+    "overallScore": 72,
+    "tagline": "AI finds the candidates. Humans close the deal.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 50000, "experienced": 95000 }, "india": { "entryLPA": 4, "experiencedLPA": 14 } },
+    "tasks": [
+      { "task": "Resume Screening & Matching", "automation": 88, "status": "critical", "description": "AI screens thousands of resumes and ranks candidates by fit.", "tools": ["Eightfold AI", "HireVue", "Greenhouse AI"] },
+      { "task": "Candidate Sourcing", "automation": 82, "status": "critical", "description": "AI identifies passive candidates from LinkedIn, GitHub, and platforms.", "tools": ["hireEZ", "SeekOut AI", "Entelo AI"] },
+      { "task": "Interview Scheduling", "automation": 90, "status": "critical", "description": "AI coordinates schedules automatically.", "tools": ["Calendly AI", "GoodTime", "ModernLoop"] },
+      { "task": "Outreach & Follow-up", "automation": 75, "status": "critical", "description": "AI generates personalized outreach and manages follow-up sequences.", "tools": ["Gem AI", "Fetcher", "hireEZ"] },
+      { "task": "Initial Screening", "automation": 62, "status": "elevated", "description": "AI conducts preliminary screening via chat or voice.", "tools": ["HireVue AI", "Paradox Olivia", "Humanly AI"] },
+      { "task": "Relationship Building", "automation": 12, "status": "stable", "description": "Building rapport and understanding motivations is human.", "tools": [] },
+      { "task": "Offer Negotiation", "automation": 15, "status": "stable", "description": "Compensation discussions and closing requires human persuasion.", "tools": [] },
+      { "task": "Hiring Manager Partnership", "automation": 10, "status": "stable", "description": "Understanding team needs and advising on talent strategy is human.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Eightfold", "product": "Eightfold AI", "threat": "AI talent intelligence replacing manual sourcing and screening" },
+      { "name": "HireVue", "product": "HireVue AI", "threat": "AI video interviews reducing need for human screening" },
+      { "name": "Paradox", "product": "Olivia AI", "threat": "AI assistant that screens, schedules, and engages autonomously" },
+      { "name": "SeekOut", "product": "SeekOut AI", "threat": "AI talent search finding passive candidates" },
+      { "name": "Gem", "product": "Gem AI", "threat": "AI recruiting CRM automating outreach and pipeline" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 70% of sourcing and screening. Recruiters focus on relationships." },
+      { "phase": "Near-term (2027-2028)", "description": "AI manages pipeline for standard roles. Recruiters focus on executive hiring." },
+      { "phase": "Long-term (2030+)", "description": "Standard recruiting automated. Humans focus on executive search and employer branding." }
+    ],
+    "skills": [
+      { "skill": "Executive Search", "description": "Senior recruiting — high-touch, relationship-driven." },
+      { "skill": "Employer Branding", "description": "Build brands that attract talent organically." },
+      { "skill": "Technical Recruiting", "description": "Deep technical knowledge for engineering and AI roles." },
+      { "skill": "Talent Intelligence", "description": "Market mapping and workforce planning." },
+      { "skill": "DEI Recruiting", "description": "Build diverse teams through inclusive practices." }
+    ]
+  },
+  "customer-success-manager": {
+    "slug": "customer-success-manager",
+    "title": "Customer Success Manager",
+    "category": "business",
+    "tier": 1,
+    "overallScore": 55,
+    "tagline": "AI tracks the health score. Humans save the relationship.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 58000, "experienced": 110000 }, "india": { "entryLPA": 5, "experiencedLPA": 18 } },
+    "tasks": [
+      { "task": "Health Score Monitoring", "automation": 82, "status": "critical", "description": "AI tracks usage, tickets, and engagement to predict churn.", "tools": ["Gainsight AI", "Totango", "ChurnZero AI"] },
+      { "task": "Onboarding Automation", "automation": 75, "status": "critical", "description": "AI manages onboarding workflows and tracks milestones.", "tools": ["Gainsight", "UserGuiding", "WalkMe AI"] },
+      { "task": "Usage Analytics", "automation": 80, "status": "critical", "description": "AI generates usage reports, adoption metrics, and ROI calculations.", "tools": ["Gainsight AI", "Pendo AI", "Amplitude"] },
+      { "task": "Automated Check-Ins", "automation": 70, "status": "elevated", "description": "AI sends personalized emails and NPS surveys based on journey stage.", "tools": ["Gainsight", "Vitally", "ChurnZero"] },
+      { "task": "Playbook Execution", "automation": 68, "status": "elevated", "description": "AI triggers CS playbooks based on health scores.", "tools": ["Gainsight", "Totango", "Planhat AI"] },
+      { "task": "Strategic Relationships", "automation": 15, "status": "stable", "description": "Building executive relationships and becoming a trusted advisor.", "tools": [] },
+      { "task": "Renewal Negotiation", "automation": 20, "status": "stable", "description": "Negotiating renewals and handling objections requires persuasion.", "tools": [] },
+      { "task": "Expansion & Upsell", "automation": 25, "status": "stable", "description": "Identifying expansion opportunities requires relationship knowledge.", "tools": [] },
+      { "task": "Escalation Management", "automation": 12, "status": "stable", "description": "Managing crises and de-escalating frustrated customers is human.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Gainsight", "product": "Gainsight AI", "threat": "AI customer success predicting churn and automating workflows" },
+      { "name": "Totango", "product": "Totango AI", "threat": "AI-powered customer success with automated health monitoring" },
+      { "name": "ChurnZero", "product": "ChurnZero AI", "threat": "AI churn prediction and engagement automation" },
+      { "name": "Vitally", "product": "Vitally AI", "threat": "AI customer success platform for B2B SaaS" },
+      { "name": "Planhat", "product": "Planhat AI", "threat": "AI-powered customer platform automating renewals" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 55% of CS operations. CSMs focus on strategic accounts." },
+      { "phase": "Near-term (2027-2028)", "description": "AI manages SMB customer success. CSMs focus on enterprise accounts." },
+      { "phase": "Long-term (2030+)", "description": "Low-touch CS automated. CSMs focus on strategic and complex enterprise accounts." }
+    ],
+    "skills": [
+      { "skill": "Strategic Account Management", "description": "Manage complex enterprise relationships." },
+      { "skill": "Revenue Expansion", "description": "Drive upsell, cross-sell, and expansion." },
+      { "skill": "Executive Communication", "description": "Engage C-suite customers." },
+      { "skill": "Product Expertise", "description": "Deep product knowledge to drive adoption." },
+      { "skill": "Customer Marketing", "description": "Build advocacy programs and communities." }
+    ]
+  },
+  "operations-manager": {
+    "slug": "operations-manager",
+    "title": "Operations Manager",
+    "category": "business",
+    "tier": 1,
+    "overallScore": 55,
+    "tagline": "AI optimizes the process. Humans lead the people.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 58000, "experienced": 110000 }, "india": { "entryLPA": 5, "experiencedLPA": 18 } },
+    "tasks": [
+      { "task": "Process Optimization", "automation": 75, "status": "critical", "description": "AI identifies bottlenecks and recommends process changes.", "tools": ["Celonis AI", "UiPath AI", "Automation Anywhere"] },
+      { "task": "Scheduling & Resources", "automation": 80, "status": "critical", "description": "AI optimizes staff schedules and capacity planning.", "tools": ["When I Work AI", "Deputy AI", "Workforce.com"] },
+      { "task": "Quality Monitoring", "automation": 72, "status": "elevated", "description": "AI monitors quality metrics and triggers corrective actions.", "tools": ["Sight Machine", "Augury AI", "Tulip AI"] },
+      { "task": "KPI Dashboards", "automation": 82, "status": "critical", "description": "AI generates dashboards and sends automated alerts.", "tools": ["Power BI AI", "Looker", "Tableau AI"] },
+      { "task": "Vendor Management", "automation": 62, "status": "elevated", "description": "AI manages POs and vendor performance but negotiation is human.", "tools": ["Coupa AI", "SAP Ariba", "Procurify"] },
+      { "task": "Team Leadership", "automation": 10, "status": "stable", "description": "Leading teams and managing performance requires human leadership.", "tools": [] },
+      { "task": "Crisis Management", "automation": 15, "status": "stable", "description": "Handling crises and rapid decisions is human.", "tools": [] },
+      { "task": "Strategic Planning", "automation": 20, "status": "stable", "description": "Setting strategy and driving transformation requires vision.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Celonis", "product": "Celonis AI", "threat": "AI process mining auto-discovering optimization opportunities" },
+      { "name": "UiPath", "product": "UiPath AI", "threat": "AI-powered RPA automating repetitive operational tasks" },
+      { "name": "Automation Anywhere", "product": "AA AI", "threat": "AI process automation replacing manual operations" },
+      { "name": "ServiceNow", "product": "ServiceNow AI", "threat": "AI operations management automating workflows" },
+      { "name": "Microsoft", "product": "Copilot + Power Automate", "threat": "AI workflow automation in enterprise tools" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 55% of operational monitoring. Managers focus on leadership." },
+      { "phase": "Near-term (2027-2028)", "description": "AI manages routine operations. Managers focus on transformation." },
+      { "phase": "Long-term (2030+)", "description": "Routine operations automated. Leaders focus on strategy and organizational design." }
+    ],
+    "skills": [
+      { "skill": "AI & Automation Strategy", "description": "Lead AI/RPA implementation to transform operations." },
+      { "skill": "Lean / Six Sigma + AI", "description": "Combine process excellence with AI optimization." },
+      { "skill": "People Operations Leadership", "description": "Lead large teams through change." },
+      { "skill": "Operational Strategy", "description": "Design operations that scale." },
+      { "skill": "Data-Driven Operations", "description": "Use operational data and AI for continuous improvement." }
+    ]
+  },
+  "executive-assistant": {
+    "slug": "executive-assistant",
+    "title": "Executive Assistant",
+    "category": "business",
+    "tier": 2,
+    "overallScore": 72,
+    "tagline": "AI schedules the meeting. Humans manage the executive.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 48000, "experienced": 85000 }, "india": { "entryLPA": 3.5, "experiencedLPA": 10 } },
+    "tasks": [
+      { "task": "Calendar Management", "automation": 85, "status": "critical", "description": "AI schedules meetings, resolves conflicts, and optimizes calendars.", "tools": ["Reclaim AI", "Clockwise", "Motion AI"] },
+      { "task": "Email Management", "automation": 78, "status": "critical", "description": "AI drafts responses, prioritizes inbox, and manages workflows.", "tools": ["Superhuman AI", "SaneBox", "Claude"] },
+      { "task": "Travel Booking", "automation": 82, "status": "critical", "description": "AI books travel and creates itineraries from preferences.", "tools": ["Navan AI", "TripActions", "Spotnana AI"] },
+      { "task": "Expense Reporting", "automation": 85, "status": "critical", "description": "AI processes receipts and submits reports.", "tools": ["Brex AI", "Ramp", "Expensify AI"] },
+      { "task": "Meeting Preparation", "automation": 72, "status": "elevated", "description": "AI compiles briefing docs and attendee backgrounds.", "tools": ["Claude", "Otter AI", "Read AI"] },
+      { "task": "Document Preparation", "automation": 75, "status": "critical", "description": "AI drafts presentations and memos.", "tools": ["Claude", "Gamma AI", "Beautiful.ai"] },
+      { "task": "Gatekeeping", "automation": 30, "status": "stable", "description": "Understanding what demands executive attention needs deep priority knowledge.", "tools": [] },
+      { "task": "Confidential Matters", "automation": 10, "status": "stable", "description": "Board matters and M&A confidentiality requires trust.", "tools": [] },
+      { "task": "Relationship Management", "automation": 15, "status": "stable", "description": "Managing stakeholder relationships is human.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Reclaim.ai", "product": "Reclaim AI", "threat": "AI scheduling assistant auto-managing calendars" },
+      { "name": "Motion", "product": "Motion AI", "threat": "AI-powered calendar and task management" },
+      { "name": "Superhuman", "product": "Superhuman AI", "threat": "AI email client that drafts and prioritizes" },
+      { "name": "Navan", "product": "Navan AI", "threat": "AI travel and expense management" },
+      { "name": "Anthropic", "product": "Claude", "threat": "AI drafting communications and preparing briefings" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 65% of scheduling and admin. EAs focus on strategic support." },
+      { "phase": "Near-term (2027-2028)", "description": "AI manages most routine tasks. Role evolves toward Chief of Staff." },
+      { "phase": "Long-term (2030+)", "description": "Administrative EA role largely automated. Remaining roles are strategic partners." }
+    ],
+    "skills": [
+      { "skill": "Chief of Staff Skills", "description": "Strategic project management and board prep." },
+      { "skill": "Executive Communication", "description": "Ghostwrite speeches and manage communications." },
+      { "skill": "AI Tool Orchestration", "description": "Master AI tools to multiply executive productivity." },
+      { "skill": "Event Management", "description": "Plan executive events and strategic programs." },
+      { "skill": "Business Operations", "description": "Expand into budget tracking and project coordination." }
+    ]
+  },
+  "technical-writer": {
+    "slug": "technical-writer",
+    "title": "Technical Writer",
+    "category": "business",
+    "tier": 1,
+    "overallScore": 75,
+    "tagline": "AI writes the docs. Humans explain the complex.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 60000, "experienced": 105000 }, "india": { "entryLPA": 5, "experiencedLPA": 16 } },
+    "tasks": [
+      { "task": "API Documentation", "automation": 85, "status": "critical", "description": "AI generates API docs from code and OpenAPI specs.", "tools": ["Claude", "Mintlify AI", "ReadMe AI"] },
+      { "task": "Release Notes", "automation": 82, "status": "critical", "description": "AI generates release notes from git commits and PRs.", "tools": ["Claude", "Releasepad", "LaunchNotes AI"] },
+      { "task": "SOPs", "automation": 78, "status": "critical", "description": "AI drafts standard operating procedures from process descriptions.", "tools": ["Claude", "Scribe AI", "Tango AI"] },
+      { "task": "Knowledge Base Articles", "automation": 80, "status": "critical", "description": "AI generates help center content from support tickets.", "tools": ["Claude", "Guru AI", "Zendesk AI"] },
+      { "task": "Code Documentation", "automation": 82, "status": "critical", "description": "AI generates inline comments, READMEs, and architecture docs.", "tools": ["GitHub Copilot", "Claude", "Mintlify"] },
+      { "task": "Complex System Documentation", "automation": 45, "status": "elevated", "description": "Documenting complex architectures needs deep understanding.", "tools": ["Claude", "Notion AI", "Confluence AI"] },
+      { "task": "UX Writing", "automation": 35, "status": "stable", "description": "User-friendly documentation that anticipates needs.", "tools": [] },
+      { "task": "Information Architecture", "automation": 25, "status": "stable", "description": "Organizing docs for discoverability requires strategic thinking.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Mintlify", "product": "Mintlify AI", "threat": "AI documentation platform generating docs from code" },
+      { "name": "Anthropic", "product": "Claude", "threat": "AI generating technical docs, tutorials, and guides" },
+      { "name": "Scribe", "product": "Scribe AI", "threat": "AI auto-generating step-by-step guides from screen recordings" },
+      { "name": "GitBook", "product": "GitBook AI", "threat": "AI documentation platform with auto-generation" },
+      { "name": "ReadMe", "product": "ReadMe AI", "threat": "AI API documentation platform" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI generates 70% of routine docs. Writers focus on complex systems and UX." },
+      { "phase": "Near-term (2027-2028)", "description": "AI maintains most docs automatically. Writers focus on information architecture." },
+      { "phase": "Long-term (2030+)", "description": "Standard docs automated. Writers focus on developer experience and content strategy." }
+    ],
+    "skills": [
+      { "skill": "Developer Experience", "description": "Design docs that drive developer adoption." },
+      { "skill": "Information Architecture", "description": "Organize complex documentation ecosystems." },
+      { "skill": "AI Documentation Systems", "description": "Build AI pipelines that auto-update docs." },
+      { "skill": "Video & Interactive Content", "description": "Create video tutorials and interactive guides." },
+      { "skill": "API & SDK Documentation", "description": "Expert API docs — highest-demand specialty." }
+    ]
+  }
+}

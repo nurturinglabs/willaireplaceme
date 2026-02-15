@@ -1,0 +1,439 @@
+{
+  "cloud-architect": {
+    "slug": "cloud-architect",
+    "title": "Cloud Architect",
+    "category": "tech",
+    "tier": 1,
+    "overallScore": 52,
+    "tagline": "AI provisions the cloud. Humans design for scale, cost, and chaos.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 110000, "experienced": 185000 },
+      "india": { "entryLPA": 12, "experiencedLPA": 38 }
+    },
+    "tasks": [
+      { "task": "Cloud Resource Provisioning", "automation": 82, "status": "critical", "description": "AI generates IaC templates for any cloud service from architecture descriptions.", "tools": ["Pulumi AI", "Terraform", "AWS CDK"] },
+      { "task": "Cost Estimation & Optimization", "automation": 72, "status": "elevated", "description": "AI analyzes cloud bills and suggests optimizations but strategic decisions need business context.", "tools": ["CloudHealth", "Kubecost", "Spot AI"] },
+      { "task": "Security & Compliance Configuration", "automation": 65, "status": "elevated", "description": "AI applies security baselines and compliance controls but risk assessment requires human judgment.", "tools": ["Wiz", "Prisma Cloud", "AWS Config"] },
+      { "task": "Network Architecture", "automation": 55, "status": "elevated", "description": "AI suggests VPC layouts and peering but complex hybrid-cloud networking needs expert design.", "tools": ["Copilot", "Aviatrix", "Cursor"] },
+      { "task": "Disaster Recovery Planning", "automation": 45, "status": "elevated", "description": "AI generates DR runbooks but RTO/RPO tradeoffs and business continuity strategy need human ownership.", "tools": ["CloudEndure", "Copilot", "Zerto"] },
+      { "task": "Multi-Cloud Strategy", "automation": 25, "status": "stable", "description": "Deciding which workloads go where, vendor lock-in tradeoffs, and migration strategy require senior judgment.", "tools": [] },
+      { "task": "Enterprise Architecture Design", "automation": 20, "status": "stable", "description": "Aligning cloud strategy with business goals, regulatory requirements, and organizational capabilities.", "tools": [] },
+      { "task": "Vendor Negotiation & Management", "automation": 8, "status": "stable", "description": "Negotiating enterprise agreements, managing vendor relationships, and contract optimization are human.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Pulumi", "product": "Pulumi AI", "threat": "Natural language to cloud infrastructure — reducing architecture to prompts" },
+      { "name": "AWS", "product": "Amazon Q", "threat": "AI assistant that generates CloudFormation, troubleshoots issues, and explains architecture" },
+      { "name": "Wiz", "product": "Wiz AI", "threat": "AI-driven cloud security posture management replacing manual security architecture reviews" },
+      { "name": "HashiCorp", "product": "Terraform + AI", "threat": "AI-assisted infrastructure planning and drift detection across multi-cloud" },
+      { "name": "Google Cloud", "product": "Gemini for GCP", "threat": "AI-powered cloud management, optimization, and automated architecture recommendations" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles routine provisioning. Cloud architects focus on strategy, security posture, and cost governance." },
+      { "phase": "Near-term (2027-2028)", "description": "AI designs standard architectures. Architects specialize in multi-cloud strategy and enterprise transformation." },
+      { "phase": "Long-term (2030+)", "description": "Cloud infrastructure self-optimizes. Architects become enterprise technology strategists." }
+    ],
+    "skills": [
+      { "skill": "Multi-Cloud & Hybrid Architecture", "description": "Design architectures spanning AWS, Azure, GCP, and on-prem — too complex for AI alone." },
+      { "skill": "FinOps Leadership", "description": "Govern multi-million dollar cloud spend with business-aligned cost optimization strategies." },
+      { "skill": "Security Architecture (Zero Trust)", "description": "Design and implement zero-trust security across cloud environments." },
+      { "skill": "AI/ML Infrastructure", "description": "Design GPU clusters, model serving platforms, and AI training infrastructure at scale." },
+      { "skill": "Enterprise Transformation", "description": "Lead cloud migration and modernization programs — combining technology with organizational change." }
+    ]
+  },
+
+  "cybersecurity-analyst": {
+    "slug": "cybersecurity-analyst",
+    "title": "Cybersecurity Analyst",
+    "category": "tech",
+    "tier": 1,
+    "overallScore": 45,
+    "tagline": "AI spots the patterns. Humans catch the adversaries.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 78000, "experienced": 145000 },
+      "india": { "entryLPA": 6, "experiencedLPA": 24 }
+    },
+    "tasks": [
+      { "task": "Log Analysis & SIEM Monitoring", "automation": 78, "status": "critical", "description": "AI correlates millions of log events and surfaces actionable alerts, reducing alert fatigue by 80%.", "tools": ["Splunk AI", "Microsoft Sentinel", "CrowdStrike"] },
+      { "task": "Vulnerability Scanning", "automation": 82, "status": "critical", "description": "AI continuously scans infrastructure, ranks vulnerabilities by exploitability, and suggests patches.", "tools": ["Tenable AI", "Qualys", "Snyk"] },
+      { "task": "Phishing Detection", "automation": 85, "status": "critical", "description": "AI detects phishing emails and social engineering attempts with high accuracy.", "tools": ["Proofpoint", "Abnormal Security", "Microsoft Defender"] },
+      { "task": "Malware Analysis", "automation": 65, "status": "elevated", "description": "AI classifies known malware variants but novel zero-days require human reverse engineering.", "tools": ["CrowdStrike", "SentinelOne", "VirusTotal"] },
+      { "task": "Incident Triage", "automation": 60, "status": "elevated", "description": "AI prioritizes and categorizes incidents but complex attack chain analysis needs human investigators.", "tools": ["Palo Alto XSOAR", "IBM QRadar", "Cortex"] },
+      { "task": "Penetration Testing", "automation": 40, "status": "elevated", "description": "AI assists with automated scanning but creative exploitation and social engineering need human hackers.", "tools": ["Cobalt Strike", "Metasploit", "Pentera AI"] },
+      { "task": "Threat Hunting", "automation": 30, "status": "stable", "description": "Proactively searching for hidden threats requires adversarial thinking and creative hypothesis generation.", "tools": [] },
+      { "task": "Security Strategy & Policy", "automation": 15, "status": "stable", "description": "Defining security posture, risk appetite, and compliance frameworks needs business and legal understanding.", "tools": [] },
+      { "task": "Incident Response Leadership", "automation": 18, "status": "stable", "description": "Coordinating response during active breaches, making triage decisions under pressure — deeply human.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "CrowdStrike", "product": "Charlotte AI", "threat": "AI-powered threat detection and automated response replacing Tier 1-2 SOC analysts" },
+      { "name": "Palo Alto Networks", "product": "Cortex XSIAM", "threat": "AI-driven security operations that auto-investigate and remediate 90% of alerts" },
+      { "name": "SentinelOne", "product": "Purple AI", "threat": "Natural language threat hunting — ask questions in English, get security answers" },
+      { "name": "Wiz", "product": "Wiz Defend", "threat": "AI cloud security that detects and remediates threats in real-time across multi-cloud" },
+      { "name": "Abnormal Security", "product": "AI Email Security", "threat": "AI-powered email protection that catches sophisticated social engineering attacks" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles Tier 1 SOC work. Analysts focus on threat hunting and incident response. Demand still growing due to threat landscape." },
+      { "phase": "Near-term (2027-2028)", "description": "AI handles 80% of detection and response. Human analysts specialize in advanced persistent threats and red teaming." },
+      { "phase": "Long-term (2030+)", "description": "AI vs AI becomes the norm — automated attack and defense. Human cybersecurity focuses on strategy, policy, and novel attack vectors." }
+    ],
+    "skills": [
+      { "skill": "Offensive Security (Red Team)", "description": "Creative penetration testing and adversary simulation — the hardest to automate security skill." },
+      { "skill": "AI Security", "description": "Securing AI systems, detecting adversarial attacks on models, and AI-powered threat detection." },
+      { "skill": "Incident Response & Forensics", "description": "Leading breach investigations, forensic analysis, and coordinating response under pressure." },
+      { "skill": "Cloud Security Architecture", "description": "Securing multi-cloud environments with zero-trust architecture and identity management." },
+      { "skill": "GRC & Compliance Leadership", "description": "Governance, Risk, and Compliance — translating regulations into security controls." }
+    ]
+  },
+
+  "it-support": {
+    "slug": "it-support",
+    "title": "IT Support Specialist",
+    "category": "tech",
+    "tier": 2,
+    "overallScore": 72,
+    "tagline": "AI handles the tickets. But someone still has to reboot the server.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 45000, "experienced": 78000 },
+      "india": { "entryLPA": 3, "experiencedLPA": 10 }
+    },
+    "tasks": [
+      { "task": "Password Resets & Account Management", "automation": 95, "status": "critical", "description": "Self-service portals and AI chatbots handle virtually all account management tasks.", "tools": ["Okta", "ServiceNow AI", "Microsoft Entra"] },
+      { "task": "Tier 1 Help Desk Tickets", "automation": 88, "status": "critical", "description": "AI resolves common IT issues — software installs, VPN problems, printer issues — via chatbot.", "tools": ["ServiceNow AI", "Freshdesk AI", "Moveworks"] },
+      { "task": "Software Deployment", "automation": 85, "status": "critical", "description": "AI automates software packaging, deployment, and updates across the organization.", "tools": ["Intune", "SCCM", "Jamf"] },
+      { "task": "System Monitoring & Alerts", "automation": 82, "status": "critical", "description": "AI monitors system health, predicts failures, and auto-remediates common issues.", "tools": ["Datadog", "New Relic", "PagerDuty AI"] },
+      { "task": "Network Troubleshooting", "automation": 60, "status": "elevated", "description": "AI diagnoses common network issues but complex infrastructure problems need hands-on expertise.", "tools": ["Auvik", "SolarWinds AI", "Copilot"] },
+      { "task": "Hardware Setup & Repair", "automation": 15, "status": "stable", "description": "Physical hardware deployment, repair, and office IT setup requires human hands.", "tools": [] },
+      { "task": "Executive & VIP Support", "automation": 20, "status": "stable", "description": "High-touch support for executives requires patience, discretion, and relationship management.", "tools": [] },
+      { "task": "Vendor & Asset Management", "automation": 40, "status": "elevated", "description": "AI tracks assets and warranties but vendor negotiations and procurement decisions need humans.", "tools": ["ServiceNow", "Snipe-IT", "Freshservice"] }
+    ],
+    "companies": [
+      { "name": "Moveworks", "product": "Moveworks AI", "threat": "AI IT support that resolves 65% of employee requests without human intervention" },
+      { "name": "ServiceNow", "product": "Now Assist", "threat": "AI-powered ITSM that auto-categorizes, routes, and resolves tickets" },
+      { "name": "Microsoft", "product": "Copilot for IT", "threat": "AI assistant embedded in Intune and Entra that automates IT admin tasks" },
+      { "name": "Freshworks", "product": "Freddy AI", "threat": "AI help desk that handles multi-channel IT support with self-service resolution" },
+      { "name": "Aisera", "product": "AI Service Desk", "threat": "Autonomous IT service desk replacing Tier 1 and 2 support entirely" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI resolves 60-70% of tickets. IT support teams shrink. Remaining staff handle complex and physical issues." },
+      { "phase": "Near-term (2027-2028)", "description": "AI handles 85% of IT support. Human roles shift to IT security, cloud management, and strategic projects." },
+      { "phase": "Long-term (2030+)", "description": "IT support is 90%+ automated. Remaining roles focus on physical infrastructure, security, and IT strategy." }
+    ],
+    "skills": [
+      { "skill": "Cloud Administration", "description": "Shift from desktop support to managing cloud environments — Azure, GCP, AWS administration." },
+      { "skill": "Cybersecurity Basics", "description": "Security awareness, phishing response, and endpoint protection — every IT person needs security skills." },
+      { "skill": "IT Automation & Scripting", "description": "PowerShell, Python, and automation tools — automate yourself out of repetitive work before AI does." },
+      { "skill": "Project Management", "description": "Lead IT infrastructure projects — migrations, deployments, and rollouts that need human coordination." },
+      { "skill": "Vendor & Asset Management", "description": "Procurement, licensing optimization, and vendor relationships — business skills that complement technical." }
+    ]
+  },
+
+  "database-administrator": {
+    "slug": "database-administrator",
+    "title": "Database Administrator",
+    "category": "tech",
+    "tier": 2,
+    "overallScore": 68,
+    "tagline": "AI tunes the queries. Humans safeguard the data.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 72000, "experienced": 135000 },
+      "india": { "entryLPA": 5, "experiencedLPA": 22 }
+    },
+    "tasks": [
+      { "task": "Query Optimization", "automation": 82, "status": "critical", "description": "AI analyzes execution plans and rewrites slow queries with near-optimal performance.", "tools": ["EverSQL", "OtterTune", "Copilot"] },
+      { "task": "Backup & Recovery Management", "automation": 85, "status": "critical", "description": "AI automates backup schedules, verifies integrity, and manages point-in-time recovery.", "tools": ["AWS RDS", "Azure SQL", "Veeam"] },
+      { "task": "Performance Monitoring", "automation": 80, "status": "critical", "description": "AI continuously monitors database health, predicts bottlenecks, and auto-tunes parameters.", "tools": ["Datadog", "OtterTune", "SolarWinds DPA"] },
+      { "task": "Index Management", "automation": 78, "status": "critical", "description": "AI recommends missing indexes, identifies redundant ones, and auto-manages index lifecycle.", "tools": ["OtterTune", "EverSQL", "Azure SQL AI"] },
+      { "task": "Migration & Upgrades", "automation": 55, "status": "elevated", "description": "AI assists with schema migration and version upgrades but testing and rollback strategy need humans.", "tools": ["AWS DMS", "Flyway", "Copilot"] },
+      { "task": "Data Security & Encryption", "automation": 50, "status": "elevated", "description": "AI applies encryption and access controls but compliance strategy and audit response need humans.", "tools": ["Imperva", "AWS KMS", "Azure Key Vault"] },
+      { "task": "Capacity Planning", "automation": 55, "status": "elevated", "description": "AI forecasts storage and compute needs but business growth assumptions require human judgment.", "tools": ["Datadog", "OtterTune", "CloudHealth"] },
+      { "task": "Architecture & Schema Design", "automation": 30, "status": "stable", "description": "Designing database architecture for scale, consistency, and availability requires deep expertise.", "tools": [] },
+      { "task": "Disaster Recovery Strategy", "automation": 25, "status": "stable", "description": "RPO/RTO decisions, cross-region replication strategy, and failover testing need business alignment.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "OtterTune", "product": "OtterTune AI", "threat": "AI-powered database tuning that auto-optimizes configurations and queries" },
+      { "name": "AWS", "product": "RDS + Aurora AI", "threat": "Self-managing cloud databases that auto-scale, patch, and optimize" },
+      { "name": "PlanetScale", "product": "PlanetScale AI", "threat": "Serverless MySQL that eliminates traditional DBA tasks entirely" },
+      { "name": "CockroachDB", "product": "CockroachDB AI", "threat": "Self-managing distributed SQL that handles sharding, replication, and failover automatically" },
+      { "name": "MongoDB", "product": "Atlas + AI", "threat": "Fully managed NoSQL with AI-powered performance advisor and auto-scaling" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "Managed cloud databases automate 70% of DBA tasks. DBAs shift to architecture and security." },
+      { "phase": "Near-term (2027-2028)", "description": "Self-tuning databases become standard. DBAs focus on multi-database strategy and data governance." },
+      { "phase": "Long-term (2030+)", "description": "Databases are largely self-managing. Remaining DBA roles focus on architecture, compliance, and novel database technologies." }
+    ],
+    "skills": [
+      { "skill": "Distributed Database Architecture", "description": "Design multi-region, globally distributed database systems — too complex for AI alone." },
+      { "skill": "Data Governance & Compliance", "description": "GDPR, HIPAA, SOX compliance at the database level — legally required human oversight." },
+      { "skill": "Cloud Database Strategy", "description": "Choose between RDS, Aurora, Spanner, CockroachDB — strategic decisions with major cost implications." },
+      { "skill": "Vector & Graph Databases", "description": "The new frontier — designing vector stores for AI and knowledge graphs for complex relationships." },
+      { "skill": "Database Security & Encryption", "description": "Column-level encryption, data masking, and audit logging — high-stakes security work." }
+    ]
+  },
+
+  "systems-administrator": {
+    "slug": "systems-administrator",
+    "title": "Systems Administrator",
+    "category": "tech",
+    "tier": 2,
+    "overallScore": 70,
+    "tagline": "AI manages the servers. Humans manage the exceptions.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 58000, "experienced": 105000 },
+      "india": { "entryLPA": 4, "experiencedLPA": 15 }
+    },
+    "tasks": [
+      { "task": "User Account Management", "automation": 92, "status": "critical", "description": "AI and automation handle provisioning, deprovisioning, and access management at scale.", "tools": ["Okta", "Microsoft Entra", "SailPoint"] },
+      { "task": "Patch Management", "automation": 88, "status": "critical", "description": "AI prioritizes and auto-deploys patches based on vulnerability severity and system criticality.", "tools": ["Automox", "WSUS", "Intune"] },
+      { "task": "Server Monitoring", "automation": 85, "status": "critical", "description": "AI monitors server health, predicts failures, and auto-remediates common issues.", "tools": ["Datadog", "Nagios", "Zabbix AI"] },
+      { "task": "Backup & Disaster Recovery", "automation": 80, "status": "critical", "description": "AI manages backup schedules, tests restores, and handles failover for standard configurations.", "tools": ["Veeam", "AWS Backup", "Acronis AI"] },
+      { "task": "Configuration Management", "automation": 78, "status": "critical", "description": "AI generates and maintains Ansible/Puppet/Chef configs, detecting drift and auto-remediating.", "tools": ["Ansible AI", "Puppet", "Chef AI"] },
+      { "task": "Network Administration", "automation": 55, "status": "elevated", "description": "AI handles routine network configs but complex troubleshooting and architecture need humans.", "tools": ["Auvik", "SolarWinds", "Copilot"] },
+      { "task": "Physical Infrastructure", "automation": 12, "status": "stable", "description": "Racking servers, cabling, hardware replacement, and data center management require human hands.", "tools": [] },
+      { "task": "Security Incident Response", "automation": 30, "status": "stable", "description": "Responding to security incidents, conducting forensics, and coordinating remediation need human judgment.", "tools": [] },
+      { "task": "Capacity & Infrastructure Planning", "automation": 35, "status": "elevated", "description": "AI forecasts needs but budget decisions and infrastructure strategy require business context.", "tools": ["Datadog", "CloudHealth", "Turbonomic"] }
+    ],
+    "companies": [
+      { "name": "Automox", "product": "Automox AI", "threat": "AI-powered endpoint management that auto-patches and configures without admin intervention" },
+      { "name": "Ansible (Red Hat)", "product": "Ansible Lightspeed", "threat": "AI-generated automation playbooks from natural language descriptions" },
+      { "name": "Microsoft", "product": "Copilot for IT", "threat": "AI-powered Windows Server and Azure management reducing admin tasks by 60%" },
+      { "name": "Turbonomic (IBM)", "product": "Turbonomic AI", "threat": "AI-driven resource optimization that auto-sizes and auto-places workloads" },
+      { "name": "Orca Security", "product": "Orca AI", "threat": "Agentless cloud workload protection that replaces manual security administration" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "Cloud migration eliminates 50% of sysadmin roles. Remaining positions shift to cloud and security." },
+      { "phase": "Near-term (2027-2028)", "description": "AI manages 85% of server administration. Sysadmins become cloud engineers or security specialists." },
+      { "phase": "Long-term (2030+)", "description": "Traditional sysadmin role largely extinct. Survivors work in edge computing, on-prem compliance, or hybrid infrastructure." }
+    ],
+    "skills": [
+      { "skill": "Cloud Engineering", "description": "Transition from on-prem to AWS/Azure/GCP administration — the natural evolution path." },
+      { "skill": "Infrastructure as Code", "description": "Master Terraform, Ansible, Pulumi — automate your own role before AI automates it for you." },
+      { "skill": "Security Operations", "description": "Endpoint security, incident response, and compliance — every sysadmin's most valuable add-on skill." },
+      { "skill": "Containerization & Kubernetes", "description": "Docker and K8s management — the modern equivalent of server administration." },
+      { "skill": "Hybrid/Edge Infrastructure", "description": "Managing on-prem + cloud + edge — the complex environments that still need human oversight." }
+    ]
+  },
+
+  "graphic-designer": {
+    "slug": "graphic-designer",
+    "title": "Graphic Designer",
+    "category": "creative",
+    "tier": 1,
+    "overallScore": 70,
+    "tagline": "AI generates the graphics. Humans craft the brand.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 48000, "experienced": 88000 },
+      "india": { "entryLPA": 3.5, "experiencedLPA": 14 }
+    },
+    "tasks": [
+      { "task": "Social Media Graphics", "automation": 88, "status": "critical", "description": "AI generates on-brand social media posts, stories, and ads from brief text descriptions.", "tools": ["Canva AI", "Adobe Firefly", "Midjourney"] },
+      { "task": "Basic Logo Variations", "automation": 80, "status": "critical", "description": "AI generates logo concepts and variations, though final refinement needs human eye.", "tools": ["Midjourney", "DALL-E", "Looka AI"] },
+      { "task": "Marketing Collateral", "automation": 82, "status": "critical", "description": "AI produces flyers, brochures, and banner ads from templates with brand-consistent results.", "tools": ["Canva AI", "Adobe Express", "Figma AI"] },
+      { "task": "Photo Editing & Retouching", "automation": 85, "status": "critical", "description": "AI handles background removal, color correction, object removal, and enhancement instantly.", "tools": ["Adobe Photoshop AI", "Remove.bg", "Topaz AI"] },
+      { "task": "Presentation Design", "automation": 78, "status": "critical", "description": "AI creates visually appealing slide decks from content outlines with consistent styling.", "tools": ["Gamma AI", "Beautiful.ai", "Canva AI"] },
+      { "task": "Infographic & Data Visualization", "automation": 65, "status": "elevated", "description": "AI generates charts and infographics but storytelling through data design needs human creativity.", "tools": ["Canva AI", "Venngage", "Infogram"] },
+      { "task": "Brand Identity System Design", "automation": 30, "status": "stable", "description": "Creating cohesive brand systems with guidelines, color psychology, and emotional resonance is deeply human.", "tools": [] },
+      { "task": "Creative Direction", "automation": 15, "status": "stable", "description": "Defining visual strategy, establishing brand voice, and leading creative vision requires human taste.", "tools": [] },
+      { "task": "Packaging & Physical Design", "automation": 35, "status": "stable", "description": "Physical product packaging, print production, and material selection need human expertise and touch.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Canva", "product": "Magic Studio", "threat": "AI-powered design platform that enables non-designers to create professional graphics" },
+      { "name": "Adobe", "product": "Firefly + Express", "threat": "Generative AI integrated into the entire Creative Cloud suite" },
+      { "name": "Midjourney", "product": "Midjourney", "threat": "Text-to-image generation producing stunning visuals that rival professional designers" },
+      { "name": "Figma", "product": "Figma AI", "threat": "AI-assisted UI and graphic design within the industry-standard design tool" },
+      { "name": "Looka", "product": "Looka AI", "threat": "AI logo and brand identity generator — complete brand kits in minutes" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 70% of routine design work. Junior designer demand drops 40%. Remaining designers focus on brand and creativity." },
+      { "phase": "Near-term (2027-2028)", "description": "Non-designers produce professional graphics easily. Graphic designers evolve into brand strategists and creative directors." },
+      { "phase": "Long-term (2030+)", "description": "Routine graphic design is fully automated. Human designers focus on brand systems, creative direction, and novel visual experiences." }
+    ],
+    "skills": [
+      { "skill": "Brand Strategy & Identity", "description": "Build comprehensive brand systems — the strategic, emotional work that AI can't replicate." },
+      { "skill": "AI Art Direction", "description": "Master prompt engineering for visual AI. Curate, refine, and direct AI output to match brand standards." },
+      { "skill": "Motion Design & Animation", "description": "Animated graphics, micro-interactions, and video — harder to automate than static design." },
+      { "skill": "3D Design & Spatial Computing", "description": "3D product visualization, AR experiences, and spatial design — the next frontier." },
+      { "skill": "UX/Product Design", "description": "Transition from graphics to user experience — a higher-value, harder-to-automate discipline." }
+    ]
+  },
+
+  "ui-ux-designer": {
+    "slug": "ui-ux-designer",
+    "title": "UI/UX Designer",
+    "category": "creative",
+    "tier": 1,
+    "overallScore": 55,
+    "tagline": "AI designs the pixels. Humans design the experience.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 72000, "experienced": 135000 },
+      "india": { "entryLPA": 5, "experiencedLPA": 22 }
+    },
+    "tasks": [
+      { "task": "Wireframing & Prototyping", "automation": 78, "status": "critical", "description": "AI generates wireframes and clickable prototypes from text descriptions and user flow specs.", "tools": ["Figma AI", "Uizard", "Galileo AI"] },
+      { "task": "UI Component Design", "automation": 80, "status": "critical", "description": "AI creates beautiful, on-brand UI components including buttons, cards, forms, and navigation.", "tools": ["Figma AI", "v0.dev", "Galileo AI"] },
+      { "task": "Design System Maintenance", "automation": 65, "status": "elevated", "description": "AI helps maintain consistency and suggests updates but evolving design systems needs human vision.", "tools": ["Figma AI", "Supernova", "Storybook AI"] },
+      { "task": "Responsive Adaptation", "automation": 75, "status": "critical", "description": "AI auto-generates responsive variants for mobile, tablet, and desktop from a single design.", "tools": ["Figma AI", "Anima", "Locofy"] },
+      { "task": "Competitive UI Analysis", "automation": 62, "status": "elevated", "description": "AI scans and compares competitor UIs but strategic design differentiation needs human creativity.", "tools": ["Claude", "Figma AI", "Mobbin"] },
+      { "task": "User Research & Testing", "automation": 35, "status": "stable", "description": "Conducting user interviews, usability tests, and synthesizing qualitative insights is deeply human.", "tools": [] },
+      { "task": "Information Architecture", "automation": 40, "status": "elevated", "description": "AI suggests navigation structures but complex IA for large applications needs expert judgment.", "tools": ["Figma AI", "Optimal Workshop", "Claude"] },
+      { "task": "Interaction Design", "automation": 30, "status": "stable", "description": "Designing micro-interactions, gestures, and transitions that feel natural requires human empathy.", "tools": [] },
+      { "task": "Design Strategy & Vision", "automation": 12, "status": "stable", "description": "Setting product design direction, defining UX principles, and championing user needs is irreplaceably human.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Figma", "product": "Figma AI", "threat": "AI-powered design tools that generate, iterate, and refine UI from prompts" },
+      { "name": "Galileo AI", "product": "Galileo", "threat": "Text-to-UI design generation creating complete, editable Figma files" },
+      { "name": "Uizard", "product": "Uizard Autodesigner", "threat": "AI-generated app designs from text descriptions — no design skills needed" },
+      { "name": "Vercel", "product": "v0.dev", "threat": "AI-generated React UI that's immediately functional and deployable" },
+      { "name": "Framer", "product": "Framer AI", "threat": "AI website design with built-in interactions and responsive behavior" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles UI production work. UX designers focus on research, strategy, and complex interaction design." },
+      { "phase": "Near-term (2027-2028)", "description": "Product managers create UIs with AI. UX designers become UX strategists and research leaders." },
+      { "phase": "Long-term (2030+)", "description": "UI generation is fully automated. UX designers focus on novel interactions, accessibility, and human-AI interface design." }
+    ],
+    "skills": [
+      { "skill": "UX Research & Strategy", "description": "Deep user research, journey mapping, and strategic UX — the human insight layer." },
+      { "skill": "Design Systems Architecture", "description": "Build and scale design systems that AI tools use as building blocks." },
+      { "skill": "Accessibility & Inclusive Design", "description": "WCAG compliance, inclusive design patterns — increasingly mandated and hard to automate." },
+      { "skill": "AI Interface Design", "description": "Design conversational UIs, AI copilots, and human-AI interaction patterns — the new frontier." },
+      { "skill": "Product Strategy", "description": "Move beyond pixels to product thinking — define what to build and why." }
+    ]
+  },
+
+  "copywriter": {
+    "slug": "copywriter",
+    "title": "Copywriter",
+    "category": "creative",
+    "tier": 1,
+    "overallScore": 78,
+    "tagline": "AI writes the copy. Humans write the headlines that break the internet.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 48000, "experienced": 92000 },
+      "india": { "entryLPA": 3.5, "experiencedLPA": 14 }
+    },
+    "tasks": [
+      { "task": "Product Descriptions", "automation": 92, "status": "critical", "description": "AI generates compelling product descriptions for e-commerce at scale with SEO optimization.", "tools": ["Jasper", "Claude", "ChatGPT"] },
+      { "task": "Email Copy", "automation": 88, "status": "critical", "description": "AI writes marketing emails, subject lines, and sequences with A/B testing built in.", "tools": ["Jasper", "Copy.ai", "Claude"] },
+      { "task": "Social Media Captions", "automation": 90, "status": "critical", "description": "AI generates platform-optimized social media copy with hashtags and CTAs.", "tools": ["Claude", "ChatGPT", "Hootsuite AI"] },
+      { "task": "Blog Post Drafts", "automation": 82, "status": "critical", "description": "AI generates structured blog posts from outlines, though they lack unique voice and original insight.", "tools": ["Claude", "ChatGPT", "Jasper"] },
+      { "task": "Ad Copy (Google/Meta)", "automation": 85, "status": "critical", "description": "AI generates and tests hundreds of ad copy variations optimized for CTR and conversions.", "tools": ["Google AI", "Meta Advantage+", "Jasper"] },
+      { "task": "Landing Page Copy", "automation": 75, "status": "critical", "description": "AI writes persuasive landing page copy with headlines, benefits, and CTAs.", "tools": ["Unbounce AI", "Claude", "Copy.ai"] },
+      { "task": "Brand Voice Development", "automation": 30, "status": "stable", "description": "Creating a unique, memorable brand voice requires cultural understanding and creative intuition.", "tools": [] },
+      { "task": "Campaign Concepts", "automation": 25, "status": "stable", "description": "Big creative ideas that drive viral campaigns need human cultural insight and creative leaps.", "tools": [] },
+      { "task": "Emotional Storytelling", "automation": 35, "status": "stable", "description": "Writing that moves people — brand stories, manifestos, narratives — requires lived human experience.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Jasper", "product": "Jasper AI", "threat": "Enterprise AI copywriting platform generating brand-consistent content at scale" },
+      { "name": "Copy.ai", "product": "Copy.ai", "threat": "AI-powered copywriting for sales, marketing, and product teams" },
+      { "name": "Anthropic", "product": "Claude", "threat": "General-purpose AI that writes high-quality copy rivaling mid-level copywriters" },
+      { "name": "Writer", "product": "Writer AI", "threat": "Enterprise AI writing platform with brand guardrails and style enforcement" },
+      { "name": "Google", "product": "Performance Max AI", "threat": "Auto-generated ad copy and creative that optimizes in real-time" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI writes 80% of routine copy. Junior copywriter demand drops 50%. Remaining focus on brand voice and big ideas." },
+      { "phase": "Near-term (2027-2028)", "description": "Marketing teams use AI directly. Copywriters become brand strategists and creative directors." },
+      { "phase": "Long-term (2030+)", "description": "Routine copywriting is fully automated. Human copywriters lead brand strategy, viral campaigns, and emotional storytelling." }
+    ],
+    "skills": [
+      { "skill": "Brand Strategy & Voice", "description": "Define and evolve brand personality — the strategic creative work AI can't originate." },
+      { "skill": "Campaign Ideation", "description": "Generate big creative ideas that drive viral moments and cultural relevance." },
+      { "skill": "AI Content Direction", "description": "Master AI writing tools — become the director, not the typist. Curate, refine, elevate AI output." },
+      { "skill": "Data-Driven Copy Optimization", "description": "Use analytics to continuously improve copy performance — merge creativity with data." },
+      { "skill": "Video & Interactive Storytelling", "description": "Script writing for video, podcast, and interactive content — harder to automate than text." }
+    ]
+  },
+
+  "content-writer": {
+    "slug": "content-writer",
+    "title": "Content Writer",
+    "category": "creative",
+    "tier": 1,
+    "overallScore": 80,
+    "tagline": "AI writes the content. Humans provide the original insight.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 45000, "experienced": 82000 },
+      "india": { "entryLPA": 3, "experiencedLPA": 12 }
+    },
+    "tasks": [
+      { "task": "SEO Blog Posts", "automation": 90, "status": "critical", "description": "AI generates SEO-optimized articles with keywords, headers, and meta descriptions at massive scale.", "tools": ["Jasper", "Surfer SEO", "Claude"] },
+      { "task": "Content Repurposing", "automation": 92, "status": "critical", "description": "AI transforms blog posts into threads, emails, summaries, and social media content instantly.", "tools": ["Claude", "Repurpose.io", "ChatGPT"] },
+      { "task": "News Summaries & Roundups", "automation": 88, "status": "critical", "description": "AI monitors sources and produces curated news roundups and industry summaries.", "tools": ["Claude", "Perplexity", "ChatGPT"] },
+      { "task": "Listicles & How-To Guides", "automation": 85, "status": "critical", "description": "AI generates structured how-to content and list articles from topic briefs.", "tools": ["Jasper", "Claude", "Frase"] },
+      { "task": "Product/Feature Documentation", "automation": 82, "status": "critical", "description": "AI writes clear product guides and feature documentation from specs and screenshots.", "tools": ["Claude", "Mintlify", "GitBook AI"] },
+      { "task": "White Papers & Reports", "automation": 65, "status": "elevated", "description": "AI drafts reports from research but original analysis and expert commentary need human insight.", "tools": ["Claude", "ChatGPT", "Jasper"] },
+      { "task": "Thought Leadership", "automation": 30, "status": "stable", "description": "Original perspectives, industry predictions, and expert opinions require lived experience and credibility.", "tools": [] },
+      { "task": "Investigative/Research Content", "automation": 25, "status": "stable", "description": "Deep research, source interviews, fact-checking, and original reporting require human journalism skills.", "tools": [] },
+      { "task": "Content Strategy", "automation": 20, "status": "stable", "description": "Defining what to write, for whom, and why — editorial strategy requires audience understanding.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Jasper", "product": "Jasper AI", "threat": "Enterprise content platform that generates blog posts, social media, and marketing content" },
+      { "name": "Anthropic", "product": "Claude", "threat": "Writes long-form, nuanced content that rivals experienced content writers" },
+      { "name": "Surfer SEO", "product": "Surfer AI", "threat": "AI that writes SEO-optimized articles that rank on page 1 without human writers" },
+      { "name": "Perplexity", "product": "Perplexity AI", "threat": "AI-powered research and writing that replaces content research and roundup writers" },
+      { "name": "Frase", "product": "Frase AI", "threat": "AI content workflow from research to writing to optimization" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI writes 80% of commodity content. Content writer demand drops 40%. Value shifts to expertise and original insight." },
+      { "phase": "Near-term (2027-2028)", "description": "AI-generated content dominates SEO. Human writers pivot to thought leadership, investigative, and premium content." },
+      { "phase": "Long-term (2030+)", "description": "Commodity content is fully AI-generated. Human content creators focus on original research, expert analysis, and personal brand." }
+    ],
+    "skills": [
+      { "skill": "Subject Matter Expertise", "description": "Deep domain knowledge makes your writing irreplaceable — AI can write, but can't be an expert." },
+      { "skill": "Content Strategy & Analytics", "description": "Plan content programs, measure ROI, and optimize based on data — the strategic layer." },
+      { "skill": "Video & Multimedia Content", "description": "Script writing, video production, and podcast hosting — higher-value, harder to automate formats." },
+      { "skill": "AI Content Operations", "description": "Direct AI content at scale — editing, fact-checking, and quality control of AI output." },
+      { "skill": "Personal Brand Building", "description": "Build your own audience and platform — the human creator economy AI can't replace." }
+    ]
+  },
+
+  "social-media-manager": {
+    "slug": "social-media-manager",
+    "title": "Social Media Manager",
+    "category": "creative",
+    "tier": 1,
+    "overallScore": 72,
+    "tagline": "AI posts the content. Humans build the community.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 45000, "experienced": 82000 },
+      "india": { "entryLPA": 3, "experiencedLPA": 12 }
+    },
+    "tasks": [
+      { "task": "Content Scheduling & Publishing", "automation": 92, "status": "critical", "description": "AI optimizes posting times, auto-schedules content, and manages multi-platform publishing.", "tools": ["Hootsuite AI", "Buffer AI", "Sprout Social"] },
+      { "task": "Caption & Hashtag Generation", "automation": 88, "status": "critical", "description": "AI writes platform-optimized captions with trending hashtags and engagement hooks.", "tools": ["Claude", "ChatGPT", "Hootsuite AI"] },
+      { "task": "Content Calendar Creation", "automation": 80, "status": "critical", "description": "AI generates month-long content calendars aligned with campaigns and trending topics.", "tools": ["Claude", "ContentStudio", "Sprout Social"] },
+      { "task": "Analytics & Reporting", "automation": 85, "status": "critical", "description": "AI generates performance reports with insights, trends, and recommendations automatically.", "tools": ["Sprout Social", "Hootsuite AI", "Brandwatch"] },
+      { "task": "Social Media Graphics", "automation": 82, "status": "critical", "description": "AI generates on-brand social media visuals from templates and descriptions.", "tools": ["Canva AI", "Adobe Express", "Midjourney"] },
+      { "task": "Community Management", "automation": 45, "status": "elevated", "description": "AI handles routine replies but sensitive community interactions and crisis management need humans.", "tools": ["Sprinklr AI", "Hootsuite", "Claude"] },
+      { "task": "Influencer Partnership Management", "automation": 25, "status": "stable", "description": "Finding, vetting, and managing influencer relationships requires human networking and judgment.", "tools": [] },
+      { "task": "Trend Spotting & Cultural Relevance", "automation": 35, "status": "stable", "description": "Understanding cultural moments, memes, and viral trends requires human cultural fluency.", "tools": [] },
+      { "task": "Crisis Communication", "automation": 12, "status": "stable", "description": "Managing social media crises requires empathy, judgment, and real-time decision-making.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Hootsuite", "product": "OwlyWriter AI", "threat": "AI-powered social media management that generates and optimizes content automatically" },
+      { "name": "Sprout Social", "product": "Sprout AI", "threat": "AI-driven social analytics, content suggestions, and automated community management" },
+      { "name": "Buffer", "product": "Buffer AI", "threat": "AI-powered posting optimization and content generation for small teams" },
+      { "name": "Brandwatch", "product": "Brandwatch AI", "threat": "AI social listening and analytics that replaces manual trend monitoring" },
+      { "name": "Later", "product": "Later AI", "threat": "Visual-first social media management with AI caption and hashtag generation" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 70% of execution. Social media managers focus on strategy, community, and crisis management." },
+      { "phase": "Near-term (2027-2028)", "description": "One person manages 10+ channels with AI. Social media roles consolidate into brand community roles." },
+      { "phase": "Long-term (2030+)", "description": "AI manages routine social presence autonomously. Humans focus on brand building, partnerships, and cultural strategy." }
+    ],
+    "skills": [
+      { "skill": "Community Building", "description": "Grow and nurture engaged communities — the human connection that drives brand loyalty." },
+      { "skill": "Brand Strategy & Voice", "description": "Define and evolve brand personality across platforms — strategic creative work." },
+      { "skill": "Video & Short-Form Content", "description": "TikTok, Reels, Shorts — video creation and editing skills that add value beyond text posts." },
+      { "skill": "Influencer & Partnership Strategy", "description": "Identify, negotiate, and manage creator partnerships — relationship-driven work." },
+      { "skill": "Crisis & Reputation Management", "description": "Handle PR crises, negative sentiment, and brand reputation — high-stakes human judgment." }
+    ]
+  }
+}

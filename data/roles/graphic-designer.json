@@ -1,0 +1,249 @@
+{
+  "slug": "graphic-designer",
+  "title": "Graphic Designer",
+  "overallScore": 72,
+  "tagline": "Everyone can create now. Not everyone can create meaning.",
+  "summary": "Graphic design is experiencing a democratization revolution as AI image generation tools enable anyone to create professional-quality visuals from text descriptions. The production layer of design, including stock imagery creation, social media graphics, and basic layouts, has been dramatically automated by tools like Midjourney, DALL-E, and Canva AI. However, the strategic and conceptual dimensions of design, including brand identity systems, design thinking, and the ability to translate complex ideas into visual narratives, remain deeply human skills that AI cannot authentically replicate.",
+  "lastUpdated": "2026-02-13",
+  "taskBreakdown": [
+    {
+      "task": "Stock Imagery & Illustration Creation",
+      "automation": 92,
+      "status": "critical",
+      "description": "AI generates custom stock-quality images, illustrations, and icons from text prompts in seconds. The traditional stock photography and illustration market has been fundamentally disrupted.",
+      "companies": ["Midjourney", "DALL-E/OpenAI", "Stability AI"]
+    },
+    {
+      "task": "Social Media Graphics",
+      "automation": 85,
+      "status": "critical",
+      "description": "AI creates platform-optimized social media visuals with appropriate sizing, text placement, and brand elements. Bulk creation of social content that once required a designer now takes minutes.",
+      "companies": ["Canva", "Adobe Firefly", "Leonardo.ai"]
+    },
+    {
+      "task": "Presentation Design",
+      "automation": 80,
+      "status": "critical",
+      "description": "AI generates professional slide decks with consistent styling, data visualizations, and layout optimization. Template-based presentation design is nearly fully automated.",
+      "companies": ["Canva", "Adobe Firefly", "Figma AI"]
+    },
+    {
+      "task": "Photo Editing & Retouching",
+      "automation": 88,
+      "status": "critical",
+      "description": "AI-powered tools handle background removal, object editing, color correction, skin retouching, and generative fill with results that match or exceed professional manual editing.",
+      "companies": ["Adobe Firefly", "Canva", "Stability AI"]
+    },
+    {
+      "task": "Marketing Collateral Design",
+      "automation": 78,
+      "status": "critical",
+      "description": "AI generates brochures, flyers, banners, and digital ads by applying brand templates and generating layouts automatically. Production-level marketing materials require minimal human touch.",
+      "companies": ["Canva", "Adobe Firefly", "Looka"]
+    },
+    {
+      "task": "Image Variation & Adaptation",
+      "automation": 90,
+      "status": "critical",
+      "description": "AI creates multiple variations of a design for A/B testing, different platforms, and localization with a single click. What once required hours of manual resizing and adaptation happens instantly.",
+      "companies": ["Adobe Firefly", "Canva", "Figma AI"]
+    },
+    {
+      "task": "Color Palette & Typography Selection",
+      "automation": 75,
+      "status": "elevated",
+      "description": "AI analyzes brand attributes, industry trends, and psychological associations to suggest color palettes and typography pairings. While useful for starting points, nuanced aesthetic decisions still benefit from trained designers.",
+      "companies": ["Canva", "Adobe Firefly", "Figma AI"]
+    },
+    {
+      "task": "Logo Concept Generation",
+      "automation": 65,
+      "status": "elevated",
+      "description": "AI generates dozens of logo concepts from brand descriptions, industry context, and style preferences. While AI logos are serviceable for small businesses, distinctive brand marks still require human creative vision.",
+      "companies": ["Looka", "Midjourney", "DALL-E/OpenAI"]
+    },
+    {
+      "task": "Wireframing & Prototyping",
+      "automation": 62,
+      "status": "elevated",
+      "description": "AI converts rough sketches or descriptions into wireframes and interactive prototypes, accelerating the early design process. Complex interaction design and user flow optimization still need human UX thinking.",
+      "companies": ["Figma AI", "Canva", "Adobe Firefly"]
+    },
+    {
+      "task": "Packaging Design",
+      "automation": 55,
+      "status": "elevated",
+      "description": "AI generates packaging concepts and mockups from product specifications, but the tactile, shelf-presence, and regulatory considerations of packaging design still require significant human expertise.",
+      "companies": ["Adobe Firefly", "Midjourney", "Canva"]
+    },
+    {
+      "task": "Brand Identity System Design",
+      "automation": 32,
+      "status": "stable",
+      "description": "Creating comprehensive brand identity systems that work across all touchpoints requires deep understanding of brand strategy, competitive positioning, and the ability to create cohesive visual languages.",
+      "companies": ["Figma AI", "Adobe Firefly", "Looka"]
+    },
+    {
+      "task": "Design System Architecture",
+      "automation": 28,
+      "status": "stable",
+      "description": "Building scalable design systems with component libraries, design tokens, and governance frameworks requires systematic thinking and deep understanding of how design serves product and engineering teams.",
+      "companies": ["Figma AI", "Adobe Firefly", "Canva"]
+    },
+    {
+      "task": "Creative Direction & Concept Development",
+      "automation": 20,
+      "status": "stable",
+      "description": "Developing creative concepts that connect with audiences emotionally, tell compelling visual stories, and push creative boundaries requires human intuition, cultural awareness, and artistic vision.",
+      "companies": ["Midjourney", "DALL-E/OpenAI", "Adobe Firefly"]
+    }
+  ],
+  "companies": [
+    {
+      "name": "Midjourney",
+      "category": "AI Image Generation",
+      "funding": "Self-funded",
+      "description": "The leading AI image generation platform known for producing stunningly artistic, high-quality images from text prompts, with a distinctive aesthetic style that has influenced visual culture globally.",
+      "impact": "Midjourney has fundamentally changed the economics of visual content creation, enabling a single person to generate hundreds of professional-quality images in the time it takes to make a cup of coffee.",
+      "adopters": ["Creative agencies", "Marketing teams", "Game studios", "Film pre-production"]
+    },
+    {
+      "name": "DALL-E / OpenAI",
+      "category": "AI Image Generation",
+      "funding": "$11.6B",
+      "description": "OpenAI's DALL-E image generation model, integrated into ChatGPT and available via API, offers versatile image creation and editing capabilities with strong prompt understanding and safety controls.",
+      "impact": "DALL-E's integration into ChatGPT brought AI image generation to hundreds of millions of users, normalizing the idea that anyone can create professional visuals without design skills.",
+      "adopters": ["Microsoft products", "Enterprise users", "Marketing teams", "Content creators"]
+    },
+    {
+      "name": "Canva",
+      "category": "AI Design Platform",
+      "funding": "$572M",
+      "description": "The world's largest online design platform, now deeply integrated with AI for layout generation, image creation, text editing, and brand template management that serves over 170 million monthly users.",
+      "impact": "Canva has been the single biggest disruptor to the graphic design profession, enabling non-designers to produce work that previously required professional skills, reducing demand for basic design services by an estimated 50%.",
+      "adopters": ["Small businesses globally", "Enterprise marketing teams", "Educators", "Nonprofits"]
+    },
+    {
+      "name": "Adobe Firefly",
+      "category": "Creative AI Platform",
+      "funding": "Public (ADBE)",
+      "description": "Adobe's generative AI model integrated across Photoshop, Illustrator, and Express, offering commercially safe image generation, generative fill, text effects, and vector creation trained on licensed content.",
+      "impact": "Adobe Firefly has brought AI generation into the professional design workflow, with features like Generative Fill in Photoshop reducing complex editing tasks from hours to seconds.",
+      "adopters": ["Professional designers", "Creative agencies", "Enterprise creative teams", "Photographers"]
+    },
+    {
+      "name": "Figma AI",
+      "category": "AI-Powered Design Tool",
+      "funding": "$333M",
+      "description": "Figma's AI features include auto-layout suggestions, component generation, design-to-code conversion, and intelligent design system management for collaborative product design teams.",
+      "impact": "Figma AI has accelerated the product design workflow by automating repetitive tasks like responsive layout adaptation and component creation, enabling designers to focus on strategic UX decisions.",
+      "adopters": ["Airbnb", "Dropbox", "Netflix", "Spotify"]
+    },
+    {
+      "name": "Stability AI",
+      "category": "Open Source AI Image Generation",
+      "funding": "$257M",
+      "description": "The creator of Stable Diffusion, an open-source image generation model that has spawned an entire ecosystem of specialized tools, fine-tuned models, and creative applications.",
+      "impact": "Stability AI's open-source approach has democratized AI image generation, enabling thousands of specialized applications from architectural visualization to product photography to character design.",
+      "adopters": ["Open source community", "Game developers", "Independent artists", "Research institutions"]
+    },
+    {
+      "name": "Leonardo.ai",
+      "category": "AI Creative Platform",
+      "funding": "$31M",
+      "description": "A generative AI platform focused on game assets, concept art, and creative content production, offering fine-tuned models and advanced controls for professional creative workflows.",
+      "impact": "Leonardo.ai has become the go-to tool for game developers and concept artists, reducing asset creation time by 80% and enabling rapid visual prototyping for entertainment media.",
+      "adopters": ["Game studios", "Concept artists", "Film production", "Advertising agencies"]
+    },
+    {
+      "name": "Looka",
+      "category": "AI Brand Design",
+      "funding": "$5.3M",
+      "description": "An AI-powered brand identity platform that generates logos, brand kits, and marketing materials for small businesses, offering complete brand packages at a fraction of traditional design costs.",
+      "impact": "Looka has disrupted the small business branding market, providing serviceable logos and brand identities for under $100 that previously cost thousands from professional designers.",
+      "adopters": ["Startups", "Small businesses", "Entrepreneurs", "Side projects"]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2023",
+      "percentage": 35,
+      "event": "Midjourney V5 and DALL-E 3 produce stunning images; AI design tools go mainstream; stock photography industry faces existential crisis as AI-generated imagery floods the market.",
+      "current": false
+    },
+    {
+      "year": "2024",
+      "percentage": 48,
+      "event": "Adobe integrates Firefly across Creative Cloud; Canva AI features reach 170M users; design agencies begin restructuring teams as AI handles production work.",
+      "current": false
+    },
+    {
+      "year": "2025",
+      "percentage": 60,
+      "event": "AI image generation quality becomes indistinguishable from photography for most use cases; junior design roles decline significantly; Figma AI automates component design.",
+      "current": false
+    },
+    {
+      "year": "2026",
+      "percentage": 72,
+      "event": "AI handles the majority of production design work; surviving designers are brand strategists and creative directors; non-designers routinely produce professional-quality visuals.",
+      "current": true
+    },
+    {
+      "year": "2027",
+      "percentage": 76,
+      "event": "AI video generation reaches production quality; multi-modal AI creates integrated visual campaigns across static, motion, and interactive formats simultaneously.",
+      "current": false
+    },
+    {
+      "year": "2028",
+      "percentage": 80,
+      "event": "AI design systems self-maintain and evolve; automated brand consistency is enforced across all touchpoints; design becomes more about strategy than execution.",
+      "current": false
+    },
+    {
+      "year": "2029",
+      "percentage": 83,
+      "event": "Personalized design at individual user level becomes standard; AI generates unique visual experiences for each viewer based on preferences and context.",
+      "current": false
+    },
+    {
+      "year": "2030",
+      "percentage": 85,
+      "event": "Production graphic design is fully automated; remaining professionals are creative directors, brand architects, and design strategists who guide AI creative systems.",
+      "current": false
+    }
+  ],
+  "skills": {
+    "declining": [
+      "Manual photo editing and retouching",
+      "Stock image sourcing and licensing",
+      "Template-based layout design",
+      "Basic social media graphic creation",
+      "Manual image resizing and format conversion",
+      "Simple icon and illustration creation",
+      "Presentation deck production",
+      "Basic print production and prepress"
+    ],
+    "growing": [
+      "AI prompt engineering for visual content",
+      "AI image curation and quality control",
+      "Brand-aligned AI output refinement",
+      "Motion design and animation direction",
+      "Design system strategy and governance",
+      "AI tool workflow integration",
+      "Multi-modal creative direction",
+      "Data-driven design optimization"
+    ],
+    "safe": [
+      "Brand identity strategy and development",
+      "Creative direction and concept development",
+      "Design thinking and problem framing",
+      "User experience research and strategy",
+      "Client relationship and creative consulting",
+      "Cross-media campaign art direction",
+      "Cultural insight and visual storytelling",
+      "Design ethics and accessibility advocacy"
+    ]
+  }
+}

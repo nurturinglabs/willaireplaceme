@@ -1,0 +1,202 @@
+{
+  "real-estate-agent": {
+    "slug": "real-estate-agent",
+    "title": "Real Estate Agent",
+    "category": "business",
+    "tier": 1,
+    "overallScore": 55,
+    "tagline": "AI lists the property. Humans close the deal.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 45000, "experienced": 110000 }, "india": { "entryLPA": 3, "experiencedLPA": 12 } },
+    "tasks": [
+      { "task": "Property Valuation & CMA", "automation": 82, "status": "critical", "description": "AI generates comparative market analyses and property valuations from data.", "tools": ["Zillow Zestimate", "Redfin AI", "HouseCanary AI"] },
+      { "task": "Listing Description & Marketing", "automation": 80, "status": "critical", "description": "AI writes listing descriptions, generates virtual tours, and creates marketing materials.", "tools": ["Claude", "Matterport AI", "Canva AI"] },
+      { "task": "Lead Generation & Qualification", "automation": 78, "status": "critical", "description": "AI identifies potential buyers/sellers and qualifies leads automatically.", "tools": ["Zillow Premier", "CINC AI", "Ylopo AI"] },
+      { "task": "Property Search & Matching", "automation": 85, "status": "critical", "description": "AI matches buyers to properties based on preferences, budget, and lifestyle.", "tools": ["Zillow AI", "Redfin", "Realtor.com AI"] },
+      { "task": "Market Analysis & Reporting", "automation": 78, "status": "critical", "description": "AI tracks market trends, generates reports, and predicts pricing movements.", "tools": ["HouseCanary", "ATTOM AI", "CoreLogic AI"] },
+      { "task": "Transaction Coordination", "automation": 65, "status": "elevated", "description": "AI manages paperwork, deadlines, and compliance but complex closings need humans.", "tools": ["Dotloop AI", "SkySlope", "Brokermint"] },
+      { "task": "Negotiation", "automation": 15, "status": "stable", "description": "Negotiating price, terms, and contingencies requires human persuasion and strategy.", "tools": [] },
+      { "task": "Client Relationship & Trust", "automation": 10, "status": "stable", "description": "Guiding people through their biggest financial decision requires human empathy.", "tools": [] },
+      { "task": "Local Market Expertise", "automation": 20, "status": "stable", "description": "Neighborhood knowledge, off-market deals, and local connections are human advantages.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Zillow", "product": "Zillow AI", "threat": "AI-powered home search with Zestimates reducing need for agent expertise on pricing" },
+      { "name": "Redfin", "product": "Redfin AI", "threat": "Tech-enabled brokerage with lower commissions and AI-powered search" },
+      { "name": "Opendoor", "product": "Opendoor AI", "threat": "AI-powered iBuyer making instant offers — bypassing agents entirely" },
+      { "name": "Compass", "product": "Compass AI", "threat": "AI-powered brokerage tools that make agents more productive" },
+      { "name": "Matterport", "product": "Matterport AI", "threat": "AI 3D tours reducing need for in-person showings" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 55% of marketing and analysis. Agents focus on relationships and negotiation." },
+      { "phase": "Near-term (2027-2028)", "description": "AI manages most search and marketing. Agents become negotiation and advisory specialists." },
+      { "phase": "Long-term (2030+)", "description": "Simple transactions may go agentless. Top agents thrive on complex deals and luxury markets." }
+    ],
+    "skills": [
+      { "skill": "Luxury & High-End Market", "description": "Serve affluent buyers and sellers — relationship-intensive, high-commission." },
+      { "skill": "Commercial Real Estate", "description": "Commercial property sales and leasing — more complex, harder to automate." },
+      { "skill": "Investment Property Advisory", "description": "Help investors analyze deals and build portfolios." },
+      { "skill": "Negotiation Mastery", "description": "Elite negotiation skills — the irreplaceable human advantage." },
+      { "skill": "AI-Powered Marketing", "description": "Use AI tools for 10x marketing reach while providing personal service." }
+    ]
+  },
+  "journalist": {
+    "slug": "journalist",
+    "title": "Journalist",
+    "category": "media",
+    "tier": 1,
+    "overallScore": 55,
+    "tagline": "AI writes the news brief. Humans break the story.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 42000, "experienced": 85000 }, "india": { "entryLPA": 3, "experiencedLPA": 12 } },
+    "tasks": [
+      { "task": "Routine News Writing", "automation": 80, "status": "critical", "description": "AI generates earnings reports, sports recaps, weather updates, and data-driven stories.", "tools": ["Automated Insights", "Narrativa", "Claude"] },
+      { "task": "Research & Fact-Gathering", "automation": 75, "status": "critical", "description": "AI searches databases, public records, and archives for background information.", "tools": ["Perplexity", "Claude", "Factiva AI"] },
+      { "task": "Transcription & Summarization", "automation": 88, "status": "critical", "description": "AI transcribes interviews, press conferences, and generates summary notes.", "tools": ["Otter AI", "Descript", "Claude"] },
+      { "task": "Social Media Monitoring", "automation": 82, "status": "critical", "description": "AI monitors social media for breaking news, trends, and public sentiment.", "tools": ["CrowdTangle", "Meltwater AI", "Brandwatch"] },
+      { "task": "Data Journalism", "automation": 68, "status": "elevated", "description": "AI analyzes datasets and generates data visualizations but framing the story is human.", "tools": ["Claude", "Flourish", "Datawrapper"] },
+      { "task": "Investigative Reporting", "automation": 15, "status": "stable", "description": "Cultivating sources, following leads, and uncovering corruption requires human persistence.", "tools": [] },
+      { "task": "Interview & Source Development", "automation": 10, "status": "stable", "description": "Building trust with sources and conducting revealing interviews is human.", "tools": [] },
+      { "task": "Editorial Judgment", "automation": 18, "status": "stable", "description": "Deciding what's newsworthy, fair, and ethical requires human judgment.", "tools": [] },
+      { "task": "Narrative & Feature Writing", "automation": 25, "status": "stable", "description": "Compelling storytelling that connects with readers requires human craft.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Automated Insights", "product": "Wordsmith", "threat": "AI that generates millions of data-driven articles — sports, finance, real estate" },
+      { "name": "OpenAI", "product": "ChatGPT", "threat": "AI generating news summaries and analysis at publication quality" },
+      { "name": "Perplexity", "product": "Perplexity AI", "threat": "AI search engine that delivers researched answers — competing with news for information" },
+      { "name": "Narrativa", "product": "Narrativa AI", "threat": "AI content generation for newsrooms — automated reporting at scale" },
+      { "name": "Google", "product": "Google AI News", "threat": "AI-generated news snippets reducing traffic to news publications" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles routine reporting and research. Journalists focus on investigation and narrative." },
+      { "phase": "Near-term (2027-2028)", "description": "AI generates most commodity news. Journalists focus on investigative, feature, and analysis." },
+      { "phase": "Long-term (2030+)", "description": "Routine news fully automated. Human journalists focus on accountability, investigation, and storytelling." }
+    ],
+    "skills": [
+      { "skill": "Investigative Journalism", "description": "Deep investigative reporting — the highest-value, hardest-to-automate journalism." },
+      { "skill": "Multimedia Storytelling", "description": "Video, podcast, and interactive storytelling across platforms." },
+      { "skill": "Data Journalism", "description": "Analyze data to uncover stories — combine reporting with analytics." },
+      { "skill": "Newsletter & Audience Building", "description": "Build a personal brand and direct audience — the new journalism model." },
+      { "skill": "AI-Augmented Reporting", "description": "Use AI to research faster, analyze more data, and produce more stories." }
+    ]
+  },
+  "translator": {
+    "slug": "translator",
+    "title": "Translator / Interpreter",
+    "category": "media",
+    "tier": 1,
+    "overallScore": 72,
+    "tagline": "AI translates the words. Humans translate the meaning.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 45000, "experienced": 78000 }, "india": { "entryLPA": 3, "experiencedLPA": 10 } },
+    "tasks": [
+      { "task": "General Document Translation", "automation": 85, "status": "critical", "description": "AI translates business documents, emails, and general content with high accuracy.", "tools": ["DeepL", "Google Translate AI", "Claude"] },
+      { "task": "Website & App Localization", "automation": 80, "status": "critical", "description": "AI translates and localizes software interfaces, websites, and apps.", "tools": ["Smartling AI", "Phrase AI", "Lokalise AI"] },
+      { "task": "Real-Time Speech Translation", "automation": 75, "status": "critical", "description": "AI provides real-time speech-to-speech translation across languages.", "tools": ["Google Translate", "Meta SeamlessM4T", "Apple Translate"] },
+      { "task": "Subtitle & Caption Translation", "automation": 82, "status": "critical", "description": "AI generates translated subtitles for video content.", "tools": ["Rev AI", "Amara AI", "Subtitle Edit AI"] },
+      { "task": "Technical Translation", "automation": 68, "status": "elevated", "description": "AI handles technical documents but domain-specific nuance needs human review.", "tools": ["DeepL", "memoQ AI", "SDL Trados AI"] },
+      { "task": "Literary & Creative Translation", "automation": 30, "status": "stable", "description": "Translating literature, poetry, and creative works requires artistic human judgment.", "tools": [] },
+      { "task": "Legal & Medical Translation", "automation": 40, "status": "elevated", "description": "High-stakes legal and medical translation requires certified human accuracy.", "tools": [] },
+      { "task": "Cultural Adaptation", "automation": 20, "status": "stable", "description": "Adapting content for cultural context — idioms, humor, sensitivity — is deeply human.", "tools": [] },
+      { "task": "Simultaneous Interpretation", "automation": 45, "status": "elevated", "description": "Live conference interpretation is improving but still requires human performers.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "DeepL", "product": "DeepL Pro", "threat": "AI translation that rivals human quality for most language pairs" },
+      { "name": "Google", "product": "Google Translate AI", "threat": "Free AI translation supporting 130+ languages with improving quality" },
+      { "name": "Meta", "product": "SeamlessM4T", "threat": "AI speech-to-speech translation across 100 languages in real-time" },
+      { "name": "Smartling", "product": "Smartling AI", "threat": "AI-powered translation management platform for enterprise localization" },
+      { "name": "Phrase", "product": "Phrase AI", "threat": "AI translation platform with neural machine translation and quality estimation" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 80% of general translation. Human translators focus on creative, legal, and specialized work." },
+      { "phase": "Near-term (2027-2028)", "description": "Real-time translation quality approaches human level. Interpreters focus on high-stakes and cultural contexts." },
+      { "phase": "Long-term (2030+)", "description": "General translation automated. Human translators focus on literary, legal, and culturally sensitive work." }
+    ],
+    "skills": [
+      { "skill": "Legal Translation & Certification", "description": "Certified legal translation — high-stakes, regulated, and well-compensated." },
+      { "skill": "Medical & Pharmaceutical Translation", "description": "Clinical trials, medical devices, and pharmaceutical — lives depend on accuracy." },
+      { "skill": "Literary & Creative Translation", "description": "Translate literature, film, and creative works — the artistic translation niche." },
+      { "skill": "AI Post-Editing (MTPE)", "description": "Review and refine AI translations — the new standard translation workflow." },
+      { "skill": "Localization Strategy", "description": "Manage enterprise localization programs — beyond word-for-word translation." }
+    ]
+  },
+  "actuary": {
+    "slug": "actuary",
+    "title": "Actuary",
+    "category": "finance",
+    "tier": 2,
+    "overallScore": 52,
+    "tagline": "AI runs the model. Humans assess the risk.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 75000, "experienced": 160000 }, "india": { "entryLPA": 6, "experiencedLPA": 25 } },
+    "tasks": [
+      { "task": "Mortality & Morbidity Modeling", "automation": 78, "status": "critical", "description": "AI builds and updates life tables and mortality models from large datasets.", "tools": ["R/Python ML", "MoSes AI", "Prophet AI"] },
+      { "task": "Reserving Calculations", "automation": 82, "status": "critical", "description": "AI calculates insurance reserves using standard actuarial methods.", "tools": ["Milliman MG-ALFA", "Willis Watson AI", "GGY AXIS"] },
+      { "task": "Pricing Models", "automation": 75, "status": "critical", "description": "AI builds product pricing models incorporating risk factors and market data.", "tools": ["Earnix AI", "Willis Watson", "Milliman"] },
+      { "task": "Experience Studies", "automation": 78, "status": "critical", "description": "AI analyzes policyholder data to identify trends in claims, lapses, and utilization.", "tools": ["SAS AI", "R/Python", "Tableau AI"] },
+      { "task": "Regulatory Reporting", "automation": 72, "status": "elevated", "description": "AI generates statutory reports and solvency calculations.", "tools": ["Milliman", "GGY AXIS", "Moody's AI"] },
+      { "task": "Product Design", "automation": 30, "status": "stable", "description": "Designing insurance products that balance risk, profitability, and market need requires creativity.", "tools": [] },
+      { "task": "Risk Management Strategy", "automation": 25, "status": "stable", "description": "Enterprise risk management, capital allocation, and strategic risk decisions need human judgment.", "tools": [] },
+      { "task": "Regulatory & Board Communication", "automation": 15, "status": "stable", "description": "Presenting risk assessments to regulators and boards requires human communication.", "tools": [] },
+      { "task": "Emerging Risk Assessment", "automation": 20, "status": "stable", "description": "Evaluating climate, pandemic, and cyber risks where historical data is limited is human.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Milliman", "product": "Milliman AI Tools", "threat": "AI actuarial software automating reserving, modeling, and valuation" },
+      { "name": "Willis Towers Watson", "product": "WTW AI", "threat": "AI-powered actuarial tools for pricing and risk modeling" },
+      { "name": "Earnix", "product": "Earnix AI", "threat": "AI pricing and rating engine for insurance companies" },
+      { "name": "Moody's", "product": "Moody's Analytics AI", "threat": "AI risk modeling platform for insurance and financial services" },
+      { "name": "Akur8", "product": "Akur8 AI", "threat": "AI-powered insurance pricing that automates actuarial rate-making" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 60% of routine actuarial calculations. Actuaries focus on strategy and emerging risks." },
+      { "phase": "Near-term (2027-2028)", "description": "AI manages standard reserving and pricing. Actuaries focus on product innovation and ERM." },
+      { "phase": "Long-term (2030+)", "description": "Routine actuarial work automated. Actuaries focus on emerging risks, product design, and strategic advisory." }
+    ],
+    "skills": [
+      { "skill": "Enterprise Risk Management", "description": "Strategic ERM across the organization — the C-suite path for actuaries." },
+      { "skill": "Data Science & ML", "description": "Combine actuarial science with machine learning for advanced predictive models." },
+      { "skill": "Emerging Risk Modeling", "description": "Climate, cyber, pandemic — model risks where traditional data doesn't exist." },
+      { "skill": "Product Innovation", "description": "Design novel insurance products for evolving markets." },
+      { "skill": "InsurTech & AI Tools", "description": "Master AI actuarial tools and lead digital transformation in insurance." }
+    ]
+  },
+  "editor": {
+    "slug": "editor",
+    "title": "Editor",
+    "category": "media",
+    "tier": 1,
+    "overallScore": 62,
+    "tagline": "AI catches the typo. Humans shape the story.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 48000, "experienced": 88000 }, "india": { "entryLPA": 3.5, "experiencedLPA": 12 } },
+    "tasks": [
+      { "task": "Copy Editing & Proofreading", "automation": 85, "status": "critical", "description": "AI catches grammar, spelling, style, and consistency errors with high accuracy.", "tools": ["Grammarly AI", "ProWritingAid", "Claude"] },
+      { "task": "Fact Checking", "automation": 68, "status": "elevated", "description": "AI verifies claims against databases and sources but nuanced fact-checking needs humans.", "tools": ["Claude", "Perplexity", "Google Fact Check AI"] },
+      { "task": "Style Guide Enforcement", "automation": 78, "status": "critical", "description": "AI checks content against AP Style, brand guidelines, and custom style rules.", "tools": ["Grammarly", "Writer AI", "Acrolinx"] },
+      { "task": "Content Summarization", "automation": 80, "status": "critical", "description": "AI summarizes long-form content for different formats and audiences.", "tools": ["Claude", "ChatGPT", "Wordtune"] },
+      { "task": "SEO Optimization", "automation": 75, "status": "critical", "description": "AI optimizes headlines, meta descriptions, and content for search performance.", "tools": ["Clearscope", "SurferSEO", "Claude"] },
+      { "task": "Structural Editing", "automation": 40, "status": "elevated", "description": "Reorganizing content flow, strengthening arguments, and improving narrative structure.", "tools": ["Claude", "ProWritingAid", "Scrivener"] },
+      { "task": "Developmental Editing", "automation": 22, "status": "stable", "description": "Shaping story arc, character development, and overall vision requires editorial judgment.", "tools": [] },
+      { "task": "Editorial Strategy", "automation": 18, "status": "stable", "description": "Deciding what to publish, setting editorial direction, and maintaining voice is human.", "tools": [] },
+      { "task": "Writer Development", "automation": 10, "status": "stable", "description": "Mentoring writers, giving nuanced feedback, and developing talent is human.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Grammarly", "product": "Grammarly AI", "threat": "AI writing assistant that catches errors and suggests improvements — replacing basic copy editors" },
+      { "name": "Writer", "product": "Writer AI", "threat": "Enterprise AI writing platform enforcing brand voice and style automatically" },
+      { "name": "Anthropic", "product": "Claude", "threat": "AI that edits, rewrites, and improves content at professional editor quality" },
+      { "name": "Acrolinx", "product": "Acrolinx AI", "threat": "AI content governance platform ensuring consistency across enterprise content" },
+      { "name": "Jasper", "product": "Jasper AI", "threat": "AI content platform that generates and edits marketing copy at scale" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 65% of copy editing. Editors focus on structural, developmental, and strategic editing." },
+      { "phase": "Near-term (2027-2028)", "description": "AI handles most grammar and style editing. Editors focus on story development and editorial strategy." },
+      { "phase": "Long-term (2030+)", "description": "Copy editing automated. Human editors focus on developmental editing, strategy, and writer mentorship." }
+    ],
+    "skills": [
+      { "skill": "Developmental Editing", "description": "Shape narratives and guide writers — the highest-value editing skill." },
+      { "skill": "Content Strategy", "description": "Set editorial direction and content strategy for publications and brands." },
+      { "skill": "AI-Augmented Editing", "description": "Use AI tools to edit faster while applying human judgment to the hard parts." },
+      { "skill": "Multimedia & Video Editing", "description": "Edit across formats — video, podcast, and interactive content." },
+      { "skill": "Niche Expertise", "description": "Specialized editing in medical, legal, or technical domains commands premium rates." }
+    ]
+  }
+}

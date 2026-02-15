@@ -1,0 +1,436 @@
+{
+  "video-editor": {
+    "slug": "video-editor",
+    "title": "Video Editor",
+    "category": "creative",
+    "tier": 1,
+    "overallScore": 65,
+    "tagline": "AI cuts the footage. Humans tell the story.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 45000, "experienced": 88000 },
+      "india": { "entryLPA": 3, "experiencedLPA": 12 }
+    },
+    "tasks": [
+      { "task": "Basic Cuts & Assembly", "automation": 82, "status": "critical", "description": "AI auto-edits raw footage into rough cuts based on script, speech patterns, and visual cues.", "tools": ["Descript", "CapCut AI", "Adobe Premiere AI"] },
+      { "task": "Color Grading", "automation": 78, "status": "critical", "description": "AI applies cinematic color grades and matches shots for consistent look across sequences.", "tools": ["DaVinci Resolve AI", "Adobe Premiere AI", "Colourlab AI"] },
+      { "task": "Subtitles & Captions", "automation": 92, "status": "critical", "description": "AI generates accurate multi-language subtitles with auto-formatting and timing.", "tools": ["Descript", "CapCut", "Whisper"] },
+      { "task": "Audio Cleanup & Mixing", "automation": 80, "status": "critical", "description": "AI removes background noise, normalizes levels, and generates music beds automatically.", "tools": ["Adobe Podcast AI", "Descript", "iZotope RX"] },
+      { "task": "Transitions & Motion Graphics", "automation": 70, "status": "elevated", "description": "AI applies transitions and generates basic motion graphics but complex VFX needs human artistry.", "tools": ["CapCut AI", "After Effects", "Runway"] },
+      { "task": "Short-Form Content Editing", "automation": 78, "status": "critical", "description": "AI identifies highlights and creates TikTok/Reels/Shorts from long-form content automatically.", "tools": ["Opus Clip", "Vidyo AI", "CapCut"] },
+      { "task": "Narrative Storytelling", "automation": 25, "status": "stable", "description": "Pacing, emotional arc, tension building, and narrative structure require human creative vision.", "tools": [] },
+      { "task": "Client Communication & Revisions", "automation": 15, "status": "stable", "description": "Understanding client feedback, interpreting vague direction, and managing expectations is human.", "tools": [] },
+      { "task": "Creative Concept Development", "automation": 20, "status": "stable", "description": "Original video concepts, storyboarding, and creative direction require human imagination.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Descript", "product": "Descript AI", "threat": "Edit video by editing text — AI handles cuts, filler removal, and eye contact correction" },
+      { "name": "Runway", "product": "Runway Gen-3", "threat": "AI video generation and editing that creates footage from text descriptions" },
+      { "name": "Opus Clip", "product": "Opus Clip", "threat": "AI that turns long videos into viral short-form clips automatically" },
+      { "name": "Adobe", "product": "Premiere Pro AI", "threat": "AI-powered editing tools that auto-edit, color grade, and enhance footage" },
+      { "name": "CapCut", "product": "CapCut AI", "threat": "Free AI video editor that handles everything from cuts to effects to captions" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 60% of editing tasks. Editors focus on storytelling and creative decisions. Short-form content nearly automated." },
+      { "phase": "Near-term (2027-2028)", "description": "AI produces broadcast-quality edits. Human editors become creative directors and narrative specialists." },
+      { "phase": "Long-term (2030+)", "description": "Standard editing is fully automated. Human editors focus on premium storytelling, documentary, and cinematic work." }
+    ],
+    "skills": [
+      { "skill": "Narrative & Story Structure", "description": "Master pacing, emotional arcs, and visual storytelling — the deeply human craft AI can't replicate." },
+      { "skill": "AI-Powered Editing Workflow", "description": "10x your output by mastering AI editing tools — become a one-person production studio." },
+      { "skill": "Motion Graphics & VFX", "description": "Complex visual effects and motion design — higher-value, harder to automate skills." },
+      { "skill": "Sound Design", "description": "Audio storytelling, sound effects, and music editing add layers AI struggles with." },
+      { "skill": "Content Strategy & Production", "description": "Move beyond editing to producing — plan, shoot, and deliver complete video projects." }
+    ]
+  },
+
+  "photographer": {
+    "slug": "photographer",
+    "title": "Photographer",
+    "category": "creative",
+    "tier": 2,
+    "overallScore": 52,
+    "tagline": "AI generates the image. Humans capture the moment.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 35000, "experienced": 72000 },
+      "india": { "entryLPA": 2.5, "experiencedLPA": 10 }
+    },
+    "tasks": [
+      { "task": "Stock Photography", "automation": 92, "status": "critical", "description": "AI generates any stock photo concept instantly, devastating the stock photography market.", "tools": ["Midjourney", "DALL-E", "Stable Diffusion"] },
+      { "task": "Product Photography", "automation": 75, "status": "critical", "description": "AI generates product shots on any background, though physical product detail still needs real shoots.", "tools": ["Midjourney", "Flair AI", "Photoroom"] },
+      { "task": "Photo Retouching & Enhancement", "automation": 88, "status": "critical", "description": "AI handles skin retouching, background replacement, and color correction with one click.", "tools": ["Adobe Photoshop AI", "Topaz", "Luminar AI"] },
+      { "task": "Headshots & Portraits", "automation": 70, "status": "elevated", "description": "AI generates realistic headshots but high-end portrait work requires human connection and artistry.", "tools": ["Midjourney", "ProfilePicture.AI", "Remini"] },
+      { "task": "Event Photography", "automation": 15, "status": "stable", "description": "Capturing real moments at weddings, events, and conferences requires physical human presence.", "tools": [] },
+      { "task": "Architectural & Real Estate Photography", "automation": 55, "status": "elevated", "description": "AI enhances and stages real estate photos but physical shoots for high-end listings still need humans.", "tools": ["REimagine AI", "Photoshop AI", "Matterport"] },
+      { "task": "Creative Direction & Concept", "automation": 20, "status": "stable", "description": "Art direction, creative concepts, and visual storytelling require human artistic vision.", "tools": [] },
+      { "task": "Client Relationship & Experience", "automation": 8, "status": "stable", "description": "Building rapport, making subjects comfortable, and delivering a memorable experience is human.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Midjourney", "product": "Midjourney v6", "threat": "Photorealistic AI images replacing stock, product, and concept photography" },
+      { "name": "Adobe", "product": "Firefly", "threat": "AI image generation and editing integrated into Photoshop and Lightroom" },
+      { "name": "Shutterstock", "product": "AI Image Generator", "threat": "Stock photo platform now generates images on demand, undercutting photographers" },
+      { "name": "Photoroom", "product": "Photoroom AI", "threat": "AI product photography tool replacing studio shoots for e-commerce" },
+      { "name": "Getty Images", "product": "Generative AI", "threat": "AI-generated commercially safe images replacing traditional stock photography" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "Stock photography devastated. AI handles product and headshot photography for small businesses. Event and premium work still human." },
+      { "phase": "Near-term (2027-2028)", "description": "AI generates photorealistic images for most commercial needs. Photographers pivot to experiences and premium artistry." },
+      { "phase": "Long-term (2030+)", "description": "Commercial photography largely AI-generated. Human photographers focus on events, fine art, documentary, and experience-based work." }
+    ],
+    "skills": [
+      { "skill": "Event & Wedding Photography", "description": "Physical presence, human connection, and moment capture — AI can't attend the wedding." },
+      { "skill": "Videography & Multimedia", "description": "Add video production to your toolkit — clients want photo + video packages." },
+      { "skill": "AI-Enhanced Workflow", "description": "Use AI for editing, retouching, and delivery — shoot 10x more efficiently." },
+      { "skill": "Fine Art & Gallery Work", "description": "Artistic photography with personal vision and gallery representation — the premium tier." },
+      { "skill": "Drone & Specialized Photography", "description": "Aerial, underwater, industrial — specialized skills that require physical expertise." }
+    ]
+  },
+
+  "motion-graphics-designer": {
+    "slug": "motion-graphics-designer",
+    "title": "Motion Graphics Designer",
+    "category": "creative",
+    "tier": 2,
+    "overallScore": 58,
+    "tagline": "AI animates the graphics. Humans choreograph the story.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 55000, "experienced": 100000 },
+      "india": { "entryLPA": 4, "experiencedLPA": 16 }
+    },
+    "tasks": [
+      { "task": "Lower Thirds & Titles", "automation": 85, "status": "critical", "description": "AI generates animated titles, lower thirds, and text overlays from templates and descriptions.", "tools": ["Runway", "CapCut AI", "After Effects"] },
+      { "task": "Logo Animations", "automation": 78, "status": "critical", "description": "AI creates logo reveal animations and brand idents from static logo files.", "tools": ["Runway", "Jitter", "LottieFiles AI"] },
+      { "task": "Social Media Animations", "automation": 82, "status": "critical", "description": "AI generates animated social posts, stories, and ads from static designs.", "tools": ["Canva AI", "Jitter", "CapCut AI"] },
+      { "task": "Data Visualization Animation", "automation": 68, "status": "elevated", "description": "AI animates charts and data but complex narrative data storytelling needs human direction.", "tools": ["D3.js", "After Effects", "Flourish"] },
+      { "task": "Explainer Video Animation", "automation": 62, "status": "elevated", "description": "AI generates basic explainer animations from scripts but polished work needs human refinement.", "tools": ["Runway", "Synthesia", "HeyGen"] },
+      { "task": "Character Animation", "automation": 45, "status": "elevated", "description": "AI handles basic character movement but expressive, personality-driven animation needs human animators.", "tools": ["Adobe Character Animator", "Runway", "Cascadeur"] },
+      { "task": "Complex VFX & Compositing", "automation": 35, "status": "stable", "description": "Multi-layer compositing, particle effects, and complex visual effects require expert craftsmanship.", "tools": [] },
+      { "task": "Creative Direction & Storyboarding", "automation": 18, "status": "stable", "description": "Conceptualizing motion design narratives and directing animation style requires creative vision.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Runway", "product": "Runway Gen-3", "threat": "AI video and motion generation from text, transforming the motion design pipeline" },
+      { "name": "Jitter", "product": "Jitter AI", "threat": "AI-powered motion design tool that animates Figma designs automatically" },
+      { "name": "Synthesia", "product": "Synthesia AI", "threat": "AI-generated presenter videos replacing many explainer and training animations" },
+      { "name": "Adobe", "product": "After Effects + AI", "threat": "AI-powered keyframing, rotoscoping, and motion tracking reducing manual animation work" },
+      { "name": "Kling AI", "product": "Kling", "threat": "Text-to-video generation creating high-quality animated content from descriptions" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 55% of motion graphics tasks. Designers focus on complex animation and creative direction." },
+      { "phase": "Near-term (2027-2028)", "description": "AI generates broadcast-quality motion graphics. Human designers become animation directors and VFX specialists." },
+      { "phase": "Long-term (2030+)", "description": "Standard motion graphics fully automated. Humans focus on cinematic VFX, interactive experiences, and spatial design." }
+    ],
+    "skills": [
+      { "skill": "3D Animation & Cinema 4D", "description": "3D motion design is harder to automate and commands premium rates." },
+      { "skill": "Interactive & Real-Time Graphics", "description": "WebGL, Three.js, and real-time graphics for apps and immersive experiences." },
+      { "skill": "AI-Enhanced Animation Workflow", "description": "Master AI tools to produce 5x more content — become a one-person animation studio." },
+      { "skill": "Sound Design for Motion", "description": "Sync audio and motion — the multi-sensory skill that elevates motion graphics." },
+      { "skill": "Spatial & AR Design", "description": "Motion design for AR/VR experiences — the next frontier of the discipline." }
+    ]
+  },
+
+  "illustrator": {
+    "slug": "illustrator",
+    "title": "Illustrator",
+    "category": "creative",
+    "tier": 2,
+    "overallScore": 62,
+    "tagline": "AI generates the art. Humans create the vision.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 45000, "experienced": 82000 },
+      "india": { "entryLPA": 3, "experiencedLPA": 12 }
+    },
+    "tasks": [
+      { "task": "Concept Art & Ideation", "automation": 75, "status": "critical", "description": "AI generates multiple concept variations from descriptions, dramatically speeding up ideation.", "tools": ["Midjourney", "Stable Diffusion", "DALL-E"] },
+      { "task": "Stock Illustrations", "automation": 88, "status": "critical", "description": "AI generates any illustration style — flat, isometric, watercolor — on demand at scale.", "tools": ["Midjourney", "DALL-E", "Adobe Firefly"] },
+      { "task": "Social Media Illustrations", "automation": 82, "status": "critical", "description": "AI creates custom illustrations for posts, headers, and campaigns from prompts.", "tools": ["Midjourney", "Canva AI", "Adobe Firefly"] },
+      { "task": "Icon & UI Illustrations", "automation": 72, "status": "elevated", "description": "AI generates icon sets and UI illustrations but brand-consistent custom work needs human refinement.", "tools": ["Figma AI", "Midjourney", "Iconify AI"] },
+      { "task": "Editorial Illustration", "automation": 55, "status": "elevated", "description": "AI generates editorial art but conceptual depth, satire, and cultural commentary need human creativity.", "tools": ["Midjourney", "DALL-E", "Stable Diffusion"] },
+      { "task": "Character Design", "automation": 50, "status": "elevated", "description": "AI generates character concepts but personality-driven, consistent character design needs human artistry.", "tools": ["Midjourney", "Stable Diffusion", "ComfyUI"] },
+      { "task": "Children's Book Illustration", "automation": 45, "status": "elevated", "description": "AI generates styles but maintaining character consistency and emotional storytelling across pages needs humans.", "tools": ["Midjourney", "DALL-E", "Stable Diffusion"] },
+      { "task": "Fine Art & Personal Vision", "automation": 15, "status": "stable", "description": "Original artistic voice, cultural commentary, and personal creative expression remain deeply human.", "tools": [] },
+      { "task": "Client Collaboration & Iteration", "automation": 12, "status": "stable", "description": "Understanding client vision, interpreting feedback, and building creative relationships is human.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Midjourney", "product": "Midjourney", "threat": "Generates stunning illustrations in any style from text — the biggest threat to illustrators" },
+      { "name": "Adobe", "product": "Firefly + Illustrator AI", "threat": "AI vector generation and style transfer integrated into the industry-standard illustration tool" },
+      { "name": "Stability AI", "product": "Stable Diffusion", "threat": "Open-source AI image generation enabling mass illustration production" },
+      { "name": "OpenAI", "product": "DALL-E / GPT-4o", "threat": "Multi-modal AI that generates and edits illustrations with conversational refinement" },
+      { "name": "Leonardo AI", "product": "Leonardo", "threat": "AI illustration platform with fine-tuned models for specific art styles" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI devastates stock illustration market. Custom illustration work shrinks. Artists who embrace AI tools thrive." },
+      { "phase": "Near-term (2027-2028)", "description": "AI handles most commercial illustration. Human illustrators focus on premium art, character design, and children's books." },
+      { "phase": "Long-term (2030+)", "description": "Commercial illustration fully automated. Human illustrators are fine artists, creative directors, and experience designers." }
+    ],
+    "skills": [
+      { "skill": "AI Art Direction", "description": "Master AI image generation tools — become the creative director of AI output, not a competitor." },
+      { "skill": "Character Design & IP Creation", "description": "Create memorable characters with personality and consistency — still requires human artistry." },
+      { "skill": "Animation & Motion Illustration", "description": "Bring illustrations to life — animated illustration commands premium rates." },
+      { "skill": "3D Illustration", "description": "Blender, Cinema 4D — 3D illustration is harder to automate and increasingly in demand." },
+      { "skill": "Personal Brand & Fine Art", "description": "Build a recognizable style and audience — the creator economy rewards unique human vision." }
+    ]
+  },
+
+  "voice-actor": {
+    "slug": "voice-actor",
+    "title": "Voice Actor",
+    "category": "creative",
+    "tier": 2,
+    "overallScore": 68,
+    "tagline": "AI clones the voice. Humans deliver the performance.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 35000, "experienced": 85000 },
+      "india": { "entryLPA": 2, "experiencedLPA": 8 }
+    },
+    "tasks": [
+      { "task": "IVR & Phone System Voice", "automation": 92, "status": "critical", "description": "AI generates natural phone system voices in any language, eliminating studio recording for IVR.", "tools": ["ElevenLabs", "Amazon Polly", "Google TTS"] },
+      { "task": "E-Learning Narration", "automation": 85, "status": "critical", "description": "AI generates clear, engaging narration for training videos and courses in multiple languages.", "tools": ["ElevenLabs", "Murf AI", "Speechify"] },
+      { "task": "Audiobook Narration", "automation": 72, "status": "elevated", "description": "AI generates passable audiobook narration but character voices and emotional range still lag humans.", "tools": ["ElevenLabs", "Apple Books AI", "DeepZen"] },
+      { "task": "Podcast Hosting/Narration", "automation": 68, "status": "elevated", "description": "AI-generated podcast voices sound natural but lack personality and spontaneous human connection.", "tools": ["NotebookLM", "ElevenLabs", "Wondercraft"] },
+      { "task": "Commercial Voice-Over", "automation": 65, "status": "elevated", "description": "AI handles standard commercials but premium brand campaigns still prefer human talent.", "tools": ["ElevenLabs", "WellSaid Labs", "Murf AI"] },
+      { "task": "Video Game Characters", "automation": 40, "status": "elevated", "description": "AI assists with NPC dialogue but lead character performances need human emotional range.", "tools": ["ElevenLabs", "Replica Studios", "Altered AI"] },
+      { "task": "Animation & Character Voice", "automation": 35, "status": "stable", "description": "Distinctive character voices, comedic timing, and emotional depth require human performers.", "tools": [] },
+      { "task": "Live Performance & Direction", "automation": 10, "status": "stable", "description": "Live voice work, improv, and in-studio direction with creative teams is irreplaceably human.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "ElevenLabs", "product": "ElevenLabs", "threat": "Ultra-realistic AI voice synthesis and cloning — the biggest threat to voice actors" },
+      { "name": "WellSaid Labs", "product": "WellSaid", "threat": "Enterprise AI voice platform replacing corporate voice-over work" },
+      { "name": "Replica Studios", "product": "Replica", "threat": "AI voice actors for games and interactive media" },
+      { "name": "Murf AI", "product": "Murf", "threat": "AI voice generator for e-learning, marketing, and presentation narration" },
+      { "name": "Google", "product": "NotebookLM", "threat": "AI-generated podcast conversations from any source material" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI replaces 60% of routine voice work. IVR and e-learning markets collapse for human actors. Premium work persists." },
+      { "phase": "Near-term (2027-2028)", "description": "AI voice quality indistinguishable from human. Legal battles over voice rights intensify. Union protections matter." },
+      { "phase": "Long-term (2030+)", "description": "Most commercial voice work AI-generated. Human voice actors focus on performance art, premium brands, and creative direction." }
+    ],
+    "skills": [
+      { "skill": "Character Performance", "description": "Distinctive characters with emotional depth — the performance AI can approximate but not truly create." },
+      { "skill": "Voice Direction & Coaching", "description": "Direct AI voices and human performers — the creative vision behind the performance." },
+      { "skill": "AI Voice Licensing", "description": "License your voice to AI platforms — monetize your voice as a digital asset." },
+      { "skill": "Live Performance & Events", "description": "Live voice work, hosting, and performance — the irreplaceable physical presence." },
+      { "skill": "Multi-Platform Content Creation", "description": "Combine voice skills with video, podcast, and social media — be a creator, not just a voice." }
+    ]
+  },
+
+  "digital-marketer": {
+    "slug": "digital-marketer",
+    "title": "Digital Marketer",
+    "category": "marketing",
+    "tier": 1,
+    "overallScore": 72,
+    "tagline": "AI runs the campaigns. Humans craft the strategy.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 50000, "experienced": 95000 },
+      "india": { "entryLPA": 4, "experiencedLPA": 16 }
+    },
+    "tasks": [
+      { "task": "PPC Campaign Management", "automation": 85, "status": "critical", "description": "AI auto-bids, optimizes ad placement, and adjusts budgets across Google and Meta in real-time.", "tools": ["Google Ads AI", "Meta Advantage+", "Albert AI"] },
+      { "task": "Ad Creative Generation", "automation": 82, "status": "critical", "description": "AI generates ad copy, images, and video variations optimized for different audiences and platforms.", "tools": ["Meta Advantage+", "Google PMax", "Jasper"] },
+      { "task": "Audience Targeting", "automation": 80, "status": "critical", "description": "AI builds and optimizes audience segments using behavioral data and lookalike modeling.", "tools": ["Meta AI", "Google Ads AI", "Albert AI"] },
+      { "task": "Marketing Analytics & Reporting", "automation": 82, "status": "critical", "description": "AI generates comprehensive marketing reports with insights, attribution, and recommendations.", "tools": ["GA4 AI", "HubSpot AI", "Tableau AI"] },
+      { "task": "A/B Testing & Optimization", "automation": 78, "status": "critical", "description": "AI runs continuous A/B tests, auto-promotes winners, and suggests next experiments.", "tools": ["Optimizely", "VWO AI", "Google Optimize"] },
+      { "task": "Email Marketing Automation", "automation": 80, "status": "critical", "description": "AI writes, personalizes, and optimizes email campaigns with predictive send time.", "tools": ["Mailchimp AI", "Klaviyo AI", "HubSpot"] },
+      { "task": "Marketing Strategy", "automation": 22, "status": "stable", "description": "Defining target markets, positioning, channel strategy, and budget allocation requires business judgment.", "tools": [] },
+      { "task": "Brand Positioning & Messaging", "automation": 25, "status": "stable", "description": "Creating differentiated brand positioning requires market insight and creative strategy.", "tools": [] },
+      { "task": "Partnership & Channel Development", "automation": 15, "status": "stable", "description": "Building distribution partnerships, affiliate networks, and strategic alliances is relationship-driven.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Google", "product": "Performance Max", "threat": "AI-driven campaign management across all Google properties with minimal human input" },
+      { "name": "Meta", "product": "Advantage+ Suite", "threat": "End-to-end AI ad campaigns — targeting, creative, and optimization all automated" },
+      { "name": "Albert AI", "product": "Albert", "threat": "Autonomous digital marketing AI that runs campaigns independently" },
+      { "name": "HubSpot", "product": "HubSpot AI", "threat": "AI-powered marketing automation covering content, email, and campaign management" },
+      { "name": "Jasper", "product": "Jasper Marketing AI", "threat": "AI-generated marketing content, campaigns, and strategy recommendations" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 70% of campaign execution. Digital marketers focus on strategy and creative direction." },
+      { "phase": "Near-term (2027-2028)", "description": "AI manages full campaign lifecycles. Marketers become brand strategists and growth architects." },
+      { "phase": "Long-term (2030+)", "description": "Routine digital marketing fully automated. Human marketers focus on brand building, partnerships, and creative strategy." }
+    ],
+    "skills": [
+      { "skill": "Marketing Strategy & Positioning", "description": "Define go-to-market strategy, target markets, and competitive positioning — the strategic layer." },
+      { "skill": "AI Marketing Operations", "description": "Orchestrate AI marketing tools, interpret results, and make strategic adjustments." },
+      { "skill": "Brand Building & Storytelling", "description": "Build emotional brand connections that drive loyalty beyond algorithmic optimization." },
+      { "skill": "Data Science for Marketing", "description": "Advanced attribution, marketing mix modeling, and predictive analytics — the analytical edge." },
+      { "skill": "Growth & Product Marketing", "description": "Drive product-led growth, launch strategies, and cross-functional go-to-market execution." }
+    ]
+  },
+
+  "seo-specialist": {
+    "slug": "seo-specialist",
+    "title": "SEO Specialist",
+    "category": "marketing",
+    "tier": 1,
+    "overallScore": 75,
+    "tagline": "AI writes the content. But search itself is being replaced by AI.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 50000, "experienced": 92000 },
+      "india": { "entryLPA": 3.5, "experiencedLPA": 14 }
+    },
+    "tasks": [
+      { "task": "Keyword Research", "automation": 88, "status": "critical", "description": "AI identifies keyword opportunities, search volumes, and difficulty scores at massive scale.", "tools": ["Ahrefs AI", "Semrush AI", "Surfer SEO"] },
+      { "task": "SEO Content Generation", "automation": 85, "status": "critical", "description": "AI writes SEO-optimized articles with proper keyword density, headers, and internal linking.", "tools": ["Surfer AI", "Jasper", "Claude"] },
+      { "task": "Technical SEO Auditing", "automation": 82, "status": "critical", "description": "AI crawls sites and identifies technical issues — broken links, slow pages, schema errors.", "tools": ["Screaming Frog", "Semrush", "Sitebulb AI"] },
+      { "task": "On-Page Optimization", "automation": 80, "status": "critical", "description": "AI optimizes meta titles, descriptions, headers, and content structure for target keywords.", "tools": ["Surfer SEO", "Clearscope", "Yoast AI"] },
+      { "task": "Competitor Analysis", "automation": 75, "status": "critical", "description": "AI analyzes competitor rankings, content gaps, and backlink profiles automatically.", "tools": ["Ahrefs", "Semrush", "SpyFu AI"] },
+      { "task": "Link Building Outreach", "automation": 55, "status": "elevated", "description": "AI identifies link opportunities and generates outreach emails but relationship building needs humans.", "tools": ["Pitchbox", "BuzzStream", "Claude"] },
+      { "task": "SEO Strategy in AI-Search Era", "automation": 18, "status": "stable", "description": "With AI Overviews reshaping search, SEO strategy requires fundamental rethinking — deeply human.", "tools": [] },
+      { "task": "Content Strategy & Editorial", "automation": 25, "status": "stable", "description": "Deciding what topics to pursue, content format, and editorial calendar needs audience understanding.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Google", "product": "AI Overviews", "threat": "AI answers in search results reduce click-throughs to websites — existential threat to SEO" },
+      { "name": "Perplexity", "product": "Perplexity AI", "threat": "AI search engine that answers questions directly, bypassing traditional search entirely" },
+      { "name": "Surfer SEO", "product": "Surfer AI", "threat": "AI that writes and optimizes SEO content, replacing specialist content optimization work" },
+      { "name": "Semrush", "product": "Semrush AI", "threat": "AI-powered SEO platform automating keyword research, auditing, and content optimization" },
+      { "name": "SearchGPT", "product": "ChatGPT Search", "threat": "AI-powered search that could redirect traffic away from traditional search engines" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI Overviews reduce organic clicks 20-30%. SEO shifts from keyword optimization to answer optimization. Content creation automated." },
+      { "phase": "Near-term (2027-2028)", "description": "AI search becomes dominant. SEO evolves into 'AI visibility optimization.' Technical SEO stays relevant." },
+      { "phase": "Long-term (2030+)", "description": "Traditional SEO as we know it may not exist. Specialists evolve into digital visibility strategists across AI and traditional channels." }
+    ],
+    "skills": [
+      { "skill": "AI Search Optimization (GEO)", "description": "Optimize for AI search engines — a completely new discipline replacing traditional SEO." },
+      { "skill": "Technical SEO & Core Web Vitals", "description": "Site architecture, page speed, and structured data — the technical foundation that endures." },
+      { "skill": "Content Strategy & Brand Building", "description": "Build brand authority that drives direct traffic — less dependent on search algorithms." },
+      { "skill": "Digital PR & Link Building", "description": "Earn media coverage and authoritative links — relationship-driven work AI can't replace." },
+      { "skill": "Analytics & Data Science", "description": "Advanced attribution, traffic modeling, and business impact measurement beyond ranking reports." }
+    ]
+  },
+
+  "email-marketer": {
+    "slug": "email-marketer",
+    "title": "Email Marketer",
+    "category": "marketing",
+    "tier": 2,
+    "overallScore": 78,
+    "tagline": "AI writes the emails. Humans design the relationship.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 50000, "experienced": 88000 },
+      "india": { "entryLPA": 3.5, "experiencedLPA": 14 }
+    },
+    "tasks": [
+      { "task": "Email Copy Generation", "automation": 90, "status": "critical", "description": "AI writes personalized email copy, subject lines, and CTAs optimized for open and click rates.", "tools": ["Claude", "Jasper", "Mailchimp AI"] },
+      { "task": "Audience Segmentation", "automation": 85, "status": "critical", "description": "AI builds dynamic segments based on behavior, purchase history, and engagement patterns.", "tools": ["Klaviyo AI", "HubSpot", "Mailchimp AI"] },
+      { "task": "A/B Testing & Optimization", "automation": 88, "status": "critical", "description": "AI runs multi-variate tests on subject lines, content, timing, and auto-promotes winners.", "tools": ["Klaviyo", "Mailchimp AI", "Optimizely"] },
+      { "task": "Drip Campaign Automation", "automation": 82, "status": "critical", "description": "AI builds and optimizes email sequences based on user behavior and lifecycle stage.", "tools": ["Klaviyo", "HubSpot", "ActiveCampaign AI"] },
+      { "task": "Send Time Optimization", "automation": 90, "status": "critical", "description": "AI predicts optimal send time for each subscriber based on historical engagement data.", "tools": ["Klaviyo", "Mailchimp", "Seventh Sense"] },
+      { "task": "Email Design & Templates", "automation": 75, "status": "critical", "description": "AI generates responsive email templates from brand guidelines and content briefs.", "tools": ["Stripo AI", "Mailchimp", "Beefree AI"] },
+      { "task": "CRM Strategy & Lifecycle Design", "automation": 25, "status": "stable", "description": "Mapping the customer journey and designing lifecycle touchpoints requires business understanding.", "tools": [] },
+      { "task": "Deliverability & Compliance", "automation": 40, "status": "elevated", "description": "Managing sender reputation, compliance with CAN-SPAM/GDPR, and deliverability requires ongoing expertise.", "tools": ["Validity", "Mailgun", "SparkPost"] }
+    ],
+    "companies": [
+      { "name": "Klaviyo", "product": "Klaviyo AI", "threat": "AI-powered email and SMS marketing that auto-generates, segments, and optimizes campaigns" },
+      { "name": "Mailchimp", "product": "Intuit Mailchimp AI", "threat": "AI marketing platform that generates content, predicts performance, and optimizes send times" },
+      { "name": "HubSpot", "product": "HubSpot AI Email", "threat": "AI email marketing integrated into CRM with predictive analytics and auto-personalization" },
+      { "name": "ActiveCampaign", "product": "ActiveCampaign AI", "threat": "AI-powered marketing automation that builds and optimizes email journeys" },
+      { "name": "Jasper", "product": "Jasper Email AI", "threat": "AI copywriting platform optimized for email subject lines and body copy" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI writes 80% of marketing emails. Email marketers shift to strategy and lifecycle design." },
+      { "phase": "Near-term (2027-2028)", "description": "AI manages end-to-end email programs. Human role is CRM strategy and cross-channel orchestration." },
+      { "phase": "Long-term (2030+)", "description": "Email marketing is fully automated. Remaining roles focus on customer lifecycle strategy and retention." }
+    ],
+    "skills": [
+      { "skill": "Customer Lifecycle Strategy", "description": "Design end-to-end customer journeys across email, SMS, push — the strategic layer." },
+      { "skill": "Revenue Operations", "description": "Connect marketing to revenue — attribution, LTV optimization, and business impact measurement." },
+      { "skill": "Cross-Channel Orchestration", "description": "Coordinate email with SMS, push, in-app, and ads — omnichannel marketing management." },
+      { "skill": "AI Marketing Operations", "description": "Manage and optimize AI-powered marketing tools and workflows." },
+      { "skill": "Data Privacy & Compliance", "description": "CAN-SPAM, GDPR, CCPA compliance — increasingly complex and legally required human oversight." }
+    ]
+  },
+
+  "sdr-bdr": {
+    "slug": "sdr-bdr",
+    "title": "SDR / BDR (Sales Development)",
+    "category": "marketing",
+    "tier": 1,
+    "overallScore": 82,
+    "tagline": "AI sends the emails. But closing still takes a human.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 52000, "experienced": 95000 },
+      "india": { "entryLPA": 4, "experiencedLPA": 15 }
+    },
+    "tasks": [
+      { "task": "Lead Research & Identification", "automation": 88, "status": "critical", "description": "AI scans LinkedIn, company databases, and intent signals to find and qualify leads automatically.", "tools": ["Apollo AI", "ZoomInfo", "Clay AI"] },
+      { "task": "Cold Email Personalization", "automation": 90, "status": "critical", "description": "AI generates hyper-personalized outreach emails using prospect's company, role, and activity data.", "tools": ["Clay AI", "Apollo", "Lavender AI"] },
+      { "task": "Lead Scoring & Prioritization", "automation": 85, "status": "critical", "description": "AI scores leads based on fit, intent, and engagement — prioritizing the hottest opportunities.", "tools": ["HubSpot AI", "Salesforce Einstein", "MadKudu"] },
+      { "task": "Follow-Up Sequences", "automation": 88, "status": "critical", "description": "AI manages multi-touch follow-up sequences with optimal timing and message variation.", "tools": ["Outreach AI", "Salesloft", "Apollo"] },
+      { "task": "Meeting Scheduling", "automation": 82, "status": "critical", "description": "AI handles calendar coordination, timezone management, and meeting reminders.", "tools": ["Calendly AI", "Chili Piper", "Apollo"] },
+      { "task": "CRM Data Entry", "automation": 90, "status": "critical", "description": "AI auto-logs calls, emails, and activities to CRM eliminating manual data entry.", "tools": ["Gong", "Outreach", "Salesforce Einstein"] },
+      { "task": "Cold Calling & Qualification", "automation": 55, "status": "elevated", "description": "AI voice agents handle initial cold calls but nuanced qualification conversations still need humans.", "tools": ["Orum AI", "Nooks", "Dialpad AI"] },
+      { "task": "Relationship Building", "automation": 15, "status": "stable", "description": "Building trust, understanding buyer motivations, and navigating politics requires human EQ.", "tools": [] },
+      { "task": "Complex Deal Strategy", "automation": 12, "status": "stable", "description": "Multi-stakeholder enterprise deals with political dynamics and competing priorities need human judgment.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Clay", "product": "Clay AI", "threat": "AI-powered data enrichment and personalized outreach at scale — the SDR workflow killer" },
+      { "name": "Apollo", "product": "Apollo AI", "threat": "End-to-end sales intelligence and outreach automation replacing SDR prospecting work" },
+      { "name": "11x", "product": "Alice AI SDR", "threat": "Fully autonomous AI SDR that researches, personalizes, and sends outreach independently" },
+      { "name": "Artisan AI", "product": "Ava AI BDR", "threat": "AI-powered BDR that handles the entire outbound prospecting workflow" },
+      { "name": "Gong", "product": "Gong AI", "threat": "AI revenue intelligence that analyzes calls and predicts deal outcomes" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 70% of SDR workflow. Teams shrink 30-40%. Remaining SDRs focus on warm leads and phone calls." },
+      { "phase": "Near-term (2027-2028)", "description": "AI SDRs handle full outbound prospecting. Human SDRs become relationship-focused account development reps." },
+      { "phase": "Long-term (2030+)", "description": "The traditional SDR role largely ceases to exist. Sales teams are smaller, more senior, focused on complex enterprise deals." }
+    ],
+    "skills": [
+      { "skill": "Consultative Selling", "description": "Move from volume outreach to strategic selling — understand pain points and build solutions." },
+      { "skill": "Account-Based Strategy", "description": "Target and penetrate strategic accounts with multi-threaded, multi-channel approaches." },
+      { "skill": "Sales Engineering Skills", "description": "Technical product knowledge lets you qualify deeper and demo effectively — harder to automate." },
+      { "skill": "AI Sales Tool Mastery", "description": "Orchestrate AI tools to 10x your pipeline — be the AI-powered super-SDR, not the manual one." },
+      { "skill": "Relationship Intelligence", "description": "Build genuine human connections that AI outreach can't replicate — the trust advantage." }
+    ]
+  },
+
+  "market-research-analyst": {
+    "slug": "market-research-analyst",
+    "title": "Market Research Analyst",
+    "category": "marketing",
+    "tier": 1,
+    "overallScore": 72,
+    "tagline": "AI processes the data. Humans find the insight.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 55000, "experienced": 98000 },
+      "india": { "entryLPA": 4.5, "experiencedLPA": 16 }
+    },
+    "tasks": [
+      { "task": "Survey Design & Distribution", "automation": 75, "status": "critical", "description": "AI generates survey questions, handles distribution, and manages response collection.", "tools": ["Qualtrics AI", "SurveyMonkey AI", "Typeform AI"] },
+      { "task": "Data Collection & Aggregation", "automation": 85, "status": "critical", "description": "AI scrapes, aggregates, and cleans market data from multiple sources automatically.", "tools": ["Perplexity", "Claude", "Statista AI"] },
+      { "task": "Competitive Intelligence", "automation": 80, "status": "critical", "description": "AI monitors competitor moves, pricing changes, and market shifts in real-time.", "tools": ["Crayon AI", "Klue", "Semrush"] },
+      { "task": "Report Generation", "automation": 78, "status": "critical", "description": "AI generates comprehensive market research reports with charts and executive summaries.", "tools": ["Claude", "ChatGPT", "Tableau AI"] },
+      { "task": "Statistical Analysis", "automation": 72, "status": "elevated", "description": "AI runs regression, clustering, and significance tests but interpreting results needs domain expertise.", "tools": ["Claude", "SPSS AI", "R/Python"] },
+      { "task": "Trend Identification", "automation": 65, "status": "elevated", "description": "AI identifies emerging trends from data patterns but understanding market implications needs human insight.", "tools": ["Exploding Topics", "Google Trends", "CB Insights"] },
+      { "task": "Qualitative Research", "automation": 35, "status": "stable", "description": "Focus groups, in-depth interviews, and ethnographic research require human connection and observation.", "tools": [] },
+      { "task": "Strategic Recommendations", "automation": 20, "status": "stable", "description": "Translating research into business strategy requires understanding company goals and market dynamics.", "tools": [] },
+      { "task": "Client Presentation & Storytelling", "automation": 22, "status": "stable", "description": "Presenting findings persuasively and answering executive questions requires human communication skills.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Perplexity", "product": "Perplexity AI", "threat": "AI research assistant that aggregates and synthesizes market data instantly" },
+      { "name": "CB Insights", "product": "CB Insights AI", "threat": "AI-powered market intelligence replacing manual competitive research and trend analysis" },
+      { "name": "Crayon", "product": "Crayon AI", "threat": "Automated competitive intelligence that monitors and analyzes competitors continuously" },
+      { "name": "Qualtrics", "product": "Qualtrics AI", "threat": "AI-powered survey and experience research that auto-analyzes and generates insights" },
+      { "name": "Anthropic", "product": "Claude", "threat": "General-purpose AI that conducts market research and generates reports from prompts" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI automates 65% of data collection and analysis. Analysts focus on insight generation and strategy." },
+      { "phase": "Near-term (2027-2028)", "description": "AI generates standard market research reports. Analysts become insight strategists and decision advisors." },
+      { "phase": "Long-term (2030+)", "description": "Routine market research fully automated. Human analysts focus on qualitative research, strategic consulting, and novel methodologies." }
+    ],
+    "skills": [
+      { "skill": "Strategic Consulting", "description": "Translate research into business strategy — the high-value, hard-to-automate skill." },
+      { "skill": "Qualitative Research Methods", "description": "Focus groups, ethnography, and depth interviews — human connection-dependent research." },
+      { "skill": "Data Science & Advanced Analytics", "description": "Causal inference, Bayesian analysis, and predictive modeling — beyond what basic AI tools offer." },
+      { "skill": "Industry Specialization", "description": "Deep expertise in healthcare, fintech, SaaS, etc. — domain knowledge AI can't match." },
+      { "skill": "Research Storytelling", "description": "Present findings as compelling narratives that drive executive decisions." }
+    ]
+  }
+}

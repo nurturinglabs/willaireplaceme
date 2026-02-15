@@ -1,0 +1,249 @@
+{
+  "slug": "copywriter",
+  "title": "Copywriter",
+  "overallScore": 78,
+  "tagline": "The blank page is no longer blank. AI fills it first.",
+  "summary": "Copywriting faces one of the highest disruption rates among creative professions, as large language models can now produce serviceable marketing copy, blog posts, and social media content in seconds. The volume-driven segments of the industry are rapidly being automated, with AI handling everything from email sequences to ad variations at scale. However, brand strategists and voice architects who craft distinctive, emotionally resonant narratives still hold irreplaceable value in a world drowning in AI-generated sameness.",
+  "lastUpdated": "2026-02-13",
+  "taskBreakdown": [
+    {
+      "task": "Social Media Captions & Posts",
+      "automation": 90,
+      "status": "critical",
+      "description": "AI generates platform-optimized social media content with appropriate hashtags, tone, and character limits in bulk. Human input is mainly needed for cultural sensitivity and real-time trend relevance.",
+      "companies": ["Jasper", "Copy.ai", "Writesonic"]
+    },
+    {
+      "task": "Blog Post Writing",
+      "automation": 88,
+      "status": "critical",
+      "description": "AI produces SEO-optimized blog posts with proper structure, keyword integration, and readable prose. While serviceable for content marketing, AI-written blogs often lack original insight and genuine expertise.",
+      "companies": ["Claude/Anthropic", "OpenAI GPT", "Jasper"]
+    },
+    {
+      "task": "Email Marketing Copy",
+      "automation": 85,
+      "status": "critical",
+      "description": "AI crafts subject lines, body copy, and CTAs optimized for open rates and conversions, with A/B variant generation at massive scale. Personalization and segmented messaging are now largely automated.",
+      "companies": ["Jasper", "Copy.ai", "Anyword"]
+    },
+    {
+      "task": "Product Descriptions",
+      "automation": 92,
+      "status": "critical",
+      "description": "E-commerce product descriptions are among the most automated writing tasks, with AI generating thousands of unique descriptions from product specs and feature lists with minimal human editing.",
+      "companies": ["Copy.ai", "Writesonic", "Jasper"]
+    },
+    {
+      "task": "Ad Copy & Headlines",
+      "automation": 82,
+      "status": "critical",
+      "description": "AI generates and tests dozens of ad copy variants for Google Ads, Meta, and display campaigns, optimizing for click-through rates. The creative spark for breakthrough campaigns still benefits from human insight.",
+      "companies": ["Anyword", "Jasper", "Copy.ai"]
+    },
+    {
+      "task": "SEO Content Optimization",
+      "automation": 86,
+      "status": "critical",
+      "description": "AI analyzes search intent, competitor content, and keyword gaps to produce optimized content that ranks. The strategic side of SEO content planning still benefits from human editorial judgment.",
+      "companies": ["Writer", "Jasper", "OpenAI GPT"]
+    },
+    {
+      "task": "Press Releases",
+      "automation": 78,
+      "status": "critical",
+      "description": "Standard press release formats are well within AI capabilities, producing properly structured releases with quotes, boilerplate, and news hooks. Crafting genuinely newsworthy angles still requires human PR instinct.",
+      "companies": ["Claude/Anthropic", "OpenAI GPT", "Writer"]
+    },
+    {
+      "task": "Website Copy",
+      "automation": 75,
+      "status": "elevated",
+      "description": "AI generates landing page copy, homepage messaging, and feature descriptions that follow conversion best practices. Strategic messaging hierarchy and brand differentiation still need human oversight.",
+      "companies": ["Jasper", "Copy.ai", "Writesonic"]
+    },
+    {
+      "task": "Script Writing for Video & Podcast",
+      "automation": 60,
+      "status": "elevated",
+      "description": "AI can produce draft scripts for explainer videos, podcast outlines, and short-form content. Authentic storytelling, comedic timing, and emotional pacing remain areas where human writers excel.",
+      "companies": ["Claude/Anthropic", "OpenAI GPT", "Jasper"]
+    },
+    {
+      "task": "Technical Writing",
+      "automation": 68,
+      "status": "elevated",
+      "description": "AI generates documentation, user guides, and knowledge base articles from technical inputs. Translating complex concepts for specific audiences with the right level of detail still benefits from human expertise.",
+      "companies": ["Writer", "Claude/Anthropic", "Grammarly"]
+    },
+    {
+      "task": "Brand Voice Development",
+      "automation": 35,
+      "status": "moderate",
+      "description": "Defining a distinctive brand voice that resonates with target audiences requires deep understanding of market positioning, cultural context, and emotional intelligence that AI cannot authentically originate.",
+      "companies": ["Writer", "Jasper", "Grammarly"]
+    },
+    {
+      "task": "Creative Campaign Conceptualization",
+      "automation": 28,
+      "status": "stable",
+      "description": "Developing breakthrough creative concepts that capture cultural moments and shift consumer perception requires human intuition, lived experience, and the kind of creative risk-taking AI tends to average out.",
+      "companies": ["Claude/Anthropic", "OpenAI GPT", "Jasper"]
+    },
+    {
+      "task": "Long-form Thought Leadership",
+      "automation": 45,
+      "status": "moderate",
+      "description": "AI can draft thought leadership content, but pieces that establish genuine authority require original thinking, proprietary data insights, and authentic perspective that come from real expertise.",
+      "companies": ["Claude/Anthropic", "OpenAI GPT", "Writer"]
+    }
+  ],
+  "companies": [
+    {
+      "name": "Jasper",
+      "category": "AI Marketing Platform",
+      "funding": "$131M",
+      "description": "The leading AI marketing platform offering brand-voice-trained content generation across all marketing channels, with templates, campaigns, and collaborative workflows built for marketing teams.",
+      "impact": "Jasper has enabled marketing teams to produce 10x more content while maintaining brand consistency, effectively replacing the need for large teams of junior copywriters.",
+      "adopters": ["iRobot", "Sports Illustrated", "Sentinelone", "Morningstar"]
+    },
+    {
+      "name": "Copy.ai",
+      "category": "AI Copywriting Tool",
+      "funding": "$40M",
+      "description": "An AI-powered writing platform focused on sales and marketing copy, offering workflow automation that chains multiple AI writing steps into complete content pipelines.",
+      "impact": "Copy.ai has democratized copywriting for small businesses and solopreneurs, generating professional-quality marketing copy without the need to hire dedicated writers.",
+      "adopters": ["Microsoft", "Ogilvy", "Nestle", "eBay"]
+    },
+    {
+      "name": "Writer",
+      "category": "Enterprise AI Writing Platform",
+      "funding": "$326M",
+      "description": "An enterprise-grade AI writing platform that enforces brand guidelines, style rules, and terminology consistency across entire organizations with custom-trained language models.",
+      "impact": "Writer has become the standard for enterprise content governance, ensuring brand consistency across thousands of employees while dramatically accelerating content production.",
+      "adopters": ["Accenture", "L'Oreal", "Deloitte", "Intuit"]
+    },
+    {
+      "name": "Anyword",
+      "category": "Predictive AI Copy",
+      "funding": "$30M",
+      "description": "An AI copywriting platform with predictive performance scoring that evaluates generated copy against audience-specific benchmarks before publication, optimizing for engagement and conversion.",
+      "impact": "Anyword's predictive scoring has shifted copywriting from subjective creative judgment to data-driven optimization, reducing the need for extensive A/B testing cycles.",
+      "adopters": ["Ted Baker", "NFM", "Hims & Hers", "Joybird"]
+    },
+    {
+      "name": "Claude / Anthropic",
+      "category": "Large Language Model",
+      "funding": "$7.6B",
+      "description": "Anthropic's Claude model excels at nuanced, long-form writing with strong reasoning capabilities, producing copy that demonstrates understanding of context, tone, and audience needs.",
+      "impact": "Claude has raised the bar for AI writing quality, producing content that often requires minimal editing and demonstrates genuine understanding of brand voice and messaging strategy.",
+      "adopters": ["Notion", "DuckDuckGo", "Quora", "Robin AI"]
+    },
+    {
+      "name": "OpenAI GPT",
+      "category": "Large Language Model",
+      "funding": "$11.6B",
+      "description": "The GPT model family powers a vast ecosystem of writing tools and is the most widely used foundation model for content generation, from ChatGPT consumer use to enterprise API integrations.",
+      "impact": "GPT models have fundamentally changed the economics of content creation, making it possible for a single marketer to produce the content volume that previously required a full writing team.",
+      "adopters": ["Morgan Stanley", "Khan Academy", "Duolingo", "Moderna"]
+    },
+    {
+      "name": "Writesonic",
+      "category": "AI Content Platform",
+      "funding": "$3.6M",
+      "description": "An AI writing platform specializing in marketing content, offering article generation, landing page copy, and ad creation with real-time web research integration for factual accuracy.",
+      "impact": "Writesonic has made long-form content generation accessible to smaller teams, enabling real-time factual content creation that reduces the research burden traditionally placed on writers.",
+      "adopters": ["Small businesses", "Digital agencies", "Content marketers", "E-commerce brands"]
+    },
+    {
+      "name": "Grammarly",
+      "category": "AI Writing Assistant",
+      "funding": "$400M",
+      "description": "Originally a grammar checker, Grammarly has evolved into a full AI writing assistant that generates, rewrites, and optimizes content across professional communication channels.",
+      "impact": "Grammarly's evolution from editing to generation reflects the broader industry shift, with its AI now handling first drafts, tone adjustments, and content repurposing at scale.",
+      "adopters": ["Cisco", "Dell", "Expedia", "Zoom"]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2023",
+      "percentage": 45,
+      "event": "ChatGPT sparks mass adoption of AI writing; Jasper and Copy.ai reach critical mass; content mills see immediate disruption as AI-generated articles flood the market.",
+      "current": false
+    },
+    {
+      "year": "2024",
+      "percentage": 55,
+      "event": "Major publishers and agencies integrate AI into workflows; freelance copywriting rates decline 30-40%; brand voice AI models become standard at enterprise companies.",
+      "current": false
+    },
+    {
+      "year": "2025",
+      "percentage": 68,
+      "event": "AI-generated content becomes indistinguishable from human-written copy for most marketing use cases; content strategy roles emerge as copywriting roles contract significantly.",
+      "current": false
+    },
+    {
+      "year": "2026",
+      "percentage": 78,
+      "event": "The majority of production copywriting is AI-generated with human editing; surviving copywriters have evolved into brand strategists and creative directors who orchestrate AI output.",
+      "current": true
+    },
+    {
+      "year": "2027",
+      "percentage": 82,
+      "event": "Personalized content generation at individual consumer level becomes standard; AI produces thousands of copy variants simultaneously, testing and optimizing in real-time.",
+      "current": false
+    },
+    {
+      "year": "2028",
+      "percentage": 85,
+      "event": "AI handles end-to-end content marketing workflows from strategy to creation to optimization; human oversight becomes primarily editorial and brand governance.",
+      "current": false
+    },
+    {
+      "year": "2029",
+      "percentage": 87,
+      "event": "Multi-modal AI creates integrated campaigns across text, image, video, and audio simultaneously; the copywriter role has largely merged with creative direction and brand strategy.",
+      "current": false
+    },
+    {
+      "year": "2030",
+      "percentage": 88,
+      "event": "Traditional copywriting as a standalone role is rare; remaining professionals are brand architects and creative strategists who use AI as their primary production tool.",
+      "current": false
+    }
+  ],
+  "skills": {
+    "declining": [
+      "High-volume content production",
+      "Basic SEO keyword stuffing",
+      "Template-based email writing",
+      "Standard product description writing",
+      "Press release formatting",
+      "Social media post scheduling and writing",
+      "Grammar and proofreading",
+      "Basic blog post creation"
+    ],
+    "growing": [
+      "AI prompt crafting for brand voice",
+      "Content strategy and editorial planning",
+      "AI output editing and quality control",
+      "Data-driven content optimization",
+      "Multi-channel campaign orchestration",
+      "AI tool stack management",
+      "Audience research and persona development",
+      "Performance analytics interpretation"
+    ],
+    "safe": [
+      "Brand voice architecture and development",
+      "Creative campaign conceptualization",
+      "Storytelling and narrative design",
+      "Cultural insight and trend anticipation",
+      "Client relationship and strategic consulting",
+      "Cross-functional creative leadership",
+      "Crisis communication strategy",
+      "Authentic thought leadership and expertise"
+    ]
+  }
+}

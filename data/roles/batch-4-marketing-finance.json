@@ -1,0 +1,389 @@
+{
+  "advertising-manager": {
+    "slug": "advertising-manager",
+    "title": "Advertising Manager",
+    "category": "marketing",
+    "tier": 2,
+    "overallScore": 68,
+    "tagline": "AI optimizes the ads. Humans shape the message that moves people.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 58000, "experienced": 115000 }, "india": { "entryLPA": 5, "experiencedLPA": 20 } },
+    "tasks": [
+      { "task": "Media Buying & Optimization", "automation": 85, "status": "critical", "description": "AI handles real-time bidding, budget allocation, and cross-platform media optimization.", "tools": ["Google DV360", "Meta Advantage+", "The Trade Desk AI"] },
+      { "task": "Ad Performance Reporting", "automation": 88, "status": "critical", "description": "AI generates multi-platform performance dashboards with attribution and ROAS analysis.", "tools": ["Google Analytics AI", "Triple Whale", "Northbeam"] },
+      { "task": "Ad Creative Testing", "automation": 82, "status": "critical", "description": "AI generates and tests hundreds of creative variations, auto-promoting top performers.", "tools": ["Meta Advantage+", "AdCreative.ai", "Pencil AI"] },
+      { "task": "Audience Strategy", "automation": 75, "status": "critical", "description": "AI builds lookalike audiences and predictive segments but strategic targeting needs market insight.", "tools": ["Meta AI", "Google Ads AI", "LiveRamp"] },
+      { "task": "Campaign Planning", "automation": 55, "status": "elevated", "description": "AI suggests channel mix and budget allocation but integrated campaign strategy needs human vision.", "tools": ["MediaMath", "Claude", "HubSpot"] },
+      { "task": "Brand Campaign Concept", "automation": 22, "status": "stable", "description": "Big creative ideas that define brand campaigns require cultural insight and creative leaps.", "tools": [] },
+      { "task": "Agency & Vendor Management", "automation": 12, "status": "stable", "description": "Managing agency relationships, negotiating rates, and aligning external partners is human.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Google", "product": "Performance Max + DV360", "threat": "AI-driven advertising across all Google properties with autonomous optimization" },
+      { "name": "Meta", "product": "Advantage+ Suite", "threat": "End-to-end AI ad management — creative, targeting, and optimization all automated" },
+      { "name": "The Trade Desk", "product": "Kokai AI", "threat": "AI-powered programmatic buying platform optimizing across all digital channels" },
+      { "name": "AdCreative.ai", "product": "AdCreative AI", "threat": "AI-generated ad creatives that outperform human-designed ads in A/B tests" },
+      { "name": "Albert AI", "product": "Albert", "threat": "Autonomous digital advertising AI that runs and optimizes campaigns independently" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 75% of media buying and optimization. Ad managers focus on strategy and brand campaigns." },
+      { "phase": "Near-term (2027-2028)", "description": "AI manages full advertising programs. Managers become brand marketing strategists." },
+      { "phase": "Long-term (2030+)", "description": "Performance advertising fully automated. Human ad managers focus on brand building and creative strategy." }
+    ],
+    "skills": [
+      { "skill": "Brand Marketing Strategy", "description": "Long-term brand building that drives equity beyond short-term performance metrics." },
+      { "skill": "Creative Strategy & Direction", "description": "Develop campaign concepts and creative briefs that AI executes but can't conceive." },
+      { "skill": "Marketing Science", "description": "Marketing mix modeling, incrementality testing, and advanced attribution." },
+      { "skill": "Emerging Channel Expertise", "description": "CTV, retail media, podcasts — new channels where AI optimization is still nascent." },
+      { "skill": "Cross-Functional Leadership", "description": "Align sales, product, and marketing teams around unified go-to-market strategies." }
+    ]
+  },
+  "brand-strategist": {
+    "slug": "brand-strategist",
+    "title": "Brand Strategist",
+    "category": "marketing",
+    "tier": 2,
+    "overallScore": 42,
+    "tagline": "AI can execute a brand. It takes a human to build one.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 60000, "experienced": 120000 }, "india": { "entryLPA": 5, "experiencedLPA": 20 } },
+    "tasks": [
+      { "task": "Brand Audit & Analysis", "automation": 65, "status": "elevated", "description": "AI analyzes brand sentiment, social mentions, and competitive positioning from digital data.", "tools": ["Brandwatch", "Sprinklr AI", "Claude"] },
+      { "task": "Market & Consumer Research", "automation": 68, "status": "elevated", "description": "AI aggregates consumer data and identifies trends but interpreting cultural shifts needs humans.", "tools": ["Perplexity", "Qualtrics AI", "Claude"] },
+      { "task": "Brand Guidelines Documentation", "automation": 72, "status": "elevated", "description": "AI drafts brand guidelines from inputs but the strategic decisions behind them are human.", "tools": ["Claude", "Frontify", "Canva"] },
+      { "task": "Brand Identity Development", "automation": 30, "status": "stable", "description": "Creating brand personality, values, and emotional positioning requires deep cultural understanding.", "tools": [] },
+      { "task": "Brand Naming & Architecture", "automation": 35, "status": "stable", "description": "Naming brands, structuring portfolios, and defining hierarchies needs creative and strategic judgment.", "tools": [] },
+      { "task": "Cultural Strategy", "automation": 15, "status": "stable", "description": "Understanding cultural movements and positioning brands within them is uniquely human.", "tools": [] },
+      { "task": "Stakeholder Alignment", "automation": 10, "status": "stable", "description": "Aligning C-suite on brand direction and building consensus is human leadership.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Brandwatch", "product": "Brandwatch AI", "threat": "AI-powered brand monitoring and consumer intelligence replacing manual brand tracking" },
+      { "name": "Anthropic", "product": "Claude", "threat": "AI that can draft brand strategies, positioning statements, and messaging frameworks" },
+      { "name": "Looka", "product": "Looka AI", "threat": "AI-generated brand identities — logo, colors, and guidelines in minutes" },
+      { "name": "Sprinklr", "product": "Sprinklr AI", "threat": "Unified AI platform for brand management across all digital channels" },
+      { "name": "Frontify", "product": "Frontify AI", "threat": "AI-assisted brand guideline management and enforcement" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI assists with research and documentation. Brand strategists remain essential for strategic direction." },
+      { "phase": "Near-term (2027-2028)", "description": "AI handles brand monitoring and basic analysis. Strategists focus on culture and positioning." },
+      { "phase": "Long-term (2030+)", "description": "Brand strategy remains one of the most human-centric marketing roles." }
+    ],
+    "skills": [
+      { "skill": "Cultural Intelligence", "description": "Understanding cultural shifts and consumer behavior — deeply human insight." },
+      { "skill": "Strategic Storytelling", "description": "Craft brand narratives that resonate emotionally and drive business outcomes." },
+      { "skill": "Design Thinking", "description": "Human-centered problem solving applied to brand challenges and innovation." },
+      { "skill": "C-Suite Communication", "description": "Present and defend brand strategy to executives — persuasion and leadership." },
+      { "skill": "Innovation & Trends", "description": "Identify emerging trends and position brands to capitalize on cultural shifts." }
+    ]
+  },
+  "growth-hacker": {
+    "slug": "growth-hacker",
+    "title": "Growth Hacker",
+    "category": "marketing",
+    "tier": 2,
+    "overallScore": 65,
+    "tagline": "AI runs the experiments. Humans find the growth lever.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 65000, "experienced": 130000 }, "india": { "entryLPA": 6, "experiencedLPA": 24 } },
+    "tasks": [
+      { "task": "A/B Test Execution", "automation": 85, "status": "critical", "description": "AI runs thousands of experiments across landing pages, emails, and funnels simultaneously.", "tools": ["Optimizely", "VWO AI", "Statsig"] },
+      { "task": "Funnel Analytics", "automation": 82, "status": "critical", "description": "AI tracks conversion funnels, identifies drop-off points, and suggests optimizations.", "tools": ["Amplitude AI", "Mixpanel", "PostHog"] },
+      { "task": "Landing Page Generation", "automation": 80, "status": "critical", "description": "AI generates and tests landing page variants with copy, images, and layout optimization.", "tools": ["Unbounce AI", "Replo", "v0.dev"] },
+      { "task": "Viral Loop Engineering", "automation": 55, "status": "elevated", "description": "AI can test referral mechanics but designing viral growth loops needs creative product thinking.", "tools": ["Viral Loops", "ReferralCandy", "Claude"] },
+      { "task": "Product-Led Growth Strategy", "automation": 30, "status": "stable", "description": "Designing freemium models, activation flows, and product-driven acquisition requires deep product sense.", "tools": [] },
+      { "task": "Growth Experimentation Design", "automation": 28, "status": "stable", "description": "Hypothesizing novel growth levers and designing experiments to test them needs creative thinking.", "tools": [] },
+      { "task": "Cross-Functional Alignment", "automation": 12, "status": "stable", "description": "Aligning product, engineering, and marketing around growth initiatives requires human leadership.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Amplitude", "product": "Amplitude AI", "threat": "AI-powered product analytics that identifies growth opportunities automatically" },
+      { "name": "Optimizely", "product": "Optimizely AI", "threat": "AI experimentation platform running autonomous optimization programs" },
+      { "name": "Mutiny", "product": "Mutiny AI", "threat": "AI-powered website personalization that optimizes conversion for each visitor" },
+      { "name": "Statsig", "product": "Statsig", "threat": "Feature flagging and experimentation platform with AI-powered analysis" },
+      { "name": "Reforge", "product": "AI Growth Tools", "threat": "AI-assisted growth strategy frameworks replacing junior growth analysts" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI automates experiment execution and analysis. Growth hackers focus on strategy and creative levers." },
+      { "phase": "Near-term (2027-2028)", "description": "AI identifies and tests growth opportunities autonomously. Humans shift to product strategy." },
+      { "phase": "Long-term (2030+)", "description": "Standard growth tactics automated. Humans focus on novel strategies and market creation." }
+    ],
+    "skills": [
+      { "skill": "Product Strategy", "description": "Design product experiences that drive growth — activation, retention, and viral loops." },
+      { "skill": "Technical Marketing", "description": "Code landing pages, build integrations, implement tracking — the technical growth edge." },
+      { "skill": "Data Science for Growth", "description": "Advanced analytics, cohort analysis, and predictive modeling for growth optimization." },
+      { "skill": "AI-Powered Experimentation", "description": "Orchestrate AI tools for continuous optimization across the entire funnel." },
+      { "skill": "Market Creation", "description": "Identify new markets and create demand — the highest-leverage growth skill." }
+    ]
+  },
+  "accountant": {
+    "slug": "accountant",
+    "title": "Accountant",
+    "category": "finance",
+    "tier": 1,
+    "overallScore": 78,
+    "tagline": "AI processes the books. Humans interpret the numbers.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 55000, "experienced": 95000 }, "india": { "entryLPA": 4, "experiencedLPA": 15 } },
+    "tasks": [
+      { "task": "Bookkeeping & Transaction Recording", "automation": 92, "status": "critical", "description": "AI auto-categorizes transactions, reconciles accounts, and maintains ledgers from bank feeds.", "tools": ["QuickBooks AI", "Xero AI", "Pilot"] },
+      { "task": "Invoice Processing", "automation": 90, "status": "critical", "description": "AI extracts data from invoices, matches to POs, and processes payments automatically.", "tools": ["Bill.com", "Tipalti", "SAP AI"] },
+      { "task": "Bank Reconciliation", "automation": 88, "status": "critical", "description": "AI matches bank transactions to ledger entries and flags discrepancies.", "tools": ["QuickBooks AI", "Xero", "NetSuite AI"] },
+      { "task": "Financial Report Generation", "automation": 82, "status": "critical", "description": "AI generates P&L, balance sheets, and cash flow statements from accounting data.", "tools": ["QuickBooks AI", "Xero", "Sage AI"] },
+      { "task": "Expense Management", "automation": 85, "status": "critical", "description": "AI processes expense reports, enforces policies, and categorizes spending.", "tools": ["Brex AI", "Ramp AI", "Expensify"] },
+      { "task": "Payroll Processing", "automation": 88, "status": "critical", "description": "AI handles payroll calculations, tax withholdings, and compliance across jurisdictions.", "tools": ["Gusto AI", "ADP AI", "Rippling"] },
+      { "task": "Audit Preparation", "automation": 60, "status": "elevated", "description": "AI organizes documentation but responding to audit inquiries needs human judgment.", "tools": ["FloQast", "Workiva", "BlackLine AI"] },
+      { "task": "Financial Advisory", "automation": 22, "status": "stable", "description": "Advising business owners on financial decisions and tax strategy requires human judgment.", "tools": [] },
+      { "task": "Complex Tax Planning", "automation": 30, "status": "stable", "description": "Multi-entity structures, international tax, and optimization require expert analysis.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Intuit", "product": "QuickBooks AI", "threat": "AI-powered bookkeeping that auto-categorizes, reconciles, and generates reports" },
+      { "name": "Xero", "product": "Xero AI", "threat": "AI accounting platform handling invoicing, reconciliation, and reporting automatically" },
+      { "name": "Pilot", "product": "Pilot AI", "threat": "AI-powered bookkeeping service replacing traditional bookkeeper roles" },
+      { "name": "Brex", "product": "Brex AI", "threat": "AI-powered expense management with auto-categorization" },
+      { "name": "Ramp", "product": "Ramp Intelligence", "threat": "AI corporate spend management that automates expense tracking" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI automates 80% of bookkeeping. Staff accountant demand drops 35%. CPAs shift to advisory." },
+      { "phase": "Near-term (2027-2028)", "description": "AI handles full-cycle accounting. Accountants become financial advisors and strategic partners." },
+      { "phase": "Long-term (2030+)", "description": "Routine accounting fully automated. Human accountants focus on advisory, complex tax, and strategic finance." }
+    ],
+    "skills": [
+      { "skill": "Financial Advisory & CFO Services", "description": "Business financial strategy, cash flow optimization, and growth planning." },
+      { "skill": "Complex Tax Strategy", "description": "Multi-state, international, and entity structuring — high-complexity work." },
+      { "skill": "Forensic Accounting", "description": "Fraud detection, investigation, and litigation support." },
+      { "skill": "AI Accounting Operations", "description": "Manage and audit AI accounting tools — verify AI output and handle exceptions." },
+      { "skill": "Industry Specialization", "description": "Deep expertise in healthcare, real estate, crypto, or nonprofits." }
+    ]
+  },
+  "financial-analyst": {
+    "slug": "financial-analyst",
+    "title": "Financial Analyst",
+    "category": "finance",
+    "tier": 1,
+    "overallScore": 70,
+    "tagline": "AI builds the model. Humans make the judgment call.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 65000, "experienced": 120000 }, "india": { "entryLPA": 6, "experiencedLPA": 22 } },
+    "tasks": [
+      { "task": "Financial Modeling", "automation": 78, "status": "critical", "description": "AI generates DCF, LBO, and comparable models from financial data and assumptions.", "tools": ["Claude", "ChatGPT", "Causal AI"] },
+      { "task": "Data Collection & Aggregation", "automation": 88, "status": "critical", "description": "AI pulls financial data from SEC filings, earnings reports, and market data.", "tools": ["Bloomberg AI", "Capital IQ AI", "AlphaSense"] },
+      { "task": "Variance Analysis", "automation": 82, "status": "critical", "description": "AI identifies budget variances, explains drivers, and generates variance reports.", "tools": ["Planful AI", "Anaplan", "Adaptive AI"] },
+      { "task": "Earnings Report Analysis", "automation": 75, "status": "critical", "description": "AI summarizes earnings, extracts key metrics, and compares to consensus.", "tools": ["AlphaSense", "Bloomberg AI", "Claude"] },
+      { "task": "Presentation & Reporting", "automation": 72, "status": "elevated", "description": "AI generates financial slides but executive storytelling needs human touch.", "tools": ["Gamma AI", "Beautiful.ai", "Claude"] },
+      { "task": "Scenario Planning", "automation": 58, "status": "elevated", "description": "AI runs scenarios but defining them and assessing probabilities needs judgment.", "tools": ["Causal", "Anaplan", "Claude"] },
+      { "task": "Strategic Recommendations", "automation": 20, "status": "stable", "description": "Advising on M&A, capital allocation, and strategic investments requires business acumen.", "tools": [] },
+      { "task": "Stakeholder Management", "automation": 10, "status": "stable", "description": "Presenting to executives and navigating corporate politics is human.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "AlphaSense", "product": "AlphaSense AI", "threat": "AI-powered financial research replacing hours of manual analysis" },
+      { "name": "Bloomberg", "product": "Bloomberg AI", "threat": "AI-integrated terminal with automated analysis and predictions" },
+      { "name": "Causal", "product": "Causal AI", "threat": "AI financial modeling from natural language" },
+      { "name": "Planful", "product": "Planful AI", "threat": "AI-powered FP&A automating budgeting and forecasting" },
+      { "name": "Anthropic", "product": "Claude", "threat": "AI that builds financial models and generates investment research" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 65% of routine analysis. Junior demand drops 30%. Analysts shift to insight and strategy." },
+      { "phase": "Near-term (2027-2028)", "description": "AI generates full financial analyses. Analysts become strategic advisors." },
+      { "phase": "Long-term (2030+)", "description": "Routine analysis fully automated. Analysts focus on M&A, strategic finance, and investor relations." }
+    ],
+    "skills": [
+      { "skill": "Strategic Finance & FP&A", "description": "Long-range planning, capital allocation, and business partnership." },
+      { "skill": "M&A & Deal Execution", "description": "Due diligence, valuation, and deal structuring." },
+      { "skill": "Investor Relations", "description": "Managing investor communication and earnings narratives." },
+      { "skill": "Industry Expertise", "description": "Deep sector knowledge commands premium." },
+      { "skill": "AI-Augmented Analysis", "description": "Use AI to analyze 10x more data with human judgment." }
+    ]
+  },
+  "tax-preparer": {
+    "slug": "tax-preparer",
+    "title": "Tax Preparer",
+    "category": "finance",
+    "tier": 1,
+    "overallScore": 82,
+    "tagline": "AI files the return. Humans navigate the gray areas.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 42000, "experienced": 72000 }, "india": { "entryLPA": 3, "experiencedLPA": 10 } },
+    "tasks": [
+      { "task": "Simple Tax Return Preparation", "automation": 92, "status": "critical", "description": "AI handles W-2 returns, standard deductions, and simple filings.", "tools": ["TurboTax AI", "H&R Block AI", "TaxAct"] },
+      { "task": "Document Collection & Organization", "automation": 85, "status": "critical", "description": "AI extracts data from W-2s, 1099s, and receipts using OCR.", "tools": ["TurboTax", "Keeper AI", "CPA.com AI"] },
+      { "task": "Deduction Identification", "automation": 80, "status": "critical", "description": "AI scans financial data and identifies applicable deductions automatically.", "tools": ["TurboTax AI", "Keeper AI", "H&R Block"] },
+      { "task": "Error Checking & Compliance", "automation": 88, "status": "critical", "description": "AI validates returns against IRS rules and ensures compliance.", "tools": ["Drake Software", "ProConnect AI", "TurboTax"] },
+      { "task": "Small Business Tax Returns", "automation": 65, "status": "elevated", "description": "AI handles basic Schedule C but complex deductions need expert review.", "tools": ["TurboTax Business", "Gusto", "QuickBooks"] },
+      { "task": "Complex Tax Situations", "automation": 35, "status": "stable", "description": "Multi-entity structures, estate planning, and international income need experts.", "tools": [] },
+      { "task": "Tax Strategy & Planning", "automation": 25, "status": "stable", "description": "Proactive tax minimization and entity structuring need CPA expertise.", "tools": [] },
+      { "task": "IRS Representation", "automation": 10, "status": "stable", "description": "Representing clients in audits and appeals requires licensed professionals.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Intuit", "product": "TurboTax AI", "threat": "AI-powered tax preparation handling most returns without humans" },
+      { "name": "H&R Block", "product": "AI Tax Prep", "threat": "AI-assisted tax filing automating routine returns" },
+      { "name": "Keeper", "product": "Keeper AI", "threat": "AI tax assistant that auto-finds deductions for freelancers" },
+      { "name": "Column Tax", "product": "Column AI", "threat": "AI-first tax preparation platform" },
+      { "name": "April", "product": "April AI", "threat": "Embedded AI tax filing in banking apps" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 75% of simple returns. Demand drops 30%. Value shifts to complex work." },
+      { "phase": "Near-term (2027-2028)", "description": "AI handles most individual returns. Humans focus on complex tax and advisory." },
+      { "phase": "Long-term (2030+)", "description": "Simple preparation fully automated. Human professionals focus on strategy and representation." }
+    ],
+    "skills": [
+      { "skill": "Tax Strategy & Planning", "description": "Proactive tax minimization — entity structuring, retirement optimization." },
+      { "skill": "Complex Business Tax", "description": "Partnerships, S-corps, international tax." },
+      { "skill": "IRS Representation", "description": "Audit defense, appeals, and controversy resolution." },
+      { "skill": "Industry Specialization", "description": "Real estate, crypto, healthcare niche tax expertise." },
+      { "skill": "Financial Advisory Integration", "description": "Combine tax with financial planning for holistic advisory." }
+    ]
+  },
+  "auditor": {
+    "slug": "auditor",
+    "title": "Auditor",
+    "category": "finance",
+    "tier": 1,
+    "overallScore": 65,
+    "tagline": "AI checks the numbers. Humans check the judgment.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 60000, "experienced": 115000 }, "india": { "entryLPA": 5, "experiencedLPA": 20 } },
+    "tasks": [
+      { "task": "Transaction Testing", "automation": 85, "status": "critical", "description": "AI tests 100% of transactions, identifying anomalies automatically.", "tools": ["MindBridge AI", "IDEA", "CaseWare AI"] },
+      { "task": "Document Review", "automation": 82, "status": "critical", "description": "AI extracts and validates data from contracts and financial documents at scale.", "tools": ["Kira Systems", "ABBYY AI", "Claude"] },
+      { "task": "Internal Control Testing", "automation": 72, "status": "elevated", "description": "AI tests controls continuously but assessing design effectiveness needs humans.", "tools": ["AuditBoard AI", "Workiva", "BlackLine"] },
+      { "task": "Workpaper Preparation", "automation": 78, "status": "critical", "description": "AI generates audit workpapers and documents procedures.", "tools": ["CaseWare AI", "Thomson Reuters AI", "Workiva"] },
+      { "task": "Fraud Detection", "automation": 65, "status": "elevated", "description": "AI flags suspicious patterns but investigating intent requires human analysis.", "tools": ["MindBridge AI", "ACL", "SAS AI"] },
+      { "task": "Professional Judgment", "automation": 18, "status": "stable", "description": "Materiality, going concern, and audit opinions are legally human decisions.", "tools": [] },
+      { "task": "Client Communication", "automation": 12, "status": "stable", "description": "Managing audit relationships and delivering findings is human.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "MindBridge", "product": "MindBridge AI", "threat": "AI auditing that analyzes 100% of transactions" },
+      { "name": "AuditBoard", "product": "AuditBoard AI", "threat": "AI audit management automating risk assessment" },
+      { "name": "CaseWare", "product": "CaseWare AI", "threat": "AI-integrated audit workflow" },
+      { "name": "Diligent", "product": "Diligent AI", "threat": "AI GRC platform automating compliance monitoring" },
+      { "name": "Big 4", "product": "Big 4 AI Tools", "threat": "Proprietary AI reducing staff per engagement by 40%" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 60% of testing. Junior demand drops 25%." },
+      { "phase": "Near-term (2027-2028)", "description": "Continuous AI auditing standard. Auditors focus on risk and advisory." },
+      { "phase": "Long-term (2030+)", "description": "Routine work automated. Humans focus on forensics and regulatory matters." }
+    ],
+    "skills": [
+      { "skill": "Forensic Auditing", "description": "Fraud investigation requiring human judgment." },
+      { "skill": "IT Audit & Cybersecurity", "description": "Auditing technology controls — growing demand." },
+      { "skill": "Data Analytics for Audit", "description": "Advanced analytics and AI-augmented testing." },
+      { "skill": "ESG & Sustainability Audit", "description": "Environmental, social, governance auditing." },
+      { "skill": "Advisory & Consulting", "description": "Transition from compliance to business advisory." }
+    ]
+  },
+  "insurance-underwriter": {
+    "slug": "insurance-underwriter",
+    "title": "Insurance Underwriter",
+    "category": "finance",
+    "tier": 2,
+    "overallScore": 78,
+    "tagline": "AI scores the risk. Humans make the call on edge cases.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 55000, "experienced": 100000 }, "india": { "entryLPA": 4, "experiencedLPA": 14 } },
+    "tasks": [
+      { "task": "Standard Risk Assessment", "automation": 88, "status": "critical", "description": "AI evaluates standard applications using credit, claims history, and actuarial models.", "tools": ["Guidewire AI", "Duck Creek", "Shift Technology"] },
+      { "task": "Premium Calculation", "automation": 90, "status": "critical", "description": "AI calculates premiums based on risk factors and market conditions.", "tools": ["Guidewire", "Earnix AI", "Willis Towers Watson"] },
+      { "task": "Claims Pattern Analysis", "automation": 82, "status": "critical", "description": "AI identifies fraud patterns and claims trends across portfolios.", "tools": ["Shift Technology", "FRISS", "SAS AI"] },
+      { "task": "Policy Documentation", "automation": 80, "status": "critical", "description": "AI generates policy documents and endorsements.", "tools": ["Guidewire", "Duck Creek", "Majesco AI"] },
+      { "task": "Complex/Specialty Risk", "automation": 35, "status": "stable", "description": "Unusual risks — cyber, catastrophe, specialty — require expert judgment.", "tools": [] },
+      { "task": "Broker Relationships", "automation": 12, "status": "stable", "description": "Managing broker relationships and negotiating terms is human.", "tools": [] },
+      { "task": "Portfolio Strategy", "automation": 25, "status": "stable", "description": "Risk appetite, portfolio mix, and reinsurance strategy need senior judgment.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Guidewire", "product": "Guidewire AI", "threat": "AI-powered insurance platform automating standard underwriting" },
+      { "name": "Shift Technology", "product": "Shift AI", "threat": "AI fraud detection reducing underwriter workload" },
+      { "name": "Lemonade", "product": "AI Jim", "threat": "AI-first insurer underwriting without humans" },
+      { "name": "Earnix", "product": "Earnix AI", "threat": "AI pricing engine optimizing premiums in real-time" },
+      { "name": "Root Insurance", "product": "Root AI", "threat": "Telematics + AI underwriting based on actual behavior" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 75% of standard underwriting. Junior hiring drops 35%." },
+      { "phase": "Near-term (2027-2028)", "description": "AI underwrites all standard lines. Humans handle specialty risks." },
+      { "phase": "Long-term (2030+)", "description": "Standard underwriting automated. Humans focus on emerging risks and strategy." }
+    ],
+    "skills": [
+      { "skill": "Specialty/Complex Underwriting", "description": "Cyber, catastrophe, D&O — complex risks requiring expertise." },
+      { "skill": "InsurTech & AI Tools", "description": "Master AI underwriting tools and oversee AI decisions." },
+      { "skill": "Emerging Risk Assessment", "description": "Climate, cyber, pandemic — new risk categories." },
+      { "skill": "Actuarial & Data Skills", "description": "Advanced analytics enhancing underwriting judgment." },
+      { "skill": "Relationship Management", "description": "Build broker networks and manage distribution." }
+    ]
+  },
+  "loan-officer": {
+    "slug": "loan-officer",
+    "title": "Loan Officer",
+    "category": "finance",
+    "tier": 2,
+    "overallScore": 75,
+    "tagline": "AI approves the loan. Humans build the trust.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 48000, "experienced": 95000 }, "india": { "entryLPA": 3.5, "experiencedLPA": 12 } },
+    "tasks": [
+      { "task": "Credit Assessment", "automation": 90, "status": "critical", "description": "AI evaluates creditworthiness using traditional and alternative data in seconds.", "tools": ["Upstart AI", "Zest AI", "Blend"] },
+      { "task": "Document Verification", "automation": 85, "status": "critical", "description": "AI extracts data from pay stubs and tax returns using OCR.", "tools": ["Plaid", "Blend", "Ocrolus AI"] },
+      { "task": "Loan Pricing", "automation": 82, "status": "critical", "description": "AI calculates optimal rates and structures based on risk profile.", "tools": ["Optimal Blue", "Black Knight AI", "LoanPro"] },
+      { "task": "Compliance Checking", "automation": 85, "status": "critical", "description": "AI ensures compliance with TILA, RESPA, and fair lending regulations.", "tools": ["ComplianceEase", "Wolters Kluwer", "LoanLogics"] },
+      { "task": "Application Processing", "automation": 88, "status": "critical", "description": "AI processes applications and manages pipeline automatically.", "tools": ["Blend", "Encompass AI", "LendingPad"] },
+      { "task": "Complex Deal Structuring", "automation": 40, "status": "elevated", "description": "Self-employed borrowers and commercial deals need human judgment.", "tools": ["Encompass", "Claude", "LoanPro"] },
+      { "task": "Client Advisory", "automation": 15, "status": "stable", "description": "Guiding borrowers through major financial decisions is human.", "tools": [] },
+      { "task": "Referral Networks", "automation": 10, "status": "stable", "description": "Building relationships with realtors and advisors is human.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Upstart", "product": "Upstart AI", "threat": "AI lending using non-traditional data" },
+      { "name": "Blend", "product": "Blend AI", "threat": "AI-powered mortgage platform automating the loan process" },
+      { "name": "Better.com", "product": "Better AI", "threat": "AI-first mortgage lender eliminating traditional loan officers" },
+      { "name": "Rocket Mortgage", "product": "Rocket AI", "threat": "AI-powered streamlined mortgage approval" },
+      { "name": "Zest AI", "product": "Zest AI", "threat": "AI credit modeling more accurate than traditional scoring" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 70% of standard processing. Officers focus on complex deals and relationships." },
+      { "phase": "Near-term (2027-2028)", "description": "AI processes most standard mortgages. Officers become financial advisors." },
+      { "phase": "Long-term (2030+)", "description": "Standard lending automated. Humans focus on commercial and relationship-based lending." }
+    ],
+    "skills": [
+      { "skill": "Commercial Lending", "description": "Commercial real estate and SBA loans — complex deals." },
+      { "skill": "Financial Advisory", "description": "Holistic guidance beyond just the loan." },
+      { "skill": "Relationship Sales", "description": "Build referral networks — relationship-driven business." },
+      { "skill": "Regulatory Expertise", "description": "Deep lending regulation knowledge." },
+      { "skill": "Fintech Literacy", "description": "Master AI lending tools for speed with human judgment." }
+    ]
+  },
+  "financial-advisor": {
+    "slug": "financial-advisor",
+    "title": "Financial Advisor",
+    "category": "finance",
+    "tier": 1,
+    "overallScore": 55,
+    "tagline": "AI manages the portfolio. Humans manage the emotions.",
+    "lastUpdated": "2026-02-13",
+    "salary": { "usa": { "entry": 58000, "experienced": 130000 }, "india": { "entryLPA": 4.5, "experiencedLPA": 18 } },
+    "tasks": [
+      { "task": "Portfolio Rebalancing", "automation": 90, "status": "critical", "description": "AI automatically rebalances based on targets and tax-loss harvesting.", "tools": ["Wealthfront", "Betterment", "Vanguard Digital"] },
+      { "task": "Investment Allocation", "automation": 82, "status": "critical", "description": "AI builds diversified portfolios based on risk tolerance and goals.", "tools": ["Wealthfront", "Betterment", "Personal Capital AI"] },
+      { "task": "Financial Planning Models", "automation": 75, "status": "critical", "description": "AI generates retirement projections and Monte Carlo simulations.", "tools": ["eMoney AI", "MoneyGuide AI", "RightCapital"] },
+      { "task": "Tax Optimization", "automation": 78, "status": "critical", "description": "AI implements tax-loss harvesting and Roth conversion strategies.", "tools": ["Wealthfront", "Betterment", "Orion AI"] },
+      { "task": "Market Research", "automation": 80, "status": "critical", "description": "AI monitors markets and generates research summaries.", "tools": ["Bloomberg AI", "Morningstar AI", "Claude"] },
+      { "task": "Behavioral Coaching", "automation": 15, "status": "stable", "description": "Preventing panic-selling and managing emotions during volatility — deeply human.", "tools": [] },
+      { "task": "Life Event Planning", "automation": 25, "status": "stable", "description": "Divorce, inheritance, business sale — complex events need empathetic guidance.", "tools": [] },
+      { "task": "Estate Planning", "automation": 30, "status": "stable", "description": "Multi-generational wealth transfer and trust structures need expert humans.", "tools": [] },
+      { "task": "Client Acquisition", "automation": 15, "status": "stable", "description": "Building trust and acquiring HNW clients is relationship-driven.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Wealthfront", "product": "Wealthfront AI", "threat": "Automated investment management at a fraction of advisor fees" },
+      { "name": "Betterment", "product": "Betterment AI", "threat": "Robo-advisor handling portfolio management and tax optimization" },
+      { "name": "Vanguard", "product": "Vanguard Digital Advisor", "threat": "Low-cost AI advisory from the largest asset manager" },
+      { "name": "Empower", "product": "Empower AI", "threat": "AI financial planning combining robo-advisory with human touch" },
+      { "name": "Orion", "product": "Orion AI", "threat": "AI platform for RIAs automating portfolio management" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "Robo-advisors handle simple portfolios. Advisors focus on complex planning and coaching." },
+      { "phase": "Near-term (2027-2028)", "description": "AI handles most investment management. Advisors become life planners." },
+      { "phase": "Long-term (2030+)", "description": "Investment management automated. Advisors focus on life planning and emotional coaching." }
+    ],
+    "skills": [
+      { "skill": "Holistic Financial Planning", "description": "Comprehensive life planning beyond investments." },
+      { "skill": "Behavioral Coaching", "description": "Help clients make rational decisions during emotional times." },
+      { "skill": "Estate & Tax Planning", "description": "Complex multi-generational planning and trust structures." },
+      { "skill": "Business Owner Advisory", "description": "Succession planning and exit strategy for entrepreneurs." },
+      { "skill": "Niche Specialization", "description": "Serve specific demographics — physicians, tech workers, divorcees." }
+    ]
+  }
+}

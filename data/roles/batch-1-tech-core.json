@@ -1,0 +1,448 @@
+{
+  "software-engineer": {
+    "slug": "software-engineer",
+    "title": "Software Engineer",
+    "category": "tech",
+    "tier": 1,
+    "overallScore": 64,
+    "tagline": "AI writes the code. Humans decide what to build and why.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 85000, "experienced": 165000 },
+      "india": { "entryLPA": 6, "experiencedLPA": 28 }
+    },
+    "tasks": [
+      { "task": "Boilerplate & CRUD Code", "automation": 92, "status": "critical", "description": "AI generates endpoints, models, forms, and scaffolding near-perfectly from natural language prompts.", "tools": ["GitHub Copilot", "Cursor", "OpenAI Codex"] },
+      { "task": "Unit Test Writing", "automation": 88, "status": "critical", "description": "AI generates comprehensive test suites from source code with high coverage.", "tools": ["Codium AI", "Diffblue", "Copilot"] },
+      { "task": "Bug Fixing & Debugging", "automation": 75, "status": "critical", "description": "AI identifies bugs from error logs and suggests fixes, though complex logic bugs still need humans.", "tools": ["Cursor", "Claude Code", "Codex"] },
+      { "task": "Code Review", "automation": 72, "status": "elevated", "description": "AI flags style issues, security vulnerabilities, and common anti-patterns automatically.", "tools": ["Codex", "Snyk", "SonarQube"] },
+      { "task": "Documentation Writing", "automation": 85, "status": "critical", "description": "AI generates accurate docstrings, READMEs, and API documentation from code.", "tools": ["Mintlify", "Copilot", "Claude"] },
+      { "task": "Refactoring & Code Optimization", "automation": 68, "status": "elevated", "description": "AI suggests refactoring patterns but struggles with large-scale architectural changes.", "tools": ["Cursor", "Codex", "Claude Code"] },
+      { "task": "API Integration", "automation": 70, "status": "elevated", "description": "AI reads API docs and generates integration code, though edge cases require manual handling.", "tools": ["Copilot", "Cursor", "Replit Agent"] },
+      { "task": "Database Schema Design", "automation": 55, "status": "elevated", "description": "AI suggests schemas from requirements but misses normalization nuances and scaling considerations.", "tools": ["Copilot", "Claude", "PlanetScale AI"] },
+      { "task": "System Architecture Decisions", "automation": 22, "status": "stable", "description": "Requires understanding business context, team capabilities, and long-term tradeoffs. Still deeply human.", "tools": [] },
+      { "task": "Cross-Team Collaboration", "automation": 8, "status": "stable", "description": "Navigating stakeholders, resolving conflicts, and aligning priorities remains entirely human.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "OpenAI", "product": "Codex / ChatGPT", "threat": "Generating production-ready code from natural language descriptions" },
+      { "name": "Anthropic", "product": "Claude Code", "threat": "Autonomous coding agent that handles multi-file edits and terminal commands" },
+      { "name": "Cursor", "product": "Cursor IDE", "threat": "AI-first IDE replacing traditional coding workflow entirely" },
+      { "name": "GitHub", "product": "Copilot Workspace", "threat": "End-to-end issue-to-PR automation with planning and implementation" },
+      { "name": "Replit", "product": "Replit Agent", "threat": "Full-stack app generation from plain English with auto-deployment" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI handles 60-80% of routine coding. Senior engineers supervise AI output. Junior hiring shrinks 30%." },
+      { "phase": "Near-term (2027-2028)", "description": "AI agents handle full feature development. Engineers become AI supervisors. 1 engineer does work of 5." },
+      { "phase": "Long-term (2030+)", "description": "Most software is AI-generated. Human engineers focus on architecture, ethics, and novel problem-solving." }
+    ],
+    "skills": [
+      { "skill": "AI-Augmented Development", "description": "Master prompt engineering for code generation. Learn to review, debug, and orchestrate AI output." },
+      { "skill": "System Design & Architecture", "description": "The last frontier — understanding tradeoffs, scalability, and business context that AI can't grasp." },
+      { "skill": "Product Thinking", "description": "Shift from 'how to build it' to 'what to build and why.' Bridge business needs and technical execution." },
+      { "skill": "AI/ML Fundamentals", "description": "Understand the tools you're working with. Know how models work, their limitations, and how to fine-tune." },
+      { "skill": "Cross-Functional Leadership", "description": "The engineers who survive will lead teams, manage stakeholders, and make judgment calls AI cannot." }
+    ]
+  },
+
+  "data-engineer": {
+    "slug": "data-engineer",
+    "title": "Data Engineer",
+    "category": "tech",
+    "tier": 1,
+    "overallScore": 62,
+    "tagline": "AI automates the pipelines. Humans design the data strategy.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 90000, "experienced": 170000 },
+      "india": { "entryLPA": 7, "experiencedLPA": 30 }
+    },
+    "tasks": [
+      { "task": "ETL Pipeline Development", "automation": 85, "status": "critical", "description": "AI generates Spark, Airflow, and dbt pipelines from schema descriptions and data samples.", "tools": ["Fivetran", "dbt AI", "Claude Code"] },
+      { "task": "SQL Query Writing & Optimization", "automation": 88, "status": "critical", "description": "AI writes complex queries, window functions, and optimizes execution plans near-perfectly.", "tools": ["GitHub Copilot", "Cursor", "DataGrip AI"] },
+      { "task": "Data Quality Monitoring", "automation": 78, "status": "critical", "description": "AI detects anomalies, schema drift, and data quality issues automatically in production.", "tools": ["Monte Carlo", "Great Expectations", "Soda"] },
+      { "task": "Schema Design & Modeling", "automation": 60, "status": "elevated", "description": "AI suggests dimensional models and schemas but misses business nuance and evolving requirements.", "tools": ["dbt", "Copilot", "Claude"] },
+      { "task": "Data Documentation", "automation": 82, "status": "critical", "description": "AI generates data dictionaries, lineage docs, and catalog entries from pipeline code.", "tools": ["Atlan", "Alation", "Copilot"] },
+      { "task": "Cloud Infrastructure Setup", "automation": 72, "status": "elevated", "description": "AI writes Terraform/IaC for data lakes, warehouses, and streaming infra with minimal guidance.", "tools": ["Pulumi AI", "Terraform", "Cursor"] },
+      { "task": "Performance Tuning", "automation": 55, "status": "elevated", "description": "AI identifies bottlenecks but complex distributed system optimization still needs deep expertise.", "tools": ["Datadog", "Copilot", "Spark UI"] },
+      { "task": "Data Strategy & Governance", "automation": 18, "status": "stable", "description": "Defining what data to collect, retention policies, and compliance frameworks requires business judgment.", "tools": [] },
+      { "task": "Stakeholder Communication", "automation": 10, "status": "stable", "description": "Translating data capabilities to business users and managing expectations remains deeply human.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Fivetran", "product": "Automated ELT", "threat": "Zero-code data ingestion replacing custom pipeline work" },
+      { "name": "dbt Labs", "product": "dbt Cloud + AI", "threat": "AI-assisted transformations reducing SQL engineering effort by 70%" },
+      { "name": "Databricks", "product": "Unity Catalog + AI", "threat": "Auto-optimizing lakehouse that self-manages performance and governance" },
+      { "name": "Monte Carlo", "product": "Data Observability", "threat": "AI-powered anomaly detection replacing manual data quality checks" },
+      { "name": "Snowflake", "product": "Cortex AI", "threat": "In-warehouse AI that auto-tunes queries and suggests schema improvements" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "Routine ETL is 80% automated. Data engineers shift to orchestration and strategy. Junior pipeline roles vanish." },
+      { "phase": "Near-term (2027-2028)", "description": "Self-healing pipelines become standard. Engineers focus on data products, governance, and ML feature stores." },
+      { "phase": "Long-term (2030+)", "description": "Data infrastructure is largely self-managing. Remaining roles focus on strategy, novel architectures, and AI-data feedback loops." }
+    ],
+    "skills": [
+      { "skill": "Data Product Management", "description": "Shift from building pipelines to designing data products with clear business value and SLAs." },
+      { "skill": "AI/ML Pipeline Engineering", "description": "Build and maintain ML training pipelines, feature stores, and model serving infrastructure." },
+      { "skill": "Data Governance & Compliance", "description": "Master GDPR, CCPA, and data sovereignty requirements — the human judgment layer AI can't replace." },
+      { "skill": "Real-Time Streaming Architecture", "description": "Design complex event-driven systems with Kafka, Flink — harder to automate than batch ETL." },
+      { "skill": "Business Domain Expertise", "description": "Deep understanding of the industry's data needs makes you irreplaceable even as tools improve." }
+    ]
+  },
+
+  "frontend-developer": {
+    "slug": "frontend-developer",
+    "title": "Frontend Developer",
+    "category": "tech",
+    "tier": 1,
+    "overallScore": 68,
+    "tagline": "AI generates the UI. Humans craft the experience.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 75000, "experienced": 150000 },
+      "india": { "entryLPA": 5, "experiencedLPA": 25 }
+    },
+    "tasks": [
+      { "task": "HTML/CSS from Design Mockups", "automation": 92, "status": "critical", "description": "AI converts Figma designs to pixel-perfect HTML/CSS/Tailwind with near-zero errors.", "tools": ["v0.dev", "Bolt.new", "Locofy"] },
+      { "task": "Component Development", "automation": 85, "status": "critical", "description": "AI generates React/Vue/Angular components from descriptions, including props, state, and styling.", "tools": ["Cursor", "Copilot", "v0.dev"] },
+      { "task": "Responsive Design Implementation", "automation": 80, "status": "critical", "description": "AI handles breakpoints and responsive layouts automatically with Tailwind and CSS Grid.", "tools": ["v0.dev", "Copilot", "Bolt.new"] },
+      { "task": "Form Validation & State Management", "automation": 78, "status": "critical", "description": "AI generates form handling, validation logic, and Redux/Zustand state patterns from specs.", "tools": ["Copilot", "Cursor", "Claude"] },
+      { "task": "API Integration & Data Fetching", "automation": 75, "status": "critical", "description": "AI writes fetch hooks, error handling, and caching logic for REST/GraphQL endpoints.", "tools": ["Copilot", "Cursor", "Codeium"] },
+      { "task": "Animation & Micro-Interactions", "automation": 60, "status": "elevated", "description": "AI handles basic Framer Motion and CSS animations but struggles with complex choreographed sequences.", "tools": ["Copilot", "Claude", "Cursor"] },
+      { "task": "Accessibility (a11y) Implementation", "automation": 50, "status": "elevated", "description": "AI adds ARIA labels and roles but misses nuanced accessibility patterns for complex widgets.", "tools": ["axe AI", "Copilot", "Lighthouse"] },
+      { "task": "Performance Optimization", "automation": 55, "status": "elevated", "description": "AI suggests code splitting and lazy loading but holistic performance strategy needs human analysis.", "tools": ["Lighthouse", "Copilot", "Cursor"] },
+      { "task": "Design System Architecture", "automation": 25, "status": "stable", "description": "Creating scalable, consistent design systems that evolve with product needs requires deep UX thinking.", "tools": [] },
+      { "task": "User Experience Judgment", "automation": 10, "status": "stable", "description": "Understanding user psychology, interaction patterns, and emotional design remains deeply human.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Vercel", "product": "v0.dev", "threat": "Text-to-UI generation producing production-ready React components instantly" },
+      { "name": "StackBlitz", "product": "Bolt.new", "threat": "Full frontend app generation from prompts with live preview and deployment" },
+      { "name": "Locofy", "product": "Figma-to-Code", "threat": "Automated design-to-code conversion eliminating manual frontend translation" },
+      { "name": "Framer", "product": "Framer AI", "threat": "AI-generated websites with animations, interactions, and responsive design built-in" },
+      { "name": "Cursor", "product": "Cursor IDE", "threat": "AI pair-programmer that understands UI context and generates full page layouts" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI generates 70-80% of UI code. Frontend devs review, customize, and handle edge cases. Junior frontend demand drops 40%." },
+      { "phase": "Near-term (2027-2028)", "description": "Design-to-deployed-app takes minutes. Frontend devs become UX engineers focusing on experience and accessibility." },
+      { "phase": "Long-term (2030+)", "description": "Most UI is AI-generated on-demand. Remaining roles focus on design systems, complex interactions, and brand experience." }
+    ],
+    "skills": [
+      { "skill": "UX Engineering", "description": "Bridge the gap between design and code — understand user psychology, not just React components." },
+      { "skill": "Design System Mastery", "description": "Build and maintain scalable design systems that AI uses as building blocks." },
+      { "skill": "Accessibility Expertise", "description": "Deep a11y knowledge is hard to automate and increasingly mandated by law." },
+      { "skill": "Performance Engineering", "description": "Core Web Vitals, bundle optimization, and runtime performance require holistic thinking." },
+      { "skill": "AI Tool Orchestration", "description": "Master v0, Cursor, Bolt — become the person who ships 10x faster by directing AI tools effectively." }
+    ]
+  },
+
+  "backend-developer": {
+    "slug": "backend-developer",
+    "title": "Backend Developer",
+    "category": "tech",
+    "tier": 1,
+    "overallScore": 62,
+    "tagline": "AI builds the APIs. Humans architect the systems.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 88000, "experienced": 168000 },
+      "india": { "entryLPA": 6, "experiencedLPA": 28 }
+    },
+    "tasks": [
+      { "task": "REST/GraphQL API Development", "automation": 90, "status": "critical", "description": "AI generates complete API endpoints, middleware, and route handlers from OpenAPI specs or descriptions.", "tools": ["Copilot", "Cursor", "Claude Code"] },
+      { "task": "Database CRUD Operations", "automation": 92, "status": "critical", "description": "AI writes ORM models, migrations, and query builders near-perfectly from schema descriptions.", "tools": ["Copilot", "Prisma AI", "Cursor"] },
+      { "task": "Authentication & Authorization", "automation": 78, "status": "critical", "description": "AI implements OAuth, JWT, RBAC patterns but security edge cases still need expert review.", "tools": ["Copilot", "Auth0", "Cursor"] },
+      { "task": "Error Handling & Logging", "automation": 80, "status": "critical", "description": "AI generates structured error handling, logging middleware, and monitoring integration code.", "tools": ["Copilot", "Claude", "Sentry AI"] },
+      { "task": "Caching Strategy Implementation", "automation": 65, "status": "elevated", "description": "AI sets up Redis/Memcached patterns but cache invalidation strategy requires architectural judgment.", "tools": ["Copilot", "Cursor", "Claude"] },
+      { "task": "Microservices Communication", "automation": 58, "status": "elevated", "description": "AI handles basic service-to-service calls but event-driven architectures and saga patterns need human design.", "tools": ["Copilot", "Cursor", "Claude Code"] },
+      { "task": "Performance & Scalability", "automation": 45, "status": "elevated", "description": "AI suggests basic optimizations but load testing strategy, sharding, and distributed systems need humans.", "tools": ["k6", "Copilot", "DataDog"] },
+      { "task": "System Design & Architecture", "automation": 20, "status": "stable", "description": "Designing distributed systems, choosing between monolith vs microservices, handling CAP tradeoffs — deeply human.", "tools": [] },
+      { "task": "Security Architecture", "automation": 25, "status": "stable", "description": "Threat modeling, penetration testing strategy, and zero-trust architecture require expert judgment.", "tools": [] },
+      { "task": "Cross-Service Debugging", "automation": 15, "status": "stable", "description": "Tracing issues across distributed systems with cascading failures requires deep institutional knowledge.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Anthropic", "product": "Claude Code", "threat": "Autonomous backend development from specs including database, API, and deployment" },
+      { "name": "OpenAI", "product": "Codex", "threat": "Generating production-grade backend systems from natural language" },
+      { "name": "Supabase", "product": "Supabase AI", "threat": "Auto-generated backend with auth, database, and real-time subscriptions — no code needed" },
+      { "name": "Hasura", "product": "Hasura DDN", "threat": "Instant GraphQL APIs from databases, eliminating 80% of backend boilerplate" },
+      { "name": "Railway", "product": "Railway + AI", "threat": "One-click backend deployment with auto-scaling, reducing DevOps overhead to near-zero" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI generates 70% of backend code. Engineers focus on architecture decisions and security reviews." },
+      { "phase": "Near-term (2027-2028)", "description": "AI handles full microservice implementation. Backend devs become system architects and reliability engineers." },
+      { "phase": "Long-term (2030+)", "description": "Backend infrastructure is largely self-generating. Human roles focus on novel architectures and business-critical systems." }
+    ],
+    "skills": [
+      { "skill": "Distributed Systems Design", "description": "Master CAP theorem, consensus algorithms, and event-driven architectures — the hardest to automate." },
+      { "skill": "Security Engineering", "description": "Threat modeling, zero-trust architecture, and compliance — high-stakes decisions AI shouldn't make alone." },
+      { "skill": "Reliability Engineering (SRE)", "description": "SLOs, incident response, chaos engineering — keeping systems running requires human judgment." },
+      { "skill": "AI Infrastructure", "description": "Build the backend systems that serve AI models — inference pipelines, vector databases, RAG architectures." },
+      { "skill": "Domain-Driven Design", "description": "Deep business domain understanding lets you model systems that actually match real-world complexity." }
+    ]
+  },
+
+  "full-stack-developer": {
+    "slug": "full-stack-developer",
+    "title": "Full-Stack Developer",
+    "category": "tech",
+    "tier": 1,
+    "overallScore": 66,
+    "tagline": "AI builds entire apps. Humans own the product vision.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 82000, "experienced": 160000 },
+      "india": { "entryLPA": 5.5, "experiencedLPA": 26 }
+    },
+    "tasks": [
+      { "task": "Full App Scaffolding", "automation": 92, "status": "critical", "description": "AI generates complete Next.js/Remix apps with auth, database, and deployment from a single prompt.", "tools": ["Bolt.new", "Replit Agent", "v0.dev"] },
+      { "task": "CRUD App Development", "automation": 90, "status": "critical", "description": "AI builds entire CRUD applications with forms, tables, and API routes in minutes.", "tools": ["Cursor", "Copilot", "Claude Code"] },
+      { "task": "UI + API Integration", "automation": 82, "status": "critical", "description": "AI connects frontend components to backend APIs with proper error handling and loading states.", "tools": ["Cursor", "v0.dev", "Copilot"] },
+      { "task": "Database + ORM Setup", "automation": 85, "status": "critical", "description": "AI generates Prisma schemas, migrations, and seed data from natural language requirements.", "tools": ["Copilot", "Cursor", "Claude"] },
+      { "task": "Authentication Flows", "automation": 80, "status": "critical", "description": "AI implements complete auth flows with social login, MFA, and session management.", "tools": ["Clerk AI", "Auth0", "Copilot"] },
+      { "task": "DevOps & Deployment", "automation": 75, "status": "critical", "description": "AI configures CI/CD, Docker, and cloud deployment with auto-scaling for standard setups.", "tools": ["Vercel", "Railway", "Copilot"] },
+      { "task": "Complex Business Logic", "automation": 45, "status": "elevated", "description": "Multi-step workflows, payment processing, and domain-specific logic still need human design.", "tools": ["Cursor", "Claude", "Copilot"] },
+      { "task": "Product Decisions", "automation": 15, "status": "stable", "description": "What features to build, how to prioritize, and when to ship — pure human judgment.", "tools": [] },
+      { "task": "User Research & Iteration", "automation": 10, "status": "stable", "description": "Watching users struggle, interviewing customers, and iterating based on real feedback is irreplaceably human.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Replit", "product": "Replit Agent", "threat": "Natural language to deployed full-stack apps in minutes" },
+      { "name": "Vercel", "product": "v0.dev + Next.js", "threat": "AI-generated production apps with built-in deployment and scaling" },
+      { "name": "StackBlitz", "product": "Bolt.new", "threat": "Browser-based full-stack generation with live editing and instant deploy" },
+      { "name": "Cursor", "product": "Cursor IDE", "threat": "AI-first development environment that understands full codebase context" },
+      { "name": "Lovable", "product": "Lovable.dev", "threat": "AI software engineer that builds and iterates on full apps from conversations" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI generates 70% of a typical app. Full-stack devs become AI-powered 10x builders. Solo founders ship faster." },
+      { "phase": "Near-term (2027-2028)", "description": "Non-technical people build production apps with AI. Full-stack devs pivot to complex, custom systems." },
+      { "phase": "Long-term (2030+)", "description": "Standard apps are commoditized. Remaining full-stack roles focus on novel products, AI integration, and custom enterprise systems." }
+    ],
+    "skills": [
+      { "skill": "AI-Powered Rapid Prototyping", "description": "Ship MVPs in hours, not weeks. Master the AI toolchain to validate ideas at unprecedented speed." },
+      { "skill": "Product Engineering", "description": "Combine technical skills with product thinking — the rarest and most valuable combination." },
+      { "skill": "Complex Integration Architecture", "description": "Third-party APIs, payment systems, real-time features — the messy real-world stuff AI struggles with." },
+      { "skill": "Technical Leadership", "description": "Lead teams, make architecture decisions, and mentor — the human layer above code generation." },
+      { "skill": "Startup & Entrepreneurship", "description": "With AI as your co-developer, the best full-stack move is building your own product." }
+    ]
+  },
+
+  "devops-sre": {
+    "slug": "devops-sre",
+    "title": "DevOps / SRE Engineer",
+    "category": "tech",
+    "tier": 1,
+    "overallScore": 58,
+    "tagline": "AI automates the ops. Humans handle the chaos.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 95000, "experienced": 175000 },
+      "india": { "entryLPA": 8, "experiencedLPA": 32 }
+    },
+    "tasks": [
+      { "task": "Infrastructure as Code", "automation": 82, "status": "critical", "description": "AI generates Terraform, Pulumi, and CloudFormation templates from architecture descriptions.", "tools": ["Pulumi AI", "Copilot", "Cursor"] },
+      { "task": "CI/CD Pipeline Setup", "automation": 80, "status": "critical", "description": "AI creates GitHub Actions, Jenkins, and ArgoCD pipelines from deployment requirements.", "tools": ["Copilot", "Cursor", "Harness AI"] },
+      { "task": "Container Orchestration Config", "automation": 75, "status": "critical", "description": "AI generates Kubernetes manifests, Helm charts, and Docker configs from service specs.", "tools": ["Copilot", "Cursor", "Monokle AI"] },
+      { "task": "Monitoring & Alerting Setup", "automation": 72, "status": "elevated", "description": "AI configures Prometheus, Grafana dashboards, and alert rules from SLO definitions.", "tools": ["Datadog AI", "Grafana AI", "Copilot"] },
+      { "task": "Log Analysis & Troubleshooting", "automation": 65, "status": "elevated", "description": "AI correlates logs, identifies root causes, and suggests fixes for common failure patterns.", "tools": ["Datadog", "Splunk AI", "New Relic AI"] },
+      { "task": "Security Hardening", "automation": 55, "status": "elevated", "description": "AI scans for vulnerabilities and suggests fixes but holistic security posture needs human judgment.", "tools": ["Snyk", "Wiz", "Copilot"] },
+      { "task": "Capacity Planning", "automation": 45, "status": "elevated", "description": "AI forecasts resource needs from historical data but business context affects scaling decisions.", "tools": ["Datadog", "CloudHealth", "Spot AI"] },
+      { "task": "Incident Response & Management", "automation": 28, "status": "stable", "description": "Real-time incident triage, communication, and novel failure diagnosis requires human judgment under pressure.", "tools": [] },
+      { "task": "Architecture & Reliability Design", "automation": 20, "status": "stable", "description": "Designing for failure, chaos engineering strategy, and reliability culture are deeply human.", "tools": [] },
+      { "task": "Cost Optimization Strategy", "automation": 35, "status": "elevated", "description": "AI identifies waste but architectural decisions that balance cost, performance, and reliability need humans.", "tools": ["Kubecost", "Spot AI", "CloudHealth"] }
+    ],
+    "companies": [
+      { "name": "Pulumi", "product": "Pulumi AI", "threat": "Natural language to complete cloud infrastructure with auto-generated IaC" },
+      { "name": "Harness", "product": "Harness AI", "threat": "AI-powered CI/CD that auto-tunes deployment strategies and rollback policies" },
+      { "name": "Datadog", "product": "Bits AI", "threat": "AI-driven observability that auto-detects issues and suggests resolutions" },
+      { "name": "Wiz", "product": "Wiz AI", "threat": "AI cloud security that automatically remediates vulnerabilities across the stack" },
+      { "name": "Kubecost", "product": "AI Cost Management", "threat": "Automated Kubernetes cost optimization reducing cloud spend by 40%" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "Routine ops automated. SREs focus on reliability strategy and incident response. Junior DevOps roles shrink." },
+      { "phase": "Near-term (2027-2028)", "description": "Self-healing infrastructure becomes standard. SREs become reliability architects and chaos engineers." },
+      { "phase": "Long-term (2030+)", "description": "Cloud infrastructure is largely autonomous. Human SREs handle novel failures, security incidents, and strategic reliability." }
+    ],
+    "skills": [
+      { "skill": "Reliability Architecture", "description": "Design systems for failure — chaos engineering, game days, and resilience patterns that outlast any automation." },
+      { "skill": "Platform Engineering", "description": "Build internal developer platforms — the abstraction layer between AI-generated code and production infrastructure." },
+      { "skill": "Security Operations (SecOps)", "description": "Incident response, threat hunting, and security architecture — high-stakes work AI assists but can't lead." },
+      { "skill": "AI Infrastructure Operations", "description": "Manage GPU clusters, model serving, and ML pipeline infrastructure — the new frontier of ops." },
+      { "skill": "FinOps & Cloud Economics", "description": "Optimize multi-million dollar cloud bills — requires business context AI doesn't have." }
+    ]
+  },
+
+  "qa-test-engineer": {
+    "slug": "qa-test-engineer",
+    "title": "QA / Test Engineer",
+    "category": "tech",
+    "tier": 1,
+    "overallScore": 75,
+    "tagline": "AI writes the tests. But who tests the AI?",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 68000, "experienced": 130000 },
+      "india": { "entryLPA": 4.5, "experiencedLPA": 20 }
+    },
+    "tasks": [
+      { "task": "Unit Test Generation", "automation": 92, "status": "critical", "description": "AI generates comprehensive unit test suites from source code with high branch coverage.", "tools": ["Codium AI", "Diffblue", "Copilot"] },
+      { "task": "Integration Test Writing", "automation": 82, "status": "critical", "description": "AI creates API and integration tests from endpoint documentation and Postman collections.", "tools": ["Codium AI", "Copilot", "Cursor"] },
+      { "task": "E2E Test Automation", "automation": 78, "status": "critical", "description": "AI generates Playwright/Cypress tests from user stories or screen recordings.", "tools": ["Playwright AI", "TestRigor", "Mabl"] },
+      { "task": "Regression Test Maintenance", "automation": 85, "status": "critical", "description": "AI auto-heals broken selectors and updates tests when UI changes.", "tools": ["TestRigor", "Mabl", "Healenium"] },
+      { "task": "Test Data Generation", "automation": 88, "status": "critical", "description": "AI generates realistic test data, edge cases, and boundary conditions from schema definitions.", "tools": ["Copilot", "Faker AI", "Claude"] },
+      { "task": "Performance Test Design", "automation": 60, "status": "elevated", "description": "AI generates load test scripts but realistic traffic patterns and thresholds need human expertise.", "tools": ["k6", "Copilot", "Gatling"] },
+      { "task": "Security Testing", "automation": 55, "status": "elevated", "description": "AI runs OWASP scans automatically but creative penetration testing requires human thinking.", "tools": ["Snyk", "Burp Suite AI", "ZAP"] },
+      { "task": "Exploratory Testing", "automation": 30, "status": "stable", "description": "Human intuition for 'something feels off,' edge case discovery, and usability issues can't be automated.", "tools": [] },
+      { "task": "Test Strategy & Planning", "automation": 20, "status": "stable", "description": "Deciding what to test, risk assessment, and quality gates require business context and judgment.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Codium AI", "product": "CodiumAI", "threat": "AI-generated test suites that understand code intent, not just coverage" },
+      { "name": "TestRigor", "product": "TestRigor", "threat": "Plain English test automation that self-heals when UI changes" },
+      { "name": "Mabl", "product": "Mabl AI", "threat": "Auto-healing, self-maintaining E2E test automation platform" },
+      { "name": "Diffblue", "product": "Diffblue Cover", "threat": "Fully autonomous unit test writing for Java — no human needed" },
+      { "name": "QA Wolf", "product": "QA Wolf + AI", "threat": "AI-generated and maintained test suites as a service, replacing QA teams entirely" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI writes 80% of test code. Manual QA teams shrink 50%. Test engineers become quality strategists." },
+      { "phase": "Near-term (2027-2028)", "description": "AI-generated tests auto-maintain and expand. QA engineers focus on AI testing and security." },
+      { "phase": "Long-term (2030+)", "description": "Testing is largely autonomous. Remaining QA roles focus on testing AI systems, compliance, and safety-critical software." }
+    ],
+    "skills": [
+      { "skill": "AI Quality Assurance", "description": "Testing AI models for bias, hallucination, and safety — the new frontier of QA that's uniquely human." },
+      { "skill": "Security Testing Expertise", "description": "Penetration testing and threat modeling require creative human thinking that AI can't replicate." },
+      { "skill": "Test Architecture", "description": "Design testing strategies, CI/CD quality gates, and testing infrastructure at scale." },
+      { "skill": "Performance Engineering", "description": "Load testing, capacity planning, and performance optimization require holistic system understanding." },
+      { "skill": "Compliance & Regulatory Testing", "description": "FDA, SOC2, HIPAA compliance testing — high-stakes work where human judgment is legally required." }
+    ]
+  },
+
+  "mobile-developer": {
+    "slug": "mobile-developer",
+    "title": "Mobile Developer",
+    "category": "tech",
+    "tier": 1,
+    "overallScore": 65,
+    "tagline": "AI codes the app. Humans craft the mobile experience.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 80000, "experienced": 158000 },
+      "india": { "entryLPA": 5.5, "experiencedLPA": 26 }
+    },
+    "tasks": [
+      { "task": "UI Screen Development", "automation": 85, "status": "critical", "description": "AI generates SwiftUI/Jetpack Compose/React Native screens from designs or descriptions.", "tools": ["Cursor", "Copilot", "v0.dev"] },
+      { "task": "API Integration", "automation": 82, "status": "critical", "description": "AI writes networking layers, API calls, and data parsing with proper error handling.", "tools": ["Copilot", "Cursor", "Claude Code"] },
+      { "task": "State Management", "automation": 78, "status": "critical", "description": "AI implements Redux, Provider, and other state patterns from data flow descriptions.", "tools": ["Copilot", "Cursor", "Claude"] },
+      { "task": "Local Storage & Caching", "automation": 75, "status": "critical", "description": "AI sets up SQLite, CoreData, Room with proper caching strategies.", "tools": ["Copilot", "Cursor", "Claude"] },
+      { "task": "Push Notifications Setup", "automation": 72, "status": "elevated", "description": "AI configures Firebase, APNS, and notification handling but deep linking edge cases need humans.", "tools": ["Firebase", "Copilot", "OneSignal"] },
+      { "task": "Platform-Specific Optimization", "automation": 50, "status": "elevated", "description": "Memory management, battery optimization, and platform-specific UX patterns require deep native knowledge.", "tools": ["Xcode Instruments", "Android Profiler", "Copilot"] },
+      { "task": "App Store Deployment", "automation": 65, "status": "elevated", "description": "AI assists with Fastlane configs and metadata but review guidelines and rejection handling need humans.", "tools": ["Fastlane", "Copilot", "Codemagic"] },
+      { "task": "Offline-First Architecture", "automation": 35, "status": "stable", "description": "Complex sync strategies, conflict resolution, and offline-first data architecture need expert design.", "tools": [] },
+      { "task": "Native Hardware Integration", "automation": 30, "status": "stable", "description": "Camera, sensors, Bluetooth, and AR features require deep platform knowledge and testing.", "tools": [] },
+      { "task": "Cross-Platform UX Design", "automation": 15, "status": "stable", "description": "Making an app feel native on both iOS and Android while sharing code requires nuanced human judgment.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Expo", "product": "Expo + AI", "threat": "Full React Native app generation with OTA updates and zero native config" },
+      { "name": "FlutterFlow", "product": "FlutterFlow AI", "threat": "Visual Flutter app builder with AI that generates screens from prompts" },
+      { "name": "Cursor", "product": "Cursor IDE", "threat": "AI-powered mobile development understanding iOS/Android codebases" },
+      { "name": "Apple", "product": "Swift Assist", "threat": "Xcode-integrated AI that generates SwiftUI views and handles platform APIs" },
+      { "name": "Draftbit", "product": "Draftbit AI", "threat": "Visual mobile app builder with AI-generated components and logic" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AI generates 65% of mobile app code. Developers focus on native performance and complex interactions." },
+      { "phase": "Near-term (2027-2028)", "description": "AI handles full app generation for standard patterns. Mobile devs specialize in AR, ML, and hardware integration." },
+      { "phase": "Long-term (2030+)", "description": "Standard mobile apps are commoditized. Mobile engineers focus on novel experiences — AR, IoT, health sensors, AI on-device." }
+    ],
+    "skills": [
+      { "skill": "AR/VR Development", "description": "ARKit, RealityKit, SceneKit — immersive experiences that AI can't design but can help build." },
+      { "skill": "On-Device ML", "description": "CoreML, TensorFlow Lite — running AI models on mobile devices is the next frontier." },
+      { "skill": "Platform Architecture", "description": "Deep iOS or Android architecture knowledge that goes beyond what AI can generate." },
+      { "skill": "Mobile Security", "description": "Secure enclaves, certificate pinning, jailbreak detection — high-stakes mobile security." },
+      { "skill": "IoT & Hardware Integration", "description": "Bluetooth LE, NFC, health sensors — connecting apps to the physical world." }
+    ]
+  },
+
+  "ml-engineer": {
+    "slug": "ml-engineer",
+    "title": "ML Engineer",
+    "category": "tech",
+    "tier": 1,
+    "overallScore": 48,
+    "tagline": "AI helps build AI. But someone has to build the AI that builds AI.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 100000, "experienced": 190000 },
+      "india": { "entryLPA": 10, "experiencedLPA": 40 }
+    },
+    "tasks": [
+      { "task": "Model Fine-Tuning", "automation": 65, "status": "elevated", "description": "AutoML and AI-assisted fine-tuning handle hyperparameter search but architecture choices need expertise.", "tools": ["Weights & Biases", "HuggingFace AutoTrain", "Vertex AI"] },
+      { "task": "Data Preprocessing Pipelines", "automation": 72, "status": "elevated", "description": "AI automates feature engineering and data cleaning but domain-specific preprocessing needs human insight.", "tools": ["Copilot", "Feature Tools", "Cursor"] },
+      { "task": "Model Evaluation & Testing", "automation": 60, "status": "elevated", "description": "AI generates eval benchmarks and tests but understanding what metrics matter requires domain knowledge.", "tools": ["W&B", "MLflow", "Copilot"] },
+      { "task": "ML Pipeline Code", "automation": 70, "status": "elevated", "description": "AI generates training loops, data loaders, and experiment tracking code from descriptions.", "tools": ["Copilot", "Cursor", "Claude Code"] },
+      { "task": "Model Serving & Deployment", "automation": 68, "status": "elevated", "description": "AI configures model serving with Triton, TensorRT, and auto-scaling but production optimization needs expertise.", "tools": ["BentoML", "Seldon", "Copilot"] },
+      { "task": "Research Paper Implementation", "automation": 55, "status": "elevated", "description": "AI translates papers to code reasonably well but novel architectures require deep understanding.", "tools": ["Claude", "Copilot", "Papers with Code"] },
+      { "task": "Novel Architecture Design", "automation": 20, "status": "stable", "description": "Designing new model architectures, loss functions, and training strategies requires deep research intuition.", "tools": [] },
+      { "task": "ML System Design", "automation": 25, "status": "stable", "description": "End-to-end ML system architecture — data flywheel, feedback loops, and production reliability — needs senior judgment.", "tools": [] },
+      { "task": "AI Safety & Alignment", "automation": 12, "status": "stable", "description": "Ensuring models are safe, unbiased, and aligned with human values is a deeply human responsibility.", "tools": [] },
+      { "task": "Research Direction & Strategy", "automation": 8, "status": "stable", "description": "Deciding what problems to solve and which approaches to pursue requires scientific intuition and creativity.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "Google DeepMind", "product": "Gemini / AlphaFold", "threat": "Pushing the frontier of what AI can do, raising the bar for all ML engineers" },
+      { "name": "OpenAI", "product": "GPT / Sora", "threat": "General-purpose AI that reduces the need for task-specific ML models" },
+      { "name": "HuggingFace", "product": "AutoTrain / Transformers", "threat": "Democratizing ML with one-click fine-tuning and pre-trained model zoo" },
+      { "name": "Weights & Biases", "product": "W&B AI", "threat": "AI-assisted experiment tracking, hyperparameter optimization, and model evaluation" },
+      { "name": "Anthropic", "product": "Claude / Constitutional AI", "threat": "AI alignment research that may eventually automate safety evaluation itself" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "AutoML handles standard tasks. ML engineers focus on fine-tuning, RAG, and production ML systems. Demand stays strong." },
+      { "phase": "Near-term (2027-2028)", "description": "AI assists in model design. ML engineers become AI system architects, focusing on safety, reliability, and novel applications." },
+      { "phase": "Long-term (2030+)", "description": "AI designs its own models for standard tasks. Human ML engineers work on frontier research, safety, and AGI-adjacent problems." }
+    ],
+    "skills": [
+      { "skill": "LLM Engineering", "description": "Fine-tuning, RAG, prompt engineering, and building LLM-powered applications — the hottest ML skill in 2026." },
+      { "skill": "MLOps & Production ML", "description": "Getting models reliably into production — monitoring, A/B testing, and continuous training pipelines." },
+      { "skill": "AI Safety & Alignment", "description": "The most important and hardest-to-automate skill — ensuring AI systems behave as intended." },
+      { "skill": "Research Engineering", "description": "Bridge research and production — implement papers, run experiments at scale, and iterate fast." },
+      { "skill": "Domain-Specific ML", "description": "Healthcare ML, financial ML, scientific ML — combining ML expertise with deep domain knowledge." }
+    ]
+  },
+
+  "data-scientist": {
+    "slug": "data-scientist",
+    "title": "Data Scientist",
+    "category": "tech",
+    "tier": 1,
+    "overallScore": 62,
+    "tagline": "AI crunches the numbers. Humans ask the right questions.",
+    "lastUpdated": "2026-02-13",
+    "salary": {
+      "usa": { "entry": 92000, "experienced": 168000 },
+      "india": { "entryLPA": 8, "experiencedLPA": 30 }
+    },
+    "tasks": [
+      { "task": "Exploratory Data Analysis", "automation": 80, "status": "critical", "description": "AI generates comprehensive EDA with visualizations, distributions, and correlations from any dataset.", "tools": ["ChatGPT Code Interpreter", "Claude", "Julius AI"] },
+      { "task": "Statistical Modeling", "automation": 75, "status": "critical", "description": "AI selects and fits appropriate statistical models, though interpreting results still needs domain expertise.", "tools": ["Claude", "Copilot", "DataRobot"] },
+      { "task": "Data Visualization", "automation": 78, "status": "critical", "description": "AI creates publication-quality charts and dashboards from natural language descriptions of insights.", "tools": ["Julius AI", "Claude", "Tableau AI"] },
+      { "task": "Feature Engineering", "automation": 68, "status": "elevated", "description": "AI suggests and generates features from raw data but creative domain-specific features need human insight.", "tools": ["DataRobot", "H2O AI", "Copilot"] },
+      { "task": "Report Writing & Storytelling", "automation": 72, "status": "elevated", "description": "AI drafts data reports and summaries but compelling narrative and business context require human touch.", "tools": ["Claude", "ChatGPT", "Copilot"] },
+      { "task": "A/B Test Design & Analysis", "automation": 65, "status": "elevated", "description": "AI computes sample sizes and analyzes results but experiment design requires business understanding.", "tools": ["Statsig", "Eppo AI", "Claude"] },
+      { "task": "Predictive Model Building", "automation": 70, "status": "elevated", "description": "AutoML handles standard prediction tasks but complex, high-stakes models need careful human oversight.", "tools": ["DataRobot", "H2O", "AutoML"] },
+      { "task": "Causal Inference", "automation": 35, "status": "stable", "description": "Determining causation (not just correlation) requires careful experimental design and domain judgment.", "tools": [] },
+      { "task": "Business Problem Framing", "automation": 15, "status": "stable", "description": "Translating vague business questions into precise, answerable data science problems is uniquely human.", "tools": [] },
+      { "task": "Stakeholder Communication", "automation": 12, "status": "stable", "description": "Presenting findings to non-technical executives and influencing decisions requires human persuasion.", "tools": [] }
+    ],
+    "companies": [
+      { "name": "DataRobot", "product": "DataRobot AI", "threat": "End-to-end AutoML that builds, deploys, and monitors models with minimal human intervention" },
+      { "name": "Julius AI", "product": "Julius", "threat": "Chat-based data analysis that handles EDA, modeling, and visualization from plain English" },
+      { "name": "H2O.ai", "product": "H2O Driverless AI", "threat": "Fully automated feature engineering, model building, and deployment pipeline" },
+      { "name": "Hex", "product": "Hex AI", "threat": "AI-powered notebook that generates analysis, visualizations, and reports from questions" },
+      { "name": "Tableau", "product": "Tableau AI (Einstein)", "threat": "Natural language to insights — business users bypass data scientists for standard analytics" }
+    ],
+    "timeline": [
+      { "phase": "Now (2025-2026)", "description": "Business analysts do basic data science with AI tools. Data scientists focus on complex modeling and causal inference." },
+      { "phase": "Near-term (2027-2028)", "description": "AI handles 80% of standard analytics. Data scientists become decision scientists and AI strategists." },
+      { "phase": "Long-term (2030+)", "description": "Routine data science is fully automated. Human data scientists work on causal reasoning, ethics, and novel analytical approaches." }
+    ],
+    "skills": [
+      { "skill": "Causal Inference & Experimentation", "description": "The hardest analytical skill to automate — understanding why things happen, not just what happened." },
+      { "skill": "Decision Science", "description": "Frame problems, design decisions under uncertainty, and quantify business impact — deeply human." },
+      { "skill": "LLM & GenAI Analytics", "description": "Use LLMs for unstructured data analysis, text mining, and building AI-powered analytical tools." },
+      { "skill": "Domain Expertise", "description": "Deep knowledge of healthcare, finance, or any vertical makes your analysis 10x more valuable." },
+      { "skill": "Data Storytelling", "description": "Transform complex findings into compelling narratives that drive executive decisions." }
+    ]
+  }
+}
