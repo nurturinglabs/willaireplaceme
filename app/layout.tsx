@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 import { getSiteUrl } from "@/lib/types";
 import "./globals.css";
 
@@ -41,6 +42,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-warm-bg font-sans text-warm-text min-h-screen">
         {children}
+        <Analytics />
         <SpeedInsights />
       </body>
     </html>
